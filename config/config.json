@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "actualizacion": "EOD",
+    "moneda_referencia": "USD",
+    "descripcion": "Universo y umbrales del tablero de scoring. Editar aqui; la logica no hardcodea nada."
+  },
+  "universo": [
+    {
+      "ticker": "NBIS",
+      "yf": "NBIS",
+      "nombre": "Nebius Group",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "GGAL",
+      "yf": "GGAL",
+      "nombre": "Grupo Galicia (ADR)",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "VIST",
+      "yf": "VIST",
+      "nombre": "Vista Energy",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "YPF",
+      "yf": "YPF",
+      "nombre": "YPF (ADR)",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "MELI",
+      "yf": "MELI",
+      "nombre": "MercadoLibre",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "NU",
+      "yf": "NU",
+      "nombre": "Nu Holdings",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "SATL",
+      "yf": "SATL",
+      "nombre": "Satellogic",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "UNH",
+      "yf": "UNH",
+      "nombre": "UnitedHealth",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NVDA",
+      "yf": "NVDA",
+      "nombre": "NVIDIA",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "GOOGL",
+      "yf": "GOOGL",
+      "nombre": "Alphabet",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "TSM",
+      "yf": "TSM",
+      "nombre": "Taiwan Semiconductor (ADR)",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "UBER",
+      "yf": "UBER",
+      "nombre": "Uber Technologies",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SPCX",
+      "yf": "SPCX",
+      "nombre": "SpaceX (pre-IPO)",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "BA",
+      "yf": "BA",
+      "nombre": "Boeing",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AAPL",
+      "yf": "AAPL",
+      "nombre": "Apple",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MSFT",
+      "yf": "MSFT",
+      "nombre": "Microsoft",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AMZN",
+      "yf": "AMZN",
+      "nombre": "Amazon",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "META",
+      "yf": "META",
+      "nombre": "Meta Platforms",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "BRK-B",
+      "yf": "BRK-B",
+      "nombre": "Berkshire Hathaway",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "JPM",
+      "yf": "JPM",
+      "nombre": "JPMorgan Chase",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "V",
+      "yf": "V",
+      "nombre": "Visa",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "LLY",
+      "yf": "LLY",
+      "nombre": "Eli Lilly",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "XOM",
+      "yf": "XOM",
+      "nombre": "Exxon Mobil",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "WMT",
+      "yf": "WMT",
+      "nombre": "Walmart",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "KO",
+      "yf": "KO",
+      "nombre": "Coca-Cola",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "COST",
+      "yf": "COST",
+      "nombre": "Costco",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "CAT",
+      "yf": "CAT",
+      "nombre": "Caterpillar",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AVGO",
+      "yf": "AVGO",
+      "nombre": "Broadcom",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "TSLA",
+      "yf": "TSLA",
+      "nombre": "Tesla",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NFLX",
+      "yf": "NFLX",
+      "nombre": "Netflix",
+      "grupo": "USA"
+    }
+  ],
+  "umbrales_fundamentales": {
+    "descripcion": "Cada metrica aporta 0..1 al score fundamental (0-100). Pesos suman 1.",
+    "pesos": {
+      "pe": 0.22,
+      "pb": 0.18,
+      "roe": 0.28,
+      "deuda_equity": 0.16,
+      "margen_neto": 0.16
+    },
+    "pe": {
+      "excelente": 15,
+      "aceptable": 25,
+      "direccion": "menor_mejor"
+    },
+    "pb": {
+      "excelente": 1.5,
+      "aceptable": 3.0,
+      "direccion": "menor_mejor"
+    },
+    "roe": {
+      "excelente": 0.2,
+      "aceptable": 0.15,
+      "direccion": "mayor_mejor"
+    },
+    "deuda_equity": {
+      "excelente": 0.5,
+      "aceptable": 1.0,
+      "direccion": "menor_mejor"
+    },
+    "margen_neto": {
+      "excelente": 0.2,
+      "aceptable": 0.1,
+      "direccion": "mayor_mejor"
+    },
+    "sectores_deuda_equity_na": [
+      "Financial Services"
+    ],
+    "_nota_de": "En bancos y financieras el ratio Deuda/Equity de la fuente no es significativo (los depositos no son deuda de apalancamiento). Para esos sectores se excluye la metrica y se reponderan las restantes."
+  },
+  "umbrales_tecnicos": {
+    "descripcion": "Cada senal aporta puntos al score tecnico (0-100).",
+    "pesos": {
+      "precio_vs_mm200": 30,
+      "cruce_mm50_200": 20,
+      "rsi": 20,
+      "macd": 15,
+      "obv": 15
+    },
+    "rsi": {
+      "periodo": 14,
+      "sobreventa": 30,
+      "sano_min": 40,
+      "sano_max": 65,
+      "sobrecompra": 70
+    },
+    "macd": {
+      "rapida": 12,
+      "lenta": 26,
+      "senal": 9
+    },
+    "mm_corta": 50,
+    "mm_larga": 200,
+    "obv_ventana": 20,
+    "techo_proximidad": 0.97,
+    "penal_techo": 15,
+    "penal_sin_recorrido": 10,
+    "penal_poco_recorrido": 5,
+    "recorrido_min": 0.05,
+    "_nota_techo": "Cercania a maximos penaliza salvo ruptura confirmada por volumen: precio en nuevo maximo Y volumen del dia >= ruptura_vol_factor x promedio de ruptura_vol_ventana ruedas.",
+    "ruptura_vol_factor": 1.5,
+    "ruptura_vol_ventana": 50
+  },
+  "clasificacion": {
+    "corte_fundamental": 70,
+    "corte_tecnico": 70,
+    "min_metricas_fundamentales": 3,
+    "corte_emergente": 70,
+    "market_cap_max_emergente": 120000000000.0,
+    "_nota_emergente": "Emergente = naciente: se exige market cap por debajo del techo (captura empresas jovenes/chicas, no mega-caps de quality-growth)."
+  },
+  "umbrales_emergente": {
+    "descripcion": "Track para empresas nacientes de calidad. Otras metricas: crecimiento, margen bruto, Regla del 40, PEG, insiders, supervivencia (runway).",
+    "pesos": {
+      "crecimiento": 0.3,
+      "margen_bruto": 0.22,
+      "regla_40": 0.12,
+      "insiders": 0.1,
+      "supervivencia": 0.14,
+      "valuacion": 0.12
+    },
+    "crecimiento": {
+      "excelente": 0.4,
+      "aceptable": 0.2,
+      "direccion": "mayor_mejor"
+    },
+    "margen_bruto": {
+      "excelente": 0.55,
+      "aceptable": 0.35,
+      "direccion": "mayor_mejor"
+    },
+    "regla_40": {
+      "excelente": 40,
+      "aceptable": 20,
+      "direccion": "mayor_mejor"
+    },
+    "insiders": {
+      "excelente": 0.15,
+      "aceptable": 0.05,
+      "direccion": "mayor_mejor"
+    },
+    "min_metricas": 3,
+    "runway_min_anios": 1.0,
+    "_nota_supervivencia": "Si FCF>0 -> autofinanciada. Si caja>deuda -> solida. Si no, runway=caja/quema; por debajo de runway_min_anios con caja neta negativa = riesgo de liquidez (no clasifica como emergente).",
+    "valuacion": {
+      "peg_excelente": 1.0,
+      "peg_aceptable": 1.8,
+      "psg_excelente": 0.5,
+      "psg_aceptable": 1.5,
+      "_nota": "PEG (P/E÷crecimiento) si hay ganancias. Si no, PSG = P/S ÷ crecimiento%. Menor es mejor."
+    },
+    "sectores_margen_bruto_na": [
+      "Financial Services"
+    ]
+  }
+}

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablero de Scoring · Maduras · Emergentes · Otros</title>
+<style>
+  :root{
+    --bg:#0F172A; --surface:#192134; --surface-2:#1E293B; --surface-3:#243149;
+    --border:rgba(255,255,255,.08); --border-strong:rgba(255,255,255,.14);
+    --text:#F8FAFC; --muted:#94A3B8; --muted-2:#64748B;
+    --accent:#3B82F6; --positive:#22C55E; --negative:#EF4444; --warning:#F59E0B;
+    --gold:#FBBF24; --violet:#A78BFA; --teal:#2DD4BF;
+    --radius:14px; --radius-sm:9px; --ease:cubic-bezier(.4,0,.2,1);
+    font-variant-numeric:tabular-nums;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px;line-height:1.5;padding:28px 22px 60px;min-height:100vh;
+    background-image:radial-gradient(1200px 600px at 80% -10%, rgba(59,130,246,.08), transparent 60%);}
+  .wrap{max-width:1360px;margin:0 auto}
+  header{margin-bottom:20px}
+  h1{font-size:24px;font-weight:680;letter-spacing:-.02em;display:flex;align-items:center;gap:11px}
+  h1 .ico{color:var(--gold)}
+  .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  .sub b{color:var(--text);font-weight:600}
+
+  .tabs{display:flex;gap:8px;margin:18px 0 16px;flex-wrap:wrap}
+  .tab{background:var(--surface);border:1px solid var(--border);color:var(--muted);
+    padding:11px 16px;border-radius:12px;cursor:pointer;font-size:14px;font-weight:600;
+    display:flex;align-items:center;gap:9px;transition:all .18s var(--ease)}
+  .tab:hover{border-color:var(--border-strong);color:var(--text)}
+  .tab .ic{display:inline-flex}
+  .tab .cnt{font-size:12px;font-weight:700;background:var(--surface-3);color:var(--muted);
+    padding:1px 8px;border-radius:999px;min-width:24px;text-align:center}
+  .tab.active{color:var(--text);background:var(--surface-3)}
+  .tab.active.t-madura{box-shadow:inset 0 0 0 1.5px var(--gold)} .tab.active.t-madura .ic{color:var(--gold)} .tab.active.t-madura .cnt{background:rgba(251,191,36,.18);color:var(--gold)}
+  .tab.active.t-emergente{box-shadow:inset 0 0 0 1.5px var(--teal)} .tab.active.t-emergente .ic{color:var(--teal)} .tab.active.t-emergente .cnt{background:rgba(45,212,191,.18);color:var(--teal)}
+  .tab.active.t-otros{box-shadow:inset 0 0 0 1.5px var(--muted)}
+  .tabdesc{color:var(--muted);font-size:12.5px;margin-bottom:14px;min-height:18px}
+
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+  .chips{display:flex;gap:7px;flex-wrap:wrap}
+  .chip{background:var(--surface);border:1px solid var(--border);color:var(--muted);
+    padding:6px 12px;border-radius:999px;font-size:12.5px;font-weight:500;cursor:pointer;transition:all .18s var(--ease)}
+  .chip:hover{border-color:var(--border-strong);color:var(--text)}
+  .chip.active{background:var(--surface-3);color:var(--text);border-color:var(--border-strong)}
+  .spacer{flex:1}
+  .search{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+    padding:8px 12px;color:var(--text);font-size:13.5px;min-width:180px;outline:none;transition:border-color .18s var(--ease)}
+  .search:focus{border-color:var(--accent)}
+  .search::placeholder{color:var(--muted-2)}
+  .banner{background:rgba(45,212,191,.10);border:1px solid rgba(45,212,191,.3);color:var(--teal);
+    padding:9px 14px;border-radius:10px;font-size:12.5px;margin-bottom:14px}
+  .banner b{color:#5EEAD4}
+
+  .tablewrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow-x:auto}
+  table{width:100%;border-collapse:collapse;min-width:960px}
+  thead .grp-h th{font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted-2);
+    font-weight:700;padding:9px 10px 4px;background:var(--surface-2);text-align:center;border-bottom:none}
+  thead .grp-h th.gf{color:#93C5FD} thead .grp-h th.gt{color:#C4B5FD} thead .grp-h th.ge{color:var(--teal)}
+  thead .col-h th{text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:.04em;
+    color:var(--muted);font-weight:600;padding:6px 10px 12px;background:var(--surface-2);
+    border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
+  thead .col-h th.l{text-align:left}
+  thead .col-h th .arw{opacity:.45;font-size:9px;margin-left:2px}
+  thead th.sep,tbody td.sep{border-left:1px solid var(--border)}
+  tbody td{padding:10px;border-bottom:1px solid var(--border);font-size:13.5px;text-align:right;white-space:nowrap;vertical-align:top}
+  tbody td.l{text-align:left}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr{cursor:pointer;transition:background .14s var(--ease)}
+  tbody tr:hover{background:var(--surface-2)}
+
+  .tk{font-weight:680;letter-spacing:-.01em;display:inline-flex;align-items:center;gap:6px}
+  .tk a{color:var(--text);text-decoration:none;border-bottom:1px dotted var(--muted-2)}
+  .tk a:hover{color:var(--accent);border-color:var(--accent)}
+  .tk .yh{color:var(--muted-2);display:inline-flex}
+  .tk a:hover .yh{color:var(--accent)}
+  .nm{color:var(--muted);font-size:11px;font-weight:400;margin-top:1px}
+  .grp{font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;background:var(--surface-3);color:var(--muted)}
+  .grp.ARG{color:#7DD3FC}
+  .chgtag{font-size:9.5px;font-weight:700;color:var(--warning);background:rgba(245,158,11,.14);padding:1px 6px;border-radius:5px;margin-left:6px;white-space:nowrap}
+
+  .v-good{color:var(--positive);font-weight:640}
+  .v-mid{color:var(--warning);font-weight:600}
+  .v-bad{color:var(--negative);font-weight:600}
+  .v-na{color:var(--muted-2);font-size:12px}
+
+  .sig{display:inline-flex;align-items:center;justify-content:center;width:26px;height:22px;border-radius:6px}
+  .sig svg{width:14px;height:14px}
+  .sig.on{color:var(--positive);background:rgba(34,197,94,.13)}
+  .sig.off{color:var(--negative);background:rgba(239,68,68,.12)}
+  .sig.na{color:var(--muted-2);background:var(--surface-3);font-size:11px}
+  .subd{font-size:9px;color:var(--muted-2);margin-top:2px;text-align:center}
+
+  .badge{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;
+    padding:4px 9px;border-radius:999px;white-space:nowrap}
+  .badge svg{width:12px;height:12px}
+  .b-triple_corona{background:rgba(59,130,246,.14);color:#93C5FD}
+  .b-fundamental{background:rgba(59,130,246,.14);color:#93C5FD}
+  .b-tecnico{background:rgba(167,139,250,.15);color:#C4B5FD}
+  .b-ninguna{background:var(--surface-3);color:var(--muted)}
+  .warnflag{color:var(--warning);font-size:11px;font-weight:700}
+
+  .empty{padding:48px;text-align:center;color:var(--muted)}
+  .foot{color:var(--muted-2);font-size:11.5px;margin-top:22px;text-align:center}
+
+  .overlay{position:fixed;inset:0;background:rgba(2,6,23,.72);backdrop-filter:blur(6px);
+    display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+  .overlay.open{display:flex;animation:fade .18s var(--ease)}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .modal{background:var(--surface);border:1px solid var(--border-strong);border-radius:18px;
+    max-width:680px;width:100%;max-height:88vh;overflow-y:auto;animation:pop .2s var(--ease)}
+  @keyframes pop{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+  .mhead{padding:22px 24px 16px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--surface);z-index:1}
+  .mhead .row1{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+  .mhead h2{font-size:22px;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
+  .mhead .price{color:var(--muted);font-size:14px;margin-top:2px}
+  .close{background:var(--surface-3);border:none;color:var(--muted);width:32px;height:32px;
+    border-radius:8px;cursor:pointer;font-size:18px;line-height:1;display:flex;align-items:center;justify-content:center;transition:all .16s}
+  .close:hover{color:var(--text);background:var(--border-strong)}
+  .yahoo{display:inline-flex;align-items:center;gap:7px;margin-top:12px;background:var(--surface-3);
+    border:1px solid var(--border);color:#93C5FD;padding:7px 13px;border-radius:9px;font-size:13px;font-weight:600;text-decoration:none;transition:all .16s}
+  .yahoo:hover{border-color:var(--accent);color:var(--accent)}
+  .mbody{padding:20px 24px 26px}
+  .mscore{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:6px}
+  .mscore .card{background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+  .mscore .card .t{color:var(--muted);font-size:11px;font-weight:500;margin-bottom:5px}
+  .mscore .card .n{font-size:23px;font-weight:720}
+  .target{background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:13px 16px;margin:14px 0 4px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .target .tl{color:var(--muted);font-size:12px} .target .tv{font-size:18px;font-weight:700}
+  .target .up{font-weight:700} .target .rng{color:var(--muted-2);font-size:11.5px}
+  .sectitle{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin:18px 0 10px}
+  .metric{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--border);font-size:13.5px}
+  .metric:last-child{border-bottom:none}
+  .metric .k{color:var(--muted)}
+  .metric .v{display:flex;align-items:center;gap:8px;font-weight:600;font-variant-numeric:tabular-nums}
+  .flag{width:16px;height:16px;display:inline-flex}
+  .ok{color:var(--positive)} .bad{color:var(--negative)} .neu{color:var(--warning)}
+  @media(max-width:760px){ .mscore{grid-template-columns:1fr 1fr} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="m5 20-2-9 5 4 4-8 4 8 5-4-2 9"/></svg></span>Tablero de Scoring</h1>
+    <div class="sub" id="meta">Cargando datos…</div>
+  </header>
+
+  <div class="banner" id="banner" style="display:none"></div>
+  <div class="tabs" id="tabs"></div>
+  <div class="tabdesc" id="tabdesc"></div>
+
+  <div class="controls">
+    <div class="chips" id="chips"></div>
+    <div class="spacer"></div>
+    <input class="search" id="search" type="text" placeholder="Buscar ticker o nombre…" autocomplete="off">
+  </div>
+
+  <div class="tablewrap">
+    <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
+    <div class="empty" id="empty" style="display:none">Sin resultados en esta pestaña.</div>
+  </div>
+  <div class="foot" id="foot"></div>
+</div>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
+
+<script src="data.js"></script>
+<script>
+const DATA = (window.SCORING_DATA) || {empresas:[], generado:"—", corte_fundamental:70, corte_tecnico:70, corte_emergente:70, cambios:[]};
+
+const IC = {
+  crown:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 6 4 4 6-7 6 7 4-4-2 12H4z"/></svg>',
+  sprout:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M12 20c0-5 0-8 0-8"/><path d="M12 12C12 8 9 6 5 6c0 4 3 6 7 6Z"/><path d="M12 10c0-3 2-5 6-5 0 3-2 5-6 5Z"/></svg>',
+  dots:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>',
+  gauge:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>',
+  wave:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>',
+  check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+  x:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>',
+  ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>'
+};
+const SUB = {
+  triple_corona:{label:"Triple Corona", ico:IC.crown}, fundamental:{label:"Fundamental", ico:IC.gauge},
+  tecnico:{label:"Técnico", ico:IC.wave}, ninguna:{label:"—", ico:IC.x}, error:{label:"Error", ico:IC.x}
+};
+const YF = e => `https://finance.yahoo.com/quote/${encodeURIComponent(e.yf || e.ticker)}`;
+
+const TABS = [
+  {k:"triple_corona_madura", label:"Triple Corona Maduras", cls:"t-madura", ico:IC.crown,
+   desc:"Calidad madura estilo Buffett + confirmación técnica: fundamental ≥ "+DATA.corte_fundamental+" y técnico ≥ "+DATA.corte_tecnico+"."},
+  {k:"emergente_calidad", label:"Emergentes de Calidad", cls:"t-emergente", ico:IC.sprout,
+   desc:"Nacientes de calidad (score ≥ "+DATA.corte_emergente+"): crecimiento, margen bruto, Regla del 40, valuación, insiders y runway — con techo de tamaño y sin riesgo de liquidez."},
+  {k:"otros", label:"Otros", cls:"t-otros", ico:IC.dots,
+   desc:"El resto del universo. Se muestra el sub-veredicto clásico (Fundamental / Técnico / —)."}
+];
+let state = {tab:"triple_corona_madura", grupo:"all", q:"", sort:null, dir:1};
+
+const isNum = v => typeof v==="number" && isFinite(v);
+const num = (v,d=1)=> isNum(v) ? v.toFixed(d) : null;
+const money = v => isNum(v) ? "$"+v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}) : "—";
+const pct0 = v => isNum(v) ? (v*100).toFixed(0)+"%" : null;
+function scoreColor(s,corte){ if(s==null) return "var(--muted-2)"; if(s>=(corte||70)) return "var(--positive)"; if(s>=(corte||70)-20) return "var(--warning)"; return "var(--negative)"; }
+function vcls(p){ if(p==null) return "v-na"; if(p>=0.6) return "v-good"; if(p>=0.4) return "v-mid"; return "v-bad"; }
+
+const fval=(e,k)=>{const d=(e.detalle_fundamental||{})[k];return d?d.valor:null;};
+const eval_=(e,k)=>{const d=(e.detalle_emergente||{})[k];return d?d.valor:null;};
+const tsig=(e,k)=>{const d=(e.detalle_tecnico||{})[k];return d?(d.ok?1:0):null;};
+const objVal=e=>{const t=e.target;return (t&&isNum(t.mean)&&isNum(t.actual))?(t.mean/t.actual-1):-Infinity;};
+
+function empCell(e){
+  const chg = e.cambio ? `<span class="chgtag" title="Pasó de ${e.cambio.desde} a ${e.cambio.hacia}">● cambió</span>` : "";
+  const tr = e.tecnicos_raw||{};
+  const techo = (tr.en_techo && !tr.ruptura_confirmada) ? `<span class="chgtag" style="color:var(--negative);background:rgba(239,68,68,.13)" title="En máximos sin confirmación de volumen: posible techo/doble techo">⚠ techo</span>` : "";
+  return `<td class="l">
+    <span class="tk"><a href="${YF(e)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Abrir ${e.ticker} en Yahoo Finance">${e.ticker}<span class="yh">${IC.ext.replace('<svg','<svg width=11 height=11')}</span></a>
+    <span class="grp ${e.grupo}">${e.grupo||""}</span>${chg}${techo}</span>
+    <div class="nm">${e.nombre||""}</div></td>`;
+}
+function fCell(e,k,fmt,sep){
+  const d=(e.detalle_fundamental||{})[k]||{}; const cls=sep?"sep":"";
+  if(d.na_sector) return `<td class="${cls}"><span class="v-na" title="No aplica en sector financiero">N/A</span></td>`;
+  if(d.valor==null) return `<td class="${cls}"><span class="v-na">s/d</span></td>`;
+  return `<td class="${cls} ${vcls(d.puntaje)}">${fmt(d.valor)}</td>`;
+}
+function eCell(e,k,fmt,sep){
+  const d=(e.detalle_emergente||{})[k]||{}; const cls=sep?"sep":"";
+  if(d.na_sector) return `<td class="${cls}"><span class="v-na" title="No aplica en sector financiero">N/A</span></td>`;
+  if(d.valor==null) return `<td class="${cls}"><span class="v-na">s/d</span></td>`;
+  return `<td class="${cls} ${vcls(d.puntaje)}">${fmt(d.valor)}</td>`;
+}
+function valCell(e,sep){
+  const d=(e.detalle_emergente||{}).valuacion||{}; const cls=sep?"sep":"";
+  if(d.valor==null) return `<td class="${cls}"><span class="v-na">s/d</span></td>`;
+  return `<td class="${cls} ${vcls(d.puntaje)}" title="${d.base||''}">${d.valor.toFixed(2)}</td>`;
+}
+function sigCell(e,k,sep){
+  const d=(e.detalle_tecnico||{})[k]; const cls=sep?"sep":"";
+  if(!d) return `<td class="${cls}"><span class="sig na">–</span></td>`;
+  return `<td class="${cls}"><span class="sig ${d.ok?'on':'off'}" title="${d.detalle||''}">${d.ok?IC.check:IC.x}</span></td>`;
+}
+function crossCell(e,sep){
+  const d=(e.detalle_tecnico||{}).cruce_mm50_200, dc=(e.tecnicos_raw||{}).dias_cruce, cls=sep?"sep":"";
+  if(!d) return `<td class="${cls}"><span class="sig na">–</span></td>`;
+  const days = dc!=null ? `<div class="subd">${dc}r</div>` : "";
+  const tt = `${d.detalle||''}${dc!=null?' · hace '+dc+' ruedas':''}`;
+  return `<td class="${cls}"><span class="sig ${d.ok?'on':'off'}" title="${tt}">${d.ok?IC.check:IC.x}</span>${days}</td>`;
+}
+function rsiCell(e,sep){
+  const v=(e.tecnicos_raw||{}).rsi, d=(e.detalle_tecnico||{}).rsi, cls=sep?"sep":"";
+  if(v==null) return `<td class="${cls}"><span class="sig na">–</span></td>`;
+  const t=(d&&d.detalle)||""; let c="v-mid";
+  if(t.includes("sano")) c="v-good"; else if(t.includes("sobrecompra")) c="v-bad";
+  return `<td class="${cls} ${c}" style="font-weight:640">${v.toFixed(0)}</td>`;
+}
+function runwayCell(e,sep){
+  const cls=sep?"sep":""; const sup=(e.detalle_emergente||{}).supervivencia||{};
+  if(sup.riesgo_liquidez) return `<td class="${cls} v-bad" title="Riesgo de liquidez: runway corto y caja neta negativa"><span class="warnflag">⚠ ${e.runway?e.runway.toFixed(1)+'a':''}</span></td>`;
+  if(sup.valor==null) return `<td class="${cls} v-good" title="Autofinanciada o caja neta positiva">sólida</td>`;
+  return `<td class="${cls} ${vcls(sup.puntaje)}">${sup.valor.toFixed(1)}a</td>`;
+}
+function emerScoreCell(e,sep){
+  const cls=sep?"sep":""; const s=e.score_emergente;
+  return `<td class="${cls}" style="font-weight:700;color:${scoreColor(s,DATA.corte_emergente)}">${num(s,0)??"—"}</td>`;
+}
+function veredictoCell(e,sep){
+  const s=SUB[e.sub_veredicto]||SUB.ninguna; const cls=sep?"sep":"";
+  return `<td class="${cls}"><span class="badge b-${e.sub_veredicto}">${s.ico}${s.label}</span></td>`;
+}
+function targetCell(e,sep){
+  const cls=sep?"sep":""; const t=e.target||{};
+  if(!isNum(t.mean)||!isNum(t.actual)) return `<td class="${cls}"><span class="v-na">—</span></td>`;
+  const up=(t.mean/t.actual-1)*100; const c=up>=0?"var(--positive)":"var(--negative)";
+  return `<td class="${cls}" style="color:${c};font-weight:640" title="objetivo ${money(t.mean)} · ${t.n||0} analistas">${up>=0?'▲ +':'▼ '}${up.toFixed(0)}%</td>`;
+}
+
+// columnas
+const C_EMP   = {label:"Ticker", l:true, cell:empCell, val:e=>e.ticker};
+const C_PREC  = {label:"Precio", cell:e=>`<td>${money(e.precio)}</td>`, val:e=>e.precio};
+const C_OBJ_S = {label:"Obj.", sep:true, cell:e=>targetCell(e,true), val:objVal};
+const C_OBJ   = {label:"Obj.", cell:e=>targetCell(e,false), val:objVal};
+const FUND_COLS = [
+  {label:"P/E", sep:true, cell:e=>fCell(e,"pe",v=>v.toFixed(1),true), val:e=>fval(e,"pe")},
+  {label:"P/B", cell:e=>fCell(e,"pb",v=>v.toFixed(2)), val:e=>fval(e,"pb")},
+  {label:"ROE", cell:e=>fCell(e,"roe",pct0), val:e=>fval(e,"roe")},
+  {label:"D/E", cell:e=>fCell(e,"deuda_equity",v=>v.toFixed(2)), val:e=>fval(e,"deuda_equity")},
+  {label:"Mg", cell:e=>fCell(e,"margen_neto",pct0), val:e=>fval(e,"margen_neto")},
+];
+const TEC_COLS = [
+  {label:"MM200", sep:true, cell:e=>sigCell(e,"precio_vs_mm200",true), val:e=>tsig(e,"precio_vs_mm200")},
+  {label:"50/200", cell:e=>crossCell(e), val:e=>tsig(e,"cruce_mm50_200")},
+  {label:"RSI", cell:e=>rsiCell(e), val:e=>(e.tecnicos_raw||{}).rsi},
+  {label:"MACD", cell:e=>sigCell(e,"macd"), val:e=>tsig(e,"macd")},
+  {label:"OBV", cell:e=>sigCell(e,"obv"), val:e=>tsig(e,"obv")},
+];
+const EMER_COLS = [
+  {label:"Crec.", sep:true, cell:e=>eCell(e,"crecimiento",v=>(v*100).toFixed(0)+"%",true), val:e=>eval_(e,"crecimiento")},
+  {label:"Mg.Br.", cell:e=>eCell(e,"margen_bruto",v=>(v*100).toFixed(0)+"%"), val:e=>eval_(e,"margen_bruto")},
+  {label:"Regla40", cell:e=>eCell(e,"regla_40",v=>v.toFixed(0)), val:e=>eval_(e,"regla_40")},
+  {label:"Valuac.", cell:e=>valCell(e), val:e=>eval_(e,"valuacion")},
+  {label:"Insid.", cell:e=>eCell(e,"insiders",v=>(v*100).toFixed(0)+"%"), val:e=>eval_(e,"insiders")},
+  {label:"Runway", cell:e=>runwayCell(e), val:e=>e.runway||99},
+];
+const EMER_TEC = [
+  {label:"MM200", sep:true, cell:e=>sigCell(e,"precio_vs_mm200",true), val:e=>tsig(e,"precio_vs_mm200")},
+  {label:"50/200", cell:e=>crossCell(e), val:e=>tsig(e,"cruce_mm50_200")},
+  {label:"RSI", cell:e=>rsiCell(e), val:e=>(e.tecnicos_raw||{}).rsi},
+  {label:"OBV", cell:e=>sigCell(e,"obv"), val:e=>tsig(e,"obv")},
+];
+const COLSETS = {
+  triple_corona_madura: [C_EMP,C_PREC,...FUND_COLS,...TEC_COLS,C_OBJ_S],
+  otros:                [C_EMP,C_PREC,...FUND_COLS,...TEC_COLS,
+                         {label:"Veredicto", sep:true, cell:e=>veredictoCell(e,true), val:e=>e.sub_veredicto||""}, C_OBJ],
+  emergente_calidad:    [C_EMP,C_PREC,...EMER_COLS,...EMER_TEC,
+                         {label:"Score", sep:true, cell:e=>emerScoreCell(e,true), val:e=>e.score_emergente}, C_OBJ],
+};
+const GROUP_HEADERS = {
+  triple_corona_madura: [["",2],["Fundamentales · múltiplos",5,"gf"],["Técnico · señales",5,"gt"],["",1]],
+  otros:                [["",2],["Fundamentales · múltiplos",5,"gf"],["Técnico · señales",5,"gt"],["",2]],
+  emergente_calidad:    [["",2],["Emergente · métricas de calidad naciente",6,"ge"],["Técnico",4,"gt"],["",2]],
+};
+
+function tabs(){
+  const cnt = {};
+  TABS.forEach(t=>cnt[t.k]=DATA.empresas.filter(e=>e.categoria===t.k).length);
+  document.getElementById("tabs").innerHTML = TABS.map(t=>
+    `<div class="tab ${t.cls} ${state.tab===t.k?'active':''}" data-k="${t.k}">
+      <span class="ic">${t.ico.replace('<svg','<svg width=17 height=17')}</span>${t.label}
+      <span class="cnt">${cnt[t.k]}</span></div>`).join("");
+  document.querySelectorAll(".tab").forEach(el=>el.onclick=()=>{
+    state.tab=el.dataset.k; state.sort=null; state.dir=1; tabs(); render();
+  });
+  document.getElementById("tabdesc").textContent = TABS.find(t=>t.k===state.tab).desc;
+}
+function chips(){
+  const g=[["all","Todos"],["USA","USA/Global"],["ARG","ARG/LatAm"]];
+  const el=document.getElementById("chips");
+  el.innerHTML = g.map(([k,l])=>`<div class="chip ${state.grupo===k?'active':''}" data-g="${k}">${l}</div>`).join("");
+  el.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{state.grupo=c.dataset.g; chips(); render();});
+}
+
+function cols(){ return COLSETS[state.tab]; }
+function thead(){
+  const gh = GROUP_HEADERS[state.tab]; let acc=0;
+  const gRow = gh.map(([lab,span,cl])=>{
+    const sep = acc>0 ? 'sep':''; acc+=span;
+    return `<th colspan="${span}" class="${cl||''} ${sep}">${lab}</th>`;
+  }).join("");
+  const cRow = cols().map((c,i)=>{
+    const a = state.sort===i ? `<span class="arw">${state.dir>0?"▲":"▼"}</span>` : "";
+    return `<th class="${c.l?'l':''} ${c.sep?'sep':''}" data-i="${i}">${c.label}${a}</th>`;
+  }).join("");
+  document.getElementById("thead").innerHTML = `<tr class="grp-h">${gRow}</tr><tr class="col-h">${cRow}</tr>`;
+  document.querySelectorAll("#thead .col-h th").forEach(th=>th.onclick=()=>{
+    const i=+th.dataset.i;
+    if(state.sort===i) state.dir*=-1; else {state.sort=i; state.dir=1;}
+    thead(); render();
+  });
+}
+function rowsForTab(){
+  let r = DATA.empresas.filter(e=>e.categoria===state.tab);
+  if(state.grupo!=="all") r=r.filter(e=>e.grupo===state.grupo);
+  if(state.q){const q=state.q.toLowerCase(); r=r.filter(e=>e.ticker.toLowerCase().includes(q)||(e.nombre||"").toLowerCase().includes(q));}
+  const cs=cols();
+  if(state.sort!=null){
+    const acc=cs[state.sort].val;
+    r.sort((a,b)=>{let x=acc(a),y=acc(b);
+      if(typeof x==="string")return (x||"").localeCompare(y||"")*state.dir;
+      x=(x==null?-Infinity:x);y=(y==null?-Infinity:y);return (x-y)*state.dir;});
+  } else {
+    const key = state.tab==="emergente_calidad" ? (e=>e.score_emergente) :
+                state.tab==="triple_corona_madura" ? (e=>(e.score_fundamental||0)+(e.score_tecnico||0)) :
+                (e=>e.score_fundamental);
+    r.sort((a,b)=>(key(b)||-1)-(key(a)||-1));
+  }
+  return r;
+}
+function render(){
+  thead();
+  const rows=rowsForTab();
+  document.getElementById("empty").style.display=rows.length?"none":"block";
+  const cs=cols();
+  document.getElementById("tbody").innerHTML = rows.map(e=>{
+    const i=DATA.empresas.indexOf(e);
+    return `<tr data-i="${i}">${cs.map(c=>c.cell(e)).join("")}</tr>`;
+  }).join("");
+  document.querySelectorAll("#tbody tr").forEach(tr=>tr.onclick=()=>openModal(+tr.dataset.i));
+}
+
+// ---- modal ----
+const F_LABEL={pe:"P/E",pb:"P/B",roe:"ROE",deuda_equity:"Deuda/Equity",margen_neto:"Margen neto"};
+const F_FMT={pe:v=>v.toFixed(1),pb:v=>v.toFixed(2),roe:pct0,deuda_equity:v=>v.toFixed(2),margen_neto:pct0};
+const E_LABEL={crecimiento:"Crecim. ingresos",margen_bruto:"Margen bruto",regla_40:"Regla del 40",valuacion:"Valuación",insiders:"Insiders",supervivencia:"Runway (años)"};
+const E_FMT={crecimiento:v=>(v*100).toFixed(0)+"%",margen_bruto:v=>(v*100).toFixed(0)+"%",regla_40:v=>v.toFixed(0),valuacion:v=>v.toFixed(2),insiders:v=>(v*100).toFixed(0)+"%",supervivencia:v=>v.toFixed(1)};
+const T_LABEL={precio_vs_mm200:"Precio vs MM200",cruce_mm50_200:"Cruce MM50/MM200",rsi:"RSI(14)",macd:"MACD",obv:"OBV (volumen)",techo:"Techo (cercanía a máximos)",recorrido:"Recorrido al objetivo"};
+function flag(ok){return ok?`<span class="flag ok">${IC.check}</span>`:`<span class="flag bad">${IC.x}</span>`;}
+
+function openModal(i){
+  const e=DATA.empresas[i]; if(!e) return;
+  const catInfo = TABS.find(t=>t.k===e.categoria)||TABS[2];
+  const fd=e.detalle_fundamental||{}, ed=e.detalle_emergente||{}, td=e.detalle_tecnico||{}, tr=e.tecnicos_raw||{};
+  const fundRows=Object.keys(F_LABEL).map(k=>{
+    const d=fd[k]||{};
+    if(d.na_sector) return `<div class="metric"><span class="k">${F_LABEL[k]}</span><span class="v"><span class="v-na">N/A · sector financiero</span></span></div>`;
+    const pj=d.puntaje, ok=pj!=null&&pj>=0.6, mid=pj!=null&&pj>=0.4&&pj<0.6;
+    const icon=d.valor==null?`<span class="flag neu">${IC.x}</span>`:(ok?flag(true):(mid?`<span class="flag neu">${IC.check}</span>`:flag(false)));
+    return `<div class="metric"><span class="k">${F_LABEL[k]}</span><span class="v">${d.valor==null?'<span class="v-na">s/d</span>':F_FMT[k](d.valor)} ${icon}</span></div>`;
+  }).join("");
+  const emerRows=Object.keys(E_LABEL).map(k=>{
+    const d=ed[k]||{};
+    if(d.na_sector) return `<div class="metric"><span class="k">${E_LABEL[k]}</span><span class="v"><span class="v-na">N/A · sector financiero</span></span></div>`;
+    if(k==="supervivencia" && d.riesgo_liquidez) return `<div class="metric"><span class="k">${E_LABEL[k]}</span><span class="v v-bad">${d.valor!=null?d.valor.toFixed(1)+' años ':''}⚠ riesgo liquidez</span></div>`;
+    if(d.valor==null) return `<div class="metric"><span class="k">${E_LABEL[k]}</span><span class="v"><span class="v-na">${k==="supervivencia"?"sólida / autofin.":"s/d"}</span></span></div>`;
+    const ok=d.puntaje!=null&&d.puntaje>=0.6, mid=d.puntaje!=null&&d.puntaje>=0.4&&d.puntaje<0.6;
+    const icon=ok?flag(true):(mid?`<span class="flag neu">${IC.check}</span>`:flag(false));
+    const base=k==="valuacion"&&d.base?` <span style="color:var(--muted-2);font-size:11px">(${d.base})</span>`:"";
+    return `<div class="metric"><span class="k">${E_LABEL[k]}</span><span class="v">${E_FMT[k](d.valor)}${base} ${icon}</span></div>`;
+  }).join("");
+  const tecRows=Object.keys(T_LABEL).map(k=>{
+    const d=td[k];
+    if(!d) return `<div class="metric"><span class="k">${T_LABEL[k]}</span><span class="v"><span class="v-na">s/d</span></span></div>`;
+    let extra="";
+    if(k==="cruce_mm50_200" && tr.dias_cruce!=null) extra=` · hace ${tr.dias_cruce} ruedas`;
+    return `<div class="metric"><span class="k">${T_LABEL[k]}</span><span class="v" style="color:var(--muted)">${d.detalle||""}${extra} ${flag(d.ok)}</span></div>`;
+  }).join("");
+
+  const tg=e.target||{}; let targetHtml="";
+  if(isNum(tg.mean)&&isNum(tg.actual)){
+    const up=(tg.mean/tg.actual-1)*100; const upc=up>=0?"var(--positive)":"var(--negative)";
+    targetHtml=`<div class="target">
+      <div><div class="tl">Precio objetivo · consenso ${tg.n?tg.n+' analistas':''}</div>
+        <div class="tv">${money(tg.mean)} <span class="up" style="color:${upc}">${up>=0?'▲ +':'▼ '}${up.toFixed(1)}%</span></div></div>
+      <div class="rng">rango ${money(tg.low)} – ${money(tg.high)}</div></div>`;
+  }
+  const catColor = catInfo.k==='emergente_calidad'?'var(--teal)':(catInfo.k==='triple_corona_madura'?'var(--gold)':'var(--muted)');
+  const catBg = catInfo.k==='emergente_calidad'?'rgba(45,212,191,.15)':(catInfo.k==='triple_corona_madura'?'rgba(251,191,36,.15)':'var(--surface-3)');
+  const chgHtml = e.cambio ? `<div style="margin-bottom:12px;color:var(--warning);font-size:12.5px">● Cambió de categoría: <b>${e.cambio.desde}</b> → <b>${e.cambio.hacia}</b></div>` : "";
+
+  document.getElementById("modal").innerHTML=`
+    <div class="mhead"><div class="row1">
+      <div><h2><span style="color:${catColor}">${catInfo.ico.replace('<svg','<svg width=20 height=20')}</span>${e.ticker}
+        <span style="font-size:13px;color:var(--muted);font-weight:500">${e.grupo||""}</span></h2>
+        <div class="price">${e.nombre||""} · ${money(e.precio)} ${e.sector?'· '+e.sector:''}</div>
+        <a class="yahoo" href="${YF(e)}" target="_blank" rel="noopener">${IC.ext.replace('<svg','<svg width=14 height=14')} Ver en Yahoo Finance</a>
+      </div><button class="close" onclick="closeModal()">×</button>
+    </div></div>
+    <div class="mbody">
+      <div style="margin-bottom:14px"><span class="badge" style="background:${catBg};color:${catColor}">${catInfo.ico}${catInfo.label}</span></div>
+      ${chgHtml}
+      <div class="mscore">
+        <div class="card"><div class="t">Fundamental</div><div class="n" style="color:${scoreColor(e.score_fundamental,DATA.corte_fundamental)}">${num(e.score_fundamental,0)??"—"}</div></div>
+        <div class="card"><div class="t">Técnico</div><div class="n" style="color:${scoreColor(e.score_tecnico,DATA.corte_tecnico)}">${num(e.score_tecnico,0)??"—"}</div></div>
+        <div class="card"><div class="t">Emergente</div><div class="n" style="color:${scoreColor(e.score_emergente,DATA.corte_emergente)}">${num(e.score_emergente,0)??"—"}</div></div>
+      </div>
+      ${targetHtml}
+      <div class="sectitle">Fundamentales (Buffett)</div>${fundRows}
+      <div class="sectitle">Emergente (calidad naciente)</div>${emerRows}
+      <div class="sectitle">Señales técnicas</div>${tecRows}
+      <div class="foot">Maduras: Fund ≥ ${DATA.corte_fundamental} y Téc ≥ ${DATA.corte_tecnico}. Emergente ≥ ${DATA.corte_emergente} con techo de tamaño y sin riesgo de liquidez. Target = consenso de analistas (yfinance). No es recomendación de inversión.</div>
+    </div>`;
+  document.getElementById("overlay").classList.add("open");
+}
+function closeModal(){document.getElementById("overlay").classList.remove("open");}
+document.getElementById("overlay").onclick=ev=>{if(ev.target.id==="overlay")closeModal();};
+document.addEventListener("keydown",ev=>{if(ev.key==="Escape")closeModal();});
+document.getElementById("search").oninput=ev=>{state.q=ev.target.value; render();};
+
+const cambios=DATA.cambios||[];
+if(cambios.length){
+  const b=document.getElementById("banner"); b.style.display="block";
+  b.innerHTML = `Cambios desde la última actualización: `+cambios.map(c=>`<b>${c.ticker}</b> (${c.desde}→${c.hacia})`).join(" · ");
+}
+document.getElementById("meta").innerHTML=`Actualizado <b>${DATA.generado}</b> · ${DATA.empresas.length} activos · yfinance (EOD) · click en el ticker abre Yahoo Finance`;
+document.getElementById("foot").innerHTML=`Modelo v0.3 · dos doctrinas (madura Buffett / naciente de calidad) · umbrales ${DATA.corte_fundamental}/${DATA.corte_tecnico}/${DATA.corte_emergente} · "Obj." = potencial vs. objetivo de analistas · verde = cumple. No es recomendación de inversión.`;
+tabs(); chips(); render();
+</script>
+</body>
+</html>
