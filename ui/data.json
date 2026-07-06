@@ -1,5 +1,5 @@
 {
-  "generado": "2026-07-05 22:48",
+  "generado": "2026-07-05 23:15",
   "corte_fundamental": 70,
   "corte_tecnico": 70,
   "corte_emergente": 70,
@@ -10,11 +10,14 @@
       "nombre": "Nebius Group",
       "grupo": "USA",
       "sector": "Communication Services",
+      "anios_cotizando": 1.7,
+      "recien_listada": true,
       "precio": 215.6199951171875,
       "fundamentales": {
         "pe": 83.25097,
         "pb": 7.626357,
         "roe": 0.14136,
+        "roa": -0.030079998,
         "deuda_equity": 1.32429,
         "margen_neto": 0.93086,
         "nombre_yf": "Nebius Group N.V.",
@@ -36,7 +39,7 @@
         "n_analistas": 14
       },
       "score_fundamental": 31.2,
-      "score_tecnico": 85.0,
+      "score_tecnico": 77.0,
       "score_emergente": 70.0,
       "metricas_fund_presentes": 5,
       "categoria": "emergente_calidad",
@@ -93,6 +96,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +13%"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -134,6 +141,7 @@
         "macd_senal": 14.438384527894408,
         "macd_hist": -6.6298891048602915,
         "obv_pendiente": 3832000.0,
+        "divergencia_bajista": true,
         "max_precio": 286.69000244140625,
         "dist_ath": 0.7521015496913115,
         "en_techo": false,
@@ -155,11 +163,14 @@
       "nombre": "Grupo Galicia (ADR)",
       "grupo": "ARG",
       "sector": "Financial Services",
+      "anios_cotizando": 25.9,
+      "recien_listada": false,
       "precio": 50.369998931884766,
       "fundamentales": {
         "pe": 139.91666,
         "pb": 14.038983,
         "roe": 0.00899,
+        "roa": 0.0017200001,
         "deuda_equity": null,
         "margen_neto": 0.011360001,
         "nombre_yf": "Grupo Financiero Galicia S.A.",
@@ -183,7 +194,7 @@
       "score_fundamental": 0.0,
       "score_tecnico": 85.0,
       "score_emergente": 36.2,
-      "metricas_fund_presentes": 4,
+      "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
       "riesgo_liquidez": false,
@@ -208,6 +219,10 @@
         },
         "margen_neto": {
           "valor": 0.011360001,
+          "puntaje": 0.0
+        },
+        "roa": {
+          "valor": 0.0017200001,
           "puntaje": 0.0
         }
       },
@@ -239,6 +254,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +36%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -273,20 +292,21 @@
       "tecnicos_raw": {
         "precio": 50.369998931884766,
         "mm50": 46.79479698181152,
-        "mm200": 45.45892734527588,
+        "mm200": 45.45892748832703,
         "dias_cruce": 23,
         "cruce_tipo": "golden",
-        "rsi": 51.17650094218662,
-        "macd": 0.7024224418147469,
-        "macd_senal": 1.3764528255157211,
-        "macd_hist": -0.6740303837009742,
+        "rsi": 51.17650094050169,
+        "macd": 0.7024224400813068,
+        "macd_senal": 1.3764528229815818,
+        "macd_hist": -0.674030382900275,
         "obv_pendiente": 5801400.0,
-        "max_precio": 68.52120971679688,
-        "dist_ath": 0.7351008416236027,
+        "divergencia_bajista": false,
+        "max_precio": 68.5212173461914,
+        "dist_ath": 0.7351007597748768,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.64,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 68.513,
@@ -302,11 +322,14 @@
       "nombre": "Vista Energy",
       "grupo": "ARG",
       "sector": "Energy",
+      "anios_cotizando": 6.9,
+      "recien_listada": false,
       "precio": 60.36000061035156,
       "fundamentales": {
         "pe": 8.798834,
         "pb": 2.4424393,
         "roe": 0.3508,
+        "roa": 0.09295999,
         "deuda_equity": 1.45057,
         "margen_neto": 0.25648,
         "nombre_yf": "Vista Energy S.A.B. de C.V.",
@@ -385,6 +408,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +60%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -426,12 +453,13 @@
         "macd_senal": -1.8672849550069217,
         "macd_hist": -0.8470732028984442,
         "obv_pendiente": -5295900.0,
+        "divergencia_bajista": false,
         "max_precio": 79.25,
         "dist_ath": 0.7616403862504929,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.13,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 96.40938,
@@ -447,11 +475,14 @@
       "nombre": "YPF (ADR)",
       "grupo": "ARG",
       "sector": "Energy",
+      "anios_cotizando": 33.0,
+      "recien_listada": false,
       "precio": 44.400001525878906,
       "fundamentales": {
         "pe": null,
         "pb": 1.539899,
         "roe": -0.029409999,
+        "roa": 0.05393,
         "deuda_equity": 0.92455,
         "margen_neto": -0.018229999,
         "nombre_yf": "YPF Sociedad Anonima",
@@ -473,7 +504,7 @@
         "n_analistas": 13
       },
       "score_fundamental": 34.6,
-      "score_tecnico": 62.0,
+      "score_tecnico": 54.0,
       "score_emergente": 65.7,
       "metricas_fund_presentes": 4,
       "categoria": "otros",
@@ -530,6 +561,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +29%"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -571,12 +606,13 @@
         "macd_senal": -0.3497749860953965,
         "macd_hist": -0.9782745922276073,
         "obv_pendiente": -12214900.0,
+        "divergencia_bajista": true,
         "max_precio": 56.34999847412109,
         "dist_ath": 0.7879326127447855,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.52,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 57.44615,
@@ -592,11 +628,14 @@
       "nombre": "MercadoLibre",
       "grupo": "ARG",
       "sector": "Consumer Cyclical",
+      "anios_cotizando": 18.9,
+      "recien_listada": false,
       "precio": 1763.3599853515625,
       "fundamentales": {
         "pe": 46.514378,
         "pb": 12.278212,
         "roe": 0.31258,
+        "roa": 0.05108,
         "deuda_equity": 1.69977,
         "margen_neto": 0.060370002,
         "nombre_yf": "MercadoLibre, Inc.",
@@ -675,6 +714,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +25%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -711,17 +754,18 @@
         "mm200": 1942.5865032958984,
         "dias_cruce": 158,
         "cruce_tipo": "death",
-        "rsi": 61.58963730231667,
+        "rsi": 61.58963730231666,
         "macd": 12.790239786853363,
         "macd_senal": -5.3192262564651775,
         "macd_hist": 18.10946604331854,
         "obv_pendiente": 2440800.0,
+        "divergencia_bajista": false,
         "max_precio": 2613.6298828125,
         "dist_ath": 0.6746785369066982,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.7,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 2208.625,
@@ -737,11 +781,14 @@
       "nombre": "Nu Holdings",
       "grupo": "ARG",
       "sector": "Financial Services",
+      "anios_cotizando": 4.6,
+      "recien_listada": false,
       "precio": 13.609999656677246,
       "fundamentales": {
         "pe": 20.938461,
         "pb": 5.256856,
         "roe": 0.30055,
+        "roa": 0.0484,
         "deuda_equity": null,
         "margen_neto": 0.41924,
         "nombre_yf": "Nu Holdings Ltd.",
@@ -762,10 +809,10 @@
         "precio_actual": 13.61,
         "n_analistas": 22
       },
-      "score_fundamental": 70.8,
+      "score_fundamental": 75.5,
       "score_tecnico": 50.0,
       "score_emergente": 81.7,
-      "metricas_fund_presentes": 4,
+      "metricas_fund_presentes": 5,
       "categoria": "emergente_calidad",
       "sub_veredicto": "fundamental",
       "riesgo_liquidez": false,
@@ -790,6 +837,10 @@
         },
         "margen_neto": {
           "valor": 0.41924,
+          "puntaje": 1.0
+        },
+        "roa": {
+          "valor": 0.0484,
           "puntaje": 1.0
         }
       },
@@ -821,6 +872,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +31%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -858,17 +913,18 @@
         "mm200": 15.279700026512145,
         "dias_cruce": 54,
         "cruce_tipo": "death",
-        "rsi": 62.368344612100465,
+        "rsi": 62.36834461210045,
         "macd": 0.12237614285155018,
         "macd_senal": -0.055488297501932876,
         "macd_hist": 0.17786444035348306,
         "obv_pendiente": 368693500.0,
+        "divergencia_bajista": false,
         "max_precio": 18.76000022888184,
         "dist_ath": 0.725479716984441,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.02,
-        "barras": 501
+        "barras": 1144
       },
       "target": {
         "mean": 17.82273,
@@ -884,11 +940,14 @@
       "nombre": "Satellogic",
       "grupo": "ARG",
       "sector": "Industrials",
+      "anios_cotizando": 5.3,
+      "recien_listada": false,
       "precio": 5.429999828338623,
       "fundamentales": {
         "pe": null,
         "pb": null,
         "roe": null,
+        "roa": -0.13962,
         "deuda_equity": null,
         "margen_neto": 0.0,
         "nombre_yf": "Satellogic Inc.",
@@ -910,7 +969,7 @@
         "n_analistas": 5
       },
       "score_fundamental": 0.0,
-      "score_tecnico": 62.0,
+      "score_tecnico": 54.0,
       "score_emergente": 84.4,
       "metricas_fund_presentes": 1,
       "categoria": "emergente_calidad",
@@ -967,6 +1026,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +108%"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -1008,12 +1071,13 @@
         "macd_senal": -0.6662142535859771,
         "macd_hist": -0.01888031645792332,
         "obv_pendiente": -51899500.0,
-        "max_precio": 10.739999771118164,
-        "dist_ath": 0.5055865869700381,
+        "divergencia_bajista": true,
+        "max_precio": 12.329999923706056,
+        "dist_ath": 0.44038928320662274,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.6,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 11.28,
@@ -1029,11 +1093,14 @@
       "nombre": "UnitedHealth",
       "grupo": "USA",
       "sector": "Healthcare",
+      "anios_cotizando": 41.7,
+      "recien_listada": false,
       "precio": 425.3599853515625,
       "fundamentales": {
         "pe": 32.054256,
         "pb": 3.9458988,
         "roe": 0.121759996,
+        "roa": 0.03783,
         "deuda_equity": 0.73982,
         "margen_neto": 0.02678,
         "nombre_yf": "UnitedHealth Group Incorporated",
@@ -1055,7 +1122,7 @@
         "n_analistas": 26
       },
       "score_fundamental": 27.5,
-      "score_tecnico": 82.0,
+      "score_tecnico": 74.0,
       "score_emergente": 23.3,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
@@ -1112,6 +1179,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "precio en/sobre el objetivo (-3%)"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -1145,20 +1216,21 @@
       "tecnicos_raw": {
         "precio": 425.3599853515625,
         "mm50": 388.8495080566406,
-        "mm200": 333.3941059875488,
+        "mm200": 333.3941062927246,
         "dias_cruce": 33,
         "cruce_tipo": "golden",
-        "rsi": 65.29321362866716,
-        "macd": 11.23429039444892,
-        "macd_senal": 10.796497374489814,
-        "macd_hist": 0.4377930199591056,
+        "rsi": 65.29321360680228,
+        "macd": 11.23429038867522,
+        "macd_senal": 10.796497366009852,
+        "macd_hist": 0.43779302266536746,
         "obv_pendiente": 55304700.0,
+        "divergencia_bajista": true,
         "max_precio": 599.775634765625,
         "dist_ath": 0.7091985080684061,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.56,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 411.8846,
@@ -1174,11 +1246,14 @@
       "nombre": "NVIDIA",
       "grupo": "USA",
       "sector": "Technology",
+      "anios_cotizando": 27.4,
+      "recien_listada": false,
       "precio": 194.8300018310547,
       "fundamentales": {
         "pe": 29.83614,
         "pb": 24.142504,
         "roe": 1.14288,
+        "roa": 0.52727,
         "deuda_equity": 0.06555,
         "margen_neto": 0.62966,
         "nombre_yf": "NVIDIA Corporation",
@@ -1257,6 +1332,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +55%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -1290,20 +1369,21 @@
       "tecnicos_raw": {
         "precio": 194.8300018310547,
         "mm50": 209.6465234375,
-        "mm200": 190.8195566558838,
+        "mm200": 190.81955703735352,
         "dias_cruce": 254,
         "cruce_tipo": "golden",
-        "rsi": 41.21917384222539,
-        "macd": -4.043188440243227,
-        "macd_senal": -3.0351063359512085,
-        "macd_hist": -1.008082104292019,
+        "rsi": 41.219173842217614,
+        "macd": -4.043188440262071,
+        "macd_senal": -3.0351063359789,
+        "macd_hist": -1.008082104283171,
         "obv_pendiente": -576279800.0,
+        "divergencia_bajista": false,
         "max_precio": 235.465576171875,
         "dist_ath": 0.8274245645522346,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.87,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 301.6207,
@@ -1319,11 +1399,14 @@
       "nombre": "Alphabet",
       "grupo": "USA",
       "sector": "Communication Services",
+      "anios_cotizando": 21.9,
+      "recien_listada": false,
       "precio": 359.9100036621094,
       "fundamentales": {
         "pe": 27.474045,
         "pb": 9.1084175,
         "roe": 0.38884997,
+        "roa": 0.14641,
         "deuda_equity": 0.20026,
         "margen_neto": 0.37919,
         "nombre_yf": "Alphabet Inc.",
@@ -1402,6 +1485,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +20%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -1438,17 +1525,18 @@
         "mm200": 315.80909812927246,
         "dias_cruce": 237,
         "cruce_tipo": "golden",
-        "rsi": 49.535896130820326,
-        "macd": -4.290770103221462,
-        "macd_senal": -4.784737751079767,
-        "macd_hist": 0.49396764785830527,
+        "rsi": 49.535896130820646,
+        "macd": -4.290770103221064,
+        "macd_senal": -4.784737751079246,
+        "macd_hist": 0.4939676478581818,
         "obv_pendiente": -112212100.0,
+        "divergencia_bajista": false,
         "max_precio": 402.3796691894531,
         "dist_ath": 0.8944537490850522,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.77,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 432.28735,
@@ -1464,11 +1552,14 @@
       "nombre": "Taiwan Semiconductor (ADR)",
       "grupo": "USA",
       "sector": "Technology",
+      "anios_cotizando": 28.7,
+      "recien_listada": false,
       "precio": 434.1600036621094,
       "fundamentales": {
         "pe": 37.72024,
         "pb": 97.73467,
         "roe": 0.3621,
+        "roa": 0.17322001,
         "deuda_equity": 0.18447,
         "margen_neto": 0.46505,
         "nombre_yf": "Taiwan Semiconductor Manufactur",
@@ -1490,7 +1581,7 @@
         "n_analistas": 18
       },
       "score_fundamental": 60.0,
-      "score_tecnico": 85.0,
+      "score_tecnico": 77.0,
       "score_emergente": 83.6,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
@@ -1547,6 +1638,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +13%"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -1580,20 +1675,21 @@
       "tecnicos_raw": {
         "precio": 434.1600036621094,
         "mm50": 418.8306805419922,
-        "mm200": 342.5128756713867,
+        "mm200": 342.5128746032715,
         "dias_cruce": 256,
         "cruce_tipo": "golden",
-        "rsi": 50.2019235171649,
-        "macd": 9.266572871961614,
-        "macd_senal": 10.170117568255131,
-        "macd_hist": -0.9035446962935172,
+        "rsi": 50.20192351720088,
+        "macd": 9.266572872048698,
+        "macd_senal": 10.170117568383324,
+        "macd_hist": -0.9035446963346256,
         "obv_pendiente": 35431900.0,
+        "divergencia_bajista": true,
         "max_precio": 477.5700073242188,
         "dist_ath": 0.9091023242742321,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.31,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 490.34027,
@@ -1609,11 +1705,14 @@
       "nombre": "Uber Technologies",
       "grupo": "USA",
       "sector": "Technology",
+      "anios_cotizando": 7.2,
+      "recien_listada": false,
       "precio": 74.43000030517578,
       "fundamentales": {
         "pe": 18.468983,
         "pb": 6.1239095,
         "roe": 0.3531,
+        "roa": 0.06943,
         "deuda_equity": 0.48113,
         "margen_neto": 0.15907,
         "nombre_yf": "Uber Technologies, Inc.",
@@ -1692,6 +1791,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +40%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -1733,12 +1836,13 @@
         "macd_senal": -0.032578104904125896,
         "macd_hist": 0.3800108741564335,
         "obv_pendiente": 51979100.0,
+        "divergencia_bajista": false,
         "max_precio": 100.0999984741211,
         "dist_ath": 0.7435564579395894,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.68,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 104.5512,
@@ -1754,11 +1858,14 @@
       "nombre": "SpaceX (pre-IPO)",
       "grupo": "USA",
       "sector": "Industrials",
+      "anios_cotizando": 0.1,
+      "recien_listada": true,
       "precio": null,
       "fundamentales": {
         "pe": null,
         "pb": 27.199463,
         "roe": null,
+        "roa": null,
         "deuda_equity": 0.7359699999999999,
         "margen_neto": -0.44998002,
         "nombre_yf": "Space Exploration Technologies ",
@@ -1856,11 +1963,14 @@
       "nombre": "Boeing",
       "grupo": "USA",
       "sector": "Industrials",
+      "anios_cotizando": 64.5,
+      "recien_listada": false,
       "precio": 226.4900054931641,
       "fundamentales": {
         "pe": 89.1693,
         "pb": 29.836649,
         "roe": 1.69947,
+        "roa": -0.02069,
         "deuda_equity": 8.28696,
         "margen_neto": 0.024600001,
         "nombre_yf": "Boeing Company (The)",
@@ -1939,6 +2049,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +19%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -1980,12 +2094,13 @@
         "macd_senal": -0.9219416041430999,
         "macd_hist": 0.36288410081094424,
         "obv_pendiente": -22716700.0,
-        "max_precio": 252.1499938964844,
-        "dist_ath": 0.8982352210016132,
+        "divergencia_bajista": false,
+        "max_precio": 264.2699890136719,
+        "dist_ath": 0.857040204748511,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.9,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 270.0,
@@ -2001,11 +2116,14 @@
       "nombre": "Apple",
       "grupo": "USA",
       "sector": "Technology",
+      "anios_cotizando": 45.6,
+      "recien_listada": false,
       "precio": 308.6300048828125,
       "fundamentales": {
         "pe": 37.319225,
         "pb": 42.511017,
         "roe": 1.4147099,
+        "roa": 0.26229,
         "deuda_equity": 0.79548,
         "margen_neto": 0.27152002,
         "nombre_yf": "Apple Inc.",
@@ -2084,6 +2202,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "poco recorrido al objetivo (+2%)"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -2116,21 +2238,22 @@
       },
       "tecnicos_raw": {
         "precio": 308.6300048828125,
-        "mm50": 293.45659851074214,
-        "mm200": 270.3212229156494,
+        "mm50": 293.4565985107422,
+        "mm200": 270.3212233734131,
         "dias_cruce": 200,
         "cruce_tipo": "golden",
-        "rsi": 60.276633644985175,
-        "macd": -0.6719229842898358,
-        "macd_senal": -0.927357310689052,
-        "macd_hist": 0.25543432639921626,
+        "rsi": 60.27663364492215,
+        "macd": -0.6719229842978507,
+        "macd_senal": -0.9273573107007551,
+        "macd_hist": 0.2554343264029044,
         "obv_pendiente": 145927800.0,
+        "divergencia_bajista": false,
         "max_precio": 315.20001220703125,
         "dist_ath": 0.9791560689410652,
         "en_techo": true,
         "ruptura_confirmada": false,
         "vol_ratio": 1.33,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 315.09048,
@@ -2146,11 +2269,14 @@
       "nombre": "Microsoft",
       "grupo": "USA",
       "sector": "Technology",
+      "anios_cotizando": 40.3,
+      "recien_listada": false,
       "precio": 390.489990234375,
       "fundamentales": {
         "pe": 23.257294,
         "pb": 7.000914,
         "roe": 0.34013999,
+        "roa": 0.14814,
         "deuda_equity": 0.30271000000000003,
         "margen_neto": 0.39341998,
         "nombre_yf": "Microsoft Corporation",
@@ -2229,6 +2355,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +44%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -2265,17 +2395,18 @@
         "mm200": 443.7846472167969,
         "dias_cruce": 111,
         "cruce_tipo": "death",
-        "rsi": 49.84993446457257,
-        "macd": -9.795341510323851,
-        "macd_senal": -10.848585590444774,
-        "macd_hist": 1.0532440801209226,
+        "rsi": 49.84993446457258,
+        "macd": -9.795341510323794,
+        "macd_senal": -10.84858559044471,
+        "macd_hist": 1.0532440801209155,
         "obv_pendiente": 53164700.0,
+        "divergencia_bajista": false,
         "max_precio": 538.6585693359375,
         "dist_ath": 0.72493043360616,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.02,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 561.1149,
@@ -2291,11 +2422,14 @@
       "nombre": "Amazon",
       "grupo": "USA",
       "sector": "Consumer Cyclical",
+      "anios_cotizando": 29.1,
+      "recien_listada": false,
       "precio": 242.6699981689453,
       "fundamentales": {
         "pe": 31.638851,
         "pb": 5.9053855,
         "roe": 0.24285,
+        "roa": 0.06845,
         "deuda_equity": 0.5329999999999999,
         "margen_neto": 0.12224,
         "nombre_yf": "Amazon.com, Inc.",
@@ -2374,6 +2508,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +29%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -2415,12 +2553,13 @@
         "macd_senal": -5.3019468267399255,
         "macd_hist": 0.9159566591433368,
         "obv_pendiente": 237155400.0,
+        "divergencia_bajista": false,
         "max_precio": 274.989990234375,
         "dist_ath": 0.8824684780784812,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.93,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 312.90628,
@@ -2436,11 +2575,14 @@
       "nombre": "Meta Platforms",
       "grupo": "USA",
       "sector": "Communication Services",
+      "anios_cotizando": 14.1,
+      "recien_listada": false,
       "precio": 582.9000244140625,
       "fundamentales": {
         "pe": 21.18866,
         "pb": 6.071053,
         "roe": 0.32930002,
+        "roa": 0.16395001,
         "deuda_equity": 0.35607999999999995,
         "margen_neto": 0.32837,
         "nombre_yf": "Meta Platforms, Inc.",
@@ -2519,6 +2661,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +42%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -2552,20 +2698,21 @@
       "tecnicos_raw": {
         "precio": 582.9000244140625,
         "mm50": 604.8063073730468,
-        "mm200": 645.4064831542969,
+        "mm200": 645.4064834594726,
         "dias_cruce": 139,
         "cruce_tipo": "death",
-        "rsi": 49.65615663294062,
-        "macd": -8.319297159682833,
-        "macd_senal": -12.003113264785561,
-        "macd_hist": 3.6838161051027285,
+        "rsi": 49.65615663998704,
+        "macd": -8.319297135306101,
+        "macd_senal": -12.003113229038142,
+        "macd_hist": 3.683816093732041,
         "obv_pendiente": -40407000.0,
+        "divergencia_bajista": false,
         "max_precio": 787.4192504882812,
         "dist_ath": 0.7402664134164922,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.21,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 828.16864,
@@ -2581,11 +2728,14 @@
       "nombre": "Berkshire Hathaway",
       "grupo": "USA",
       "sector": "Financial Services",
+      "anios_cotizando": 30.2,
+      "recien_listada": false,
       "precio": 507.7799987792969,
       "fundamentales": {
         "pe": 15.10351,
         "pb": null,
         "roe": 0.10499,
+        "roa": 0.053940002,
         "deuda_equity": 0.17669,
         "margen_neto": 0.19305,
         "nombre_yf": "Berkshire Hathaway Inc. New",
@@ -2606,12 +2756,12 @@
         "precio_actual": 507.78,
         "n_analistas": 3
       },
-      "score_fundamental": 65.0,
+      "score_fundamental": 71.9,
       "score_tecnico": 67.0,
       "score_emergente": 25.9,
-      "metricas_fund_presentes": 3,
+      "metricas_fund_presentes": 4,
       "categoria": "otros",
-      "sub_veredicto": "ninguna",
+      "sub_veredicto": "fundamental",
       "riesgo_liquidez": false,
       "runway": null,
       "detalle_fundamental": {
@@ -2635,6 +2785,10 @@
         "margen_neto": {
           "valor": 0.19305,
           "puntaje": 0.9652499999999999
+        },
+        "roa": {
+          "valor": 0.053940002,
+          "puntaje": 1.0
         }
       },
       "detalle_tecnico": {
@@ -2665,6 +2819,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "poco recorrido al objetivo (+2%)"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -2707,12 +2865,13 @@
         "macd_senal": 4.095136437662495,
         "macd_hist": 1.2497724885534698,
         "obv_pendiente": 10533200.0,
+        "divergencia_bajista": false,
         "max_precio": 539.7999877929688,
         "dist_ath": 0.9406817529867144,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.83,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 520.3333,
@@ -2728,11 +2887,14 @@
       "nombre": "JPMorgan Chase",
       "grupo": "USA",
       "sector": "Financial Services",
+      "anios_cotizando": 46.3,
+      "recien_listada": false,
       "precio": 334.4700012207031,
       "fundamentales": {
         "pe": 16.00335,
         "pb": 2.6053326,
         "roe": 0.16465001,
+        "roa": 0.01272,
         "deuda_equity": null,
         "margen_neto": 0.33936,
         "nombre_yf": "JP Morgan Chase & Co.",
@@ -2753,10 +2915,10 @@
         "precio_actual": 334.47,
         "n_analistas": 21
       },
-      "score_fundamental": 79.0,
+      "score_fundamental": 80.1,
       "score_tecnico": 80.0,
       "score_emergente": 33.6,
-      "metricas_fund_presentes": 4,
+      "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
       "riesgo_liquidez": false,
@@ -2782,6 +2944,10 @@
         "margen_neto": {
           "valor": 0.33936,
           "puntaje": 1.0
+        },
+        "roa": {
+          "valor": 0.01272,
+          "puntaje": 0.8574999999999999
         }
       },
       "detalle_tecnico": {
@@ -2812,6 +2978,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "poco recorrido al objetivo (+3%)"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -2846,20 +3016,21 @@
       "tecnicos_raw": {
         "precio": 334.4700012207031,
         "mm50": 312.6114013671875,
-        "mm200": 306.77195617675784,
+        "mm200": 306.77195693969725,
         "dias_cruce": 18,
         "cruce_tipo": "golden",
-        "rsi": 63.64081703324751,
-        "macd": 6.857411638798453,
-        "macd_senal": 6.638176600611084,
-        "macd_hist": 0.2192350381873691,
+        "rsi": 63.64081703342784,
+        "macd": 6.857411638527424,
+        "macd_senal": 6.63817660021248,
+        "macd_hist": 0.2192350383149435,
         "obv_pendiente": 54354900.0,
+        "divergencia_bajista": false,
         "max_precio": 335.1199951171875,
         "dist_ath": 0.998060414460626,
         "en_techo": true,
         "ruptura_confirmada": false,
         "vol_ratio": 0.93,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 344.7143,
@@ -2875,11 +3046,14 @@
       "nombre": "Visa",
       "grupo": "USA",
       "sector": "Financial Services",
+      "anios_cotizando": 18.3,
+      "recien_listada": false,
       "precio": 362.1300048828125,
       "fundamentales": {
         "pe": 31.544426,
         "pb": 19.425491,
         "roe": 0.60349,
+        "roa": 0.19193001,
         "deuda_equity": 0.6723300000000001,
         "margen_neto": 0.51679003,
         "nombre_yf": "Visa Inc.",
@@ -2900,10 +3074,10 @@
         "precio_actual": 362.13,
         "n_analistas": 37
       },
-      "score_fundamental": 56.9,
-      "score_tecnico": 49.0,
+      "score_fundamental": 63.8,
+      "score_tecnico": 41.0,
       "score_emergente": 56.7,
-      "metricas_fund_presentes": 4,
+      "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
       "riesgo_liquidez": false,
@@ -2928,6 +3102,10 @@
         },
         "margen_neto": {
           "valor": 0.51679003,
+          "puntaje": 1.0
+        },
+        "roa": {
+          "valor": 0.19193001,
           "puntaje": 1.0
         }
       },
@@ -2959,6 +3137,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +10%"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -2996,17 +3178,18 @@
         "mm200": 327.8470767211914,
         "dias_cruce": 169,
         "cruce_tipo": "death",
-        "rsi": 76.76054610332473,
+        "rsi": 76.76054610332288,
         "macd": 7.147581860140463,
         "macd_senal": 3.959463918986457,
         "macd_hist": 3.1881179411540055,
         "obv_pendiente": 59502000.0,
+        "divergencia_bajista": true,
         "max_precio": 370.3843994140625,
         "dist_ath": 0.9777139789248461,
         "en_techo": true,
         "ruptura_confirmada": false,
         "vol_ratio": 1.15,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 398.70297,
@@ -3022,11 +3205,14 @@
       "nombre": "Eli Lilly",
       "grupo": "USA",
       "sector": "Healthcare",
+      "anios_cotizando": 54.1,
+      "recien_listada": false,
       "precio": 1213.9100341796875,
       "fundamentales": {
         "pe": 43.1076,
         "pb": 34.765587,
         "roe": 1.07459,
+        "roa": 0.20739001,
         "deuda_equity": 1.3901499999999998,
         "margen_neto": 0.34986,
         "nombre_yf": "Eli Lilly and Company",
@@ -3048,11 +3234,11 @@
         "n_analistas": 28
       },
       "score_fundamental": 45.8,
-      "score_tecnico": 72.0,
+      "score_tecnico": 64.0,
       "score_emergente": 85.7,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
-      "sub_veredicto": "tecnico",
+      "sub_veredicto": "ninguna",
       "riesgo_liquidez": false,
       "runway": null,
       "detalle_fundamental": {
@@ -3105,6 +3291,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "poco recorrido al objetivo (+1%)"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -3146,12 +3336,13 @@
         "macd_senal": 34.34572407047887,
         "macd_hist": 4.368992534402587,
         "obv_pendiente": 14458800.0,
+        "divergencia_bajista": true,
         "max_precio": 1229.9300537109375,
         "dist_ath": 0.9869748531772888,
         "en_techo": true,
         "ruptura_confirmada": false,
         "vol_ratio": 0.97,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 1220.3928,
@@ -3167,11 +3358,14 @@
       "nombre": "Exxon Mobil",
       "grupo": "USA",
       "sector": "Energy",
+      "anios_cotizando": 64.5,
+      "recien_listada": false,
       "precio": 137.08999633789062,
       "fundamentales": {
         "pe": 23.079124,
         "pb": 2.2086709,
         "roe": 0.09873,
+        "roa": 0.04221,
         "deuda_equity": 0.18261,
         "margen_neto": 0.077649996,
         "nombre_yf": "ExxonMobil Holdings Corporation",
@@ -3250,6 +3444,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +24%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -3283,20 +3481,21 @@
       "tecnicos_raw": {
         "precio": 137.08999633789062,
         "mm50": 147.55208557128907,
-        "mm200": 134.30149799346924,
+        "mm200": 134.30149795532228,
         "dias_cruce": 224,
         "cruce_tipo": "golden",
-        "rsi": 36.932882489801834,
-        "macd": -3.71775263227093,
-        "macd_senal": -3.4496316407908334,
-        "macd_hist": -0.2681209914800964,
+        "rsi": 36.93288248989957,
+        "macd": -3.717752632273232,
+        "macd_senal": -3.4496316407942254,
+        "macd_hist": -0.2681209914790066,
         "obv_pendiente": -65129200.0,
+        "divergencia_bajista": false,
         "max_precio": 170.31399536132812,
         "dist_ath": 0.8049250212646857,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.79,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 169.4762,
@@ -3312,11 +3511,14 @@
       "nombre": "Walmart",
       "grupo": "USA",
       "sector": "Consumer Defensive",
+      "anios_cotizando": 53.9,
+      "recien_listada": false,
       "precio": 111.83999633789062,
       "fundamentales": {
         "pe": 39.380283,
         "pb": 9.439568,
         "roe": 0.24132,
+        "roa": 0.06835,
         "deuda_equity": 0.74816,
         "margen_neto": 0.03135,
         "nombre_yf": "Walmart Inc.",
@@ -3395,6 +3597,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +24%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -3428,20 +3634,21 @@
       "tecnicos_raw": {
         "precio": 111.83999633789062,
         "mm50": 122.9469676208496,
-        "mm200": 116.66880767822266,
-        "dias_cruce": null,
+        "mm200": 116.66880729675293,
+        "dias_cruce": 908,
         "cruce_tipo": "golden",
-        "rsi": 35.606604464830696,
-        "macd": -2.739537884110433,
-        "macd_senal": -2.16413889571776,
-        "macd_hist": -0.5753989883926733,
+        "rsi": 35.606604458758085,
+        "macd": -2.7395378861068735,
+        "macd_senal": -2.164138898644176,
+        "macd_hist": -0.5753989874626977,
         "obv_pendiente": -94595300.0,
+        "divergencia_bajista": false,
         "max_precio": 134.1999969482422,
         "dist_ath": 0.8333830020951841,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.31,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 138.58537,
@@ -3457,11 +3664,14 @@
       "nombre": "Coca-Cola",
       "grupo": "USA",
       "sector": "Consumer Defensive",
+      "anios_cotizando": 64.5,
+      "recien_listada": false,
       "precio": 84.13999938964844,
       "fundamentales": {
         "pe": 26.459118,
         "pb": 10.765098,
         "roe": 0.43372002,
+        "roa": 0.0951,
         "deuda_equity": 1.24943,
         "margen_neto": 0.278,
         "nombre_yf": "Coca-Cola Company (The)",
@@ -3483,7 +3693,7 @@
         "n_analistas": 24
       },
       "score_fundamental": 57.4,
-      "score_tecnico": 80.0,
+      "score_tecnico": 72.0,
       "score_emergente": 51.7,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
@@ -3540,6 +3750,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "poco recorrido al objetivo (+2%)"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -3576,17 +3790,18 @@
         "mm200": 73.45599857330322,
         "dias_cruce": 142,
         "cruce_tipo": "golden",
-        "rsi": 64.97790306025934,
+        "rsi": 64.97790306025925,
         "macd": 0.8297607548319661,
-        "macd_senal": 0.6205000635698551,
-        "macd_hist": 0.209260691262111,
+        "macd_senal": 0.6205000635698549,
+        "macd_hist": 0.20926069126211122,
         "obv_pendiente": 91272600.0,
+        "divergencia_bajista": true,
         "max_precio": 84.13999938964844,
         "dist_ath": 1.0,
         "en_techo": true,
         "ruptura_confirmada": false,
         "vol_ratio": 1.05,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 85.97417,
@@ -3602,11 +3817,14 @@
       "nombre": "Costco",
       "grupo": "USA",
       "sector": "Consumer Defensive",
+      "anios_cotizando": 40.0,
+      "recien_listada": false,
       "precio": 951.6699829101562,
       "fundamentales": {
         "pe": 47.846657,
         "pb": 25.528997,
         "roe": 0.29152,
+        "roa": 0.086660005,
         "deuda_equity": 0.6025699999999999,
         "margen_neto": 0.0301,
         "nombre_yf": "Costco Wholesale Corporation",
@@ -3685,6 +3903,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +14%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -3721,17 +3943,18 @@
         "mm200": 955.3375274658204,
         "dias_cruce": 83,
         "cruce_tipo": "golden",
-        "rsi": 44.7847816791287,
+        "rsi": 44.784781679128685,
         "macd": -14.81295207904293,
         "macd_senal": -13.752283716279308,
         "macd_hist": -1.0606683627636215,
         "obv_pendiente": -2491200.0,
+        "divergencia_bajista": false,
         "max_precio": 1094.3199462890625,
         "dist_ath": 0.869645103461154,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.18,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 1082.9393,
@@ -3747,11 +3970,14 @@
       "nombre": "Caterpillar",
       "grupo": "USA",
       "sector": "Industrials",
+      "anios_cotizando": 64.5,
+      "recien_listada": false,
       "precio": 963.530029296875,
       "fundamentales": {
         "pe": 48.080338,
         "pb": 23.784405,
         "roe": 0.51331,
+        "roa": 0.085200004,
         "deuda_equity": 2.3079300000000003,
         "margen_neto": 0.13328,
         "nombre_yf": "Caterpillar, Inc.",
@@ -3773,11 +3999,11 @@
         "n_analistas": 26
       },
       "score_fundamental": 38.7,
-      "score_tecnico": 75.0,
+      "score_tecnico": 67.0,
       "score_emergente": 48.2,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
-      "sub_veredicto": "tecnico",
+      "sub_veredicto": "ninguna",
       "riesgo_liquidez": false,
       "runway": null,
       "detalle_fundamental": {
@@ -3830,6 +4056,10 @@
         "recorrido": {
           "ok": false,
           "detalle": "precio en/sobre el objetivo (-1%)"
+        },
+        "divergencia": {
+          "ok": false,
+          "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"
         }
       },
       "detalle_emergente": {
@@ -3863,20 +4093,21 @@
       "tecnicos_raw": {
         "precio": 963.530029296875,
         "mm50": 913.1105981445312,
-        "mm200": 695.1879513549804,
+        "mm200": 695.1879490661621,
         "dias_cruce": 243,
         "cruce_tipo": "golden",
-        "rsi": 50.921424169918794,
-        "macd": 32.808692020467106,
-        "macd_senal": 33.55968077780696,
-        "macd_hist": -0.7509887573398544,
+        "rsi": 50.92142417004999,
+        "macd": 32.80869202114525,
+        "macd_senal": 33.55968077880411,
+        "macd_hist": -0.7509887576588596,
         "obv_pendiente": 8909900.0,
+        "divergencia_bajista": true,
         "max_precio": 1064.9000244140625,
         "dist_ath": 0.90480796995665,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.13,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 957.7558,
@@ -3892,11 +4123,14 @@
       "nombre": "Broadcom",
       "grupo": "USA",
       "sector": "Technology",
+      "anios_cotizando": 16.9,
+      "recien_listada": false,
       "precio": 360.4500122070313,
       "fundamentales": {
         "pe": 59.875416,
         "pb": 19.557787,
         "roe": 0.37280998,
+        "roa": 0.121190004,
         "deuda_equity": 0.7401800000000001,
         "margen_neto": 0.38848,
         "nombre_yf": "Broadcom Inc.",
@@ -3975,6 +4209,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +45%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -4008,20 +4246,21 @@
       "tecnicos_raw": {
         "precio": 360.4500122070313,
         "mm50": 408.88879638671875,
-        "mm200": 360.19869705200193,
+        "mm200": 360.1986968994141,
         "dias_cruce": 52,
         "cruce_tipo": "golden",
-        "rsi": 39.70872901909863,
-        "macd": -11.55266788740073,
-        "macd_senal": -9.134944860047387,
-        "macd_hist": -2.417723027353343,
+        "rsi": 39.708729002741975,
+        "macd": -11.55266789491543,
+        "macd_senal": -9.134944871030974,
+        "macd_hist": -2.417723023884456,
         "obv_pendiente": -162197800.0,
+        "divergencia_bajista": false,
         "max_precio": 480.8090515136719,
         "dist_ath": 0.7496739320365766,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.98,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 523.72894,
@@ -4037,11 +4276,14 @@
       "nombre": "Tesla",
       "grupo": "USA",
       "sector": "Consumer Cyclical",
+      "anios_cotizando": 16.0,
+      "recien_listada": false,
       "precio": 393.4500122070313,
       "fundamentales": {
         "pe": 357.68182,
         "pb": 17.968216,
         "roe": 0.04901,
+        "roa": 0.022330001,
         "deuda_equity": 0.18738,
         "margen_neto": 0.03946,
         "nombre_yf": "Tesla, Inc.",
@@ -4120,6 +4362,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +8%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -4161,12 +4407,13 @@
         "macd_senal": -3.2862371385787053,
         "macd_hist": 1.6513401593578503,
         "obv_pendiente": 22058500.0,
+        "divergencia_bajista": false,
         "max_precio": 489.8800048828125,
         "dist_ath": 0.8031558918212045,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.42,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 423.4,
@@ -4182,11 +4429,14 @@
       "nombre": "Netflix",
       "grupo": "USA",
       "sector": "Communication Services",
+      "anios_cotizando": 24.1,
+      "recien_listada": false,
       "precio": 77.6500015258789,
       "fundamentales": {
         "pe": 25.048388,
         "pb": 10.508864,
         "roe": 0.48494998,
+        "roa": 0.15402001,
         "deuda_equity": 0.5378799999999999,
         "margen_neto": 0.28521,
         "nombre_yf": "Netflix, Inc.",
@@ -4265,6 +4515,10 @@
         "recorrido": {
           "ok": true,
           "detalle": "recorrido al objetivo +47%"
+        },
+        "divergencia": {
+          "ok": true,
+          "detalle": "sin divergencia bajista de RSI"
         }
       },
       "detalle_emergente": {
@@ -4306,12 +4560,13 @@
         "macd_senal": -3.561386515326086,
         "macd_hist": 0.32955833613230245,
         "obv_pendiente": -81222300.0,
+        "divergencia_bajista": false,
         "max_precio": 133.91299438476562,
         "dist_ath": 0.5798541200771822,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 1.39,
-        "barras": 501
+        "barras": 1254
       },
       "target": {
         "mean": 113.94136,

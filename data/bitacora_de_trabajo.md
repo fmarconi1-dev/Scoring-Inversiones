@@ -9,3 +9,7 @@
   - `debtToEquity` de yfinance viene en % (150 = 1.5x); se normaliza dividiendo por 100.
   - Se emite `data.js` (`window.SCORING_DATA=...`) además del JSON, para que el HTML abra con doble clic sin servidor (evita CORS de file://).
 - **Falta:** bancos traen Deuda/Equity poco significativo; considerar excluir por sector.
+
+## 2026-07-04 · 5 años + metadatos
+- Historial extendido a 5y (mejor ATH y contexto). Cache renombrado a `{ticker}_hist5y.csv` (el rm no puede borrar en el mount de OneDrive).
+- `anios_cotizando()` lee `{ticker}_meta.json` (firstTradeDate capturado en el fetch). Agregado ROA a fundamentals.

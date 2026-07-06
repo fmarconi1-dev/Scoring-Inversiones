@@ -35,3 +35,14 @@
 
 ## 2026-07-04 · Confirmación de ruptura por volumen (v0.4.1)
 - Cambiada la regla de ruptura confirmada: antes exigía OBV en su máximo (muy estricto). Ahora: volumen del día >= 150% del promedio de las últimas 50 ruedas (config: ruptura_vol_factor=1.5, ruptura_vol_ventana=50). Se guarda `vol_ratio` y se muestra en el detalle de "Techo".
+
+## 2026-07-04 · Mejoras v0.5
+- Divergencia bajista de RSI: precio con máximo más alto y RSI con máximo más bajo → castigo `penal_divergencia` en el score técnico + señal en la ficha.
+- ROA para bancos: en sector financiero el peso del D/E (excluido) va a ROA (`umbrales_fundamentales.roa`). JPM/NU mejoran; GGAL sigue bajo por ROA real bajo.
+- Radar de nacientes: antigüedad en bolsa desde `history_metadata.firstTradeDate`; flag `recien_listada` (<3 años, config) + badge 🌱.
+- Precio vs. su historia: historial extendido a 5 años; `precio_pct_rango` (percentil en el rango) y `precio_vs_media` (% vs promedio). Columna "Rango" en Maduras/Otros + sección en la ficha. Mega-caps hoy caras vs. su historia (KO 100%, JPM 99,7%).
+
+## 2026-07-04 · Revert "precio vs su historia" (v0.5.1)
+- Se removió la métrica precio-vs-historia (columna "Rango" + sección en ficha + cálculos en technicals) por ser NOMINAL: mezcla inflación y deriva de ganancias. Ver docs/mejoras_pendientes.md para la versión correcta (P/E histórico).
+- Se mantienen: divergencia RSI, radar 🌱 (antigüedad), ROA en bancos, y el historial a 5 años (invisible, mejora el ATH del filtro de techo).
+- En la ficha queda solo la línea de "Antigüedad en bolsa" (parte del radar).

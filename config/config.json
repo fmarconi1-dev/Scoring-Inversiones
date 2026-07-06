@@ -224,7 +224,13 @@
     "sectores_deuda_equity_na": [
       "Financial Services"
     ],
-    "_nota_de": "En bancos y financieras el ratio Deuda/Equity de la fuente no es significativo (los depositos no son deuda de apalancamiento). Para esos sectores se excluye la metrica y se reponderan las restantes."
+    "_nota_de": "En bancos y financieras el ratio Deuda/Equity de la fuente no es significativo (los depositos no son deuda de apalancamiento). Para esos sectores se excluye la metrica y se reponderan las restantes.",
+    "roa": {
+      "excelente": 0.015,
+      "aceptable": 0.007,
+      "direccion": "mayor_mejor",
+      "_nota": "Para bancos/financieras se usa ROA en lugar del D/E (que no aplica)."
+    }
   },
   "umbrales_tecnicos": {
     "descripcion": "Cada senal aporta puntos al score tecnico (0-100).",
@@ -257,7 +263,8 @@
     "recorrido_min": 0.05,
     "_nota_techo": "Cercania a maximos penaliza salvo ruptura confirmada por volumen: precio en nuevo maximo Y volumen del dia >= ruptura_vol_factor x promedio de ruptura_vol_ventana ruedas.",
     "ruptura_vol_factor": 1.5,
-    "ruptura_vol_ventana": 50
+    "ruptura_vol_ventana": 50,
+    "penal_divergencia": 8
   },
   "clasificacion": {
     "corte_fundamental": 70,
@@ -265,7 +272,8 @@
     "min_metricas_fundamentales": 3,
     "corte_emergente": 70,
     "market_cap_max_emergente": 120000000000.0,
-    "_nota_emergente": "Emergente = naciente: se exige market cap por debajo del techo (captura empresas jovenes/chicas, no mega-caps de quality-growth)."
+    "_nota_emergente": "Emergente = naciente: se exige market cap por debajo del techo (captura empresas jovenes/chicas, no mega-caps de quality-growth).",
+    "recien_listada_anios": 3.0
   },
   "umbrales_emergente": {
     "descripcion": "Track para empresas nacientes de calidad. Otras metricas: crecimiento, margen bruto, Regla del 40, PEG, insiders, supervivencia (runway).",

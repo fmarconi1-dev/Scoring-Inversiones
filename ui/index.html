@@ -213,9 +213,11 @@ function empCell(e){
   const chg = e.cambio ? `<span class="chgtag" title="Pasó de ${e.cambio.desde} a ${e.cambio.hacia}">● cambió</span>` : "";
   const tr = e.tecnicos_raw||{};
   const techo = (tr.en_techo && !tr.ruptura_confirmada) ? `<span class="chgtag" style="color:var(--negative);background:rgba(239,68,68,.13)" title="En máximos sin confirmación de volumen: posible techo/doble techo">⚠ techo</span>` : "";
+  const div = tr.divergencia_bajista ? `<span class="chgtag" style="color:var(--negative);background:rgba(239,68,68,.13)" title="Divergencia bajista de RSI: el precio sube pero el momentum se debilita">⚠ div.RSI</span>` : "";
+  const reciente = e.recien_listada ? `<span class="chgtag" style="color:var(--teal);background:rgba(45,212,191,.13)" title="Cotiza hace poco (posible spinoff / IPO reciente) — radar de nacientes">🌱 ${e.anios_cotizando?e.anios_cotizando+'a':'reciente'}</span>` : "";
   return `<td class="l">
     <span class="tk"><a href="${YF(e)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Abrir ${e.ticker} en Yahoo Finance">${e.ticker}<span class="yh">${IC.ext.replace('<svg','<svg width=11 height=11')}</span></a>
-    <span class="grp ${e.grupo}">${e.grupo||""}</span>${chg}${techo}</span>
+    <span class="grp ${e.grupo}">${e.grupo||""}</span>${chg}${reciente}${techo}${div}</span>
     <div class="nm">${e.nombre||""}</div></td>`;
 }
 function fCell(e,k,fmt,sep){
@@ -393,7 +395,7 @@ const F_LABEL={pe:"P/E",pb:"P/B",roe:"ROE",deuda_equity:"Deuda/Equity",margen_ne
 const F_FMT={pe:v=>v.toFixed(1),pb:v=>v.toFixed(2),roe:pct0,deuda_equity:v=>v.toFixed(2),margen_neto:pct0};
 const E_LABEL={crecimiento:"Crecim. ingresos",margen_bruto:"Margen bruto",regla_40:"Regla del 40",valuacion:"Valuación",insiders:"Insiders",supervivencia:"Runway (años)"};
 const E_FMT={crecimiento:v=>(v*100).toFixed(0)+"%",margen_bruto:v=>(v*100).toFixed(0)+"%",regla_40:v=>v.toFixed(0),valuacion:v=>v.toFixed(2),insiders:v=>(v*100).toFixed(0)+"%",supervivencia:v=>v.toFixed(1)};
-const T_LABEL={precio_vs_mm200:"Precio vs MM200",cruce_mm50_200:"Cruce MM50/MM200",rsi:"RSI(14)",macd:"MACD",obv:"OBV (volumen)",techo:"Techo (cercanía a máximos)",recorrido:"Recorrido al objetivo"};
+const T_LABEL={precio_vs_mm200:"Precio vs MM200",cruce_mm50_200:"Cruce MM50/MM200",rsi:"RSI(14)",macd:"MACD",obv:"OBV (volumen)",techo:"Techo (cercanía a máximos)",recorrido:"Recorrido al objetivo",divergencia:"Divergencia RSI"};
 function flag(ok){return ok?`<span class="flag ok">${IC.check}</span>`:`<span class="flag bad">${IC.x}</span>`;}
 
 function openModal(i){
@@ -425,6 +427,8 @@ function openModal(i){
     return `<div class="metric"><span class="k">${T_LABEL[k]}</span><span class="v" style="color:var(--muted)">${d.detalle||""}${extra} ${flag(d.ok)}</span></div>`;
   }).join("");
 
+  const roaRow = (fd.roa && fd.roa.valor!=null) ? `<div class="metric"><span class="k">ROA (solvencia banca)</span><span class="v">${(fd.roa.valor*100).toFixed(2)}% ${flag(fd.roa.puntaje!=null&&fd.roa.puntaje>=0.6)}</span></div>` : "";
+  const antigRow = e.anios_cotizando ? `<div class="metric"><span class="k">Antigüedad en bolsa</span><span class="v">${e.anios_cotizando} años ${e.recien_listada?'· <span style="color:var(--teal)">🌱 reciente</span>':''}</span></div>` : "";
   const tg=e.target||{}; let targetHtml="";
   if(isNum(tg.mean)&&isNum(tg.actual)){
     const up=(tg.mean/tg.actual-1)*100; const upc=up>=0?"var(--positive)":"var(--negative)";
@@ -454,7 +458,7 @@ function openModal(i){
         <div class="card"><div class="t">Emergente</div><div class="n" style="color:${scoreColor(e.score_emergente,DATA.corte_emergente)}">${num(e.score_emergente,0)??"—"}</div></div>
       </div>
       ${targetHtml}
-      <div class="sectitle">Fundamentales (Buffett)</div>${fundRows}
+      <div class="sectitle">Fundamentales (Buffett)</div>${fundRows}${roaRow}${antigRow}
       <div class="sectitle">Emergente (calidad naciente)</div>${emerRows}
       <div class="sectitle">Señales técnicas</div>${tecRows}
       <div class="foot">Maduras: Fund ≥ ${DATA.corte_fundamental} y Téc ≥ ${DATA.corte_tecnico}. Emergente ≥ ${DATA.corte_emergente} con techo de tamaño y sin riesgo de liquidez. Target = consenso de analistas (yfinance). No es recomendación de inversión.</div>

@@ -10,7 +10,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(RAIZ))
 
 from config.config_loader import cargar_config            # noqa: E402
-from data.provider import obtener_historia, obtener_fundamentals  # noqa: E402
+from data.provider import obtener_historia, obtener_fundamentals, anios_cotizando  # noqa: E402
 from src.technicals import calcular_indicadores            # noqa: E402
 from src.scoring import score_fundamental, score_tecnico, score_emergente, clasificar  # noqa: E402
 
@@ -21,6 +21,8 @@ def procesar_ticker(item: dict, cfg: dict) -> dict:
     yf_sym = item["yf"]
     fund = obtener_fundamentals(yf_sym)
     hist = obtener_historia(yf_sym)
+    ant = anios_cotizando(yf_sym)
+    recien = ant is not None and ant <= cfg["clasificacion"].get("recien_listada_anios", 3.0)
     tec_ind = calcular_indicadores(hist, cfg["umbrales_tecnicos"])
 
     sf = score_fundamental(fund, cfg, sector=fund.get("sector"))
@@ -35,6 +37,8 @@ def procesar_ticker(item: dict, cfg: dict) -> dict:
         "nombre": item["nombre"],
         "grupo": item["grupo"],
         "sector": fund.get("sector"),
+        "anios_cotizando": ant,
+        "recien_listada": recien,
         "precio": tec_ind.get("precio"),
         "fundamentales": fund,
         "score_fundamental": sf["score"],

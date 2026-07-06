@@ -53,6 +53,16 @@ def score_fundamental(fund: dict, cfg: dict, sector: str | None = None) -> dict:
             acum += p * pesos[clave]
             peso_valido += pesos[clave]
             presentes += 1
+    # En financieras, el peso del D/E (excluido) va a ROA, que si es significativo en bancos
+    if excluir_de:
+        roa_val = fund.get("roa")
+        proa = _puntaje_metrica(roa_val, uf.get("roa", {"excelente": 0.015, "aceptable": 0.007, "direccion": "mayor_mejor"}))
+        detalle["roa"] = {"valor": roa_val, "puntaje": proa}
+        if proa is not None:
+            acum += proa * pesos["deuda_equity"]
+            peso_valido += pesos["deuda_equity"]
+            presentes += 1
+
     score = round(acum / peso_valido * 100, 1) if peso_valido > 0 else None
     return {"score": score, "metricas_presentes": presentes,
             "detalle": detalle, "de_excluida_sector": excluir_de}
@@ -139,6 +149,12 @@ def score_tecnico(tec: dict, cfg: dict, target_mean=None, precio=None) -> dict:
                 det["recorrido"] = {"ok": False, "detalle": f"poco recorrido al objetivo (+{up*100:.0f}%)"}
             else:
                 det["recorrido"] = {"ok": True, "detalle": f"recorrido al objetivo +{up*100:.0f}%"}
+        # 3) Divergencia bajista de RSI (momentum se debilita mientras el precio sube)
+        if tec.get("divergencia_bajista"):
+            score -= ct.get("penal_divergencia", 8)
+            det["divergencia"] = {"ok": False, "detalle": "divergencia bajista de RSI (precio sube, momentum baja)"}
+        else:
+            det["divergencia"] = {"ok": True, "detalle": "sin divergencia bajista de RSI"}
         score = max(0.0, round(score, 1))
 
     return {"score": score, "detalle": det}

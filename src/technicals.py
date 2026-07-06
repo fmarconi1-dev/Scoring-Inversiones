@@ -32,6 +32,27 @@ def obv(cierre: pd.Series, volumen: pd.Series) -> pd.Series:
     return (direccion * volumen).fillna(0).cumsum()
 
 
+def _divergencia_bajista(cierre: pd.Series, rsi_s: pd.Series, ventana: int = 70, sep: int = 5) -> bool:
+    """Precio hace un maximo mas alto pero el RSI hace un maximo mas bajo = divergencia bajista."""
+    c = cierre.dropna()
+    r = rsi_s.reindex(c.index)
+    if len(c) < ventana:
+        return False
+    c = c.tail(ventana); r = r.tail(ventana)
+    vals = c.values
+    picos = []
+    for i in range(sep, len(vals) - sep):
+        if vals[i] == max(vals[i - sep:i + sep + 1]):
+            if not picos or i - picos[-1] > sep:  # evita picos pegados
+                picos.append(i)
+    if len(picos) < 2:
+        return False
+    p1, p2 = picos[-2], picos[-1]  # anterior, reciente
+    precio_hh = vals[p2] > vals[p1]
+    rsi_lh = r.iloc[p2] is not None and r.iloc[p1] is not None and r.iloc[p2] < r.iloc[p1]
+    return bool(precio_hh and rsi_lh)
+
+
 def calcular_indicadores(hist: pd.DataFrame, cfg_tec: dict) -> dict:
     """Recibe un DataFrame con columnas Close y Volume. Devuelve el snapshot
     tecnico mas reciente. Si no hay historia suficiente, marca los faltantes en None."""
@@ -57,6 +78,8 @@ def calcular_indicadores(hist: pd.DataFrame, cfg_tec: dict) -> dict:
         v = s.dropna()
         return float(v.iloc[-1]) if len(v) else None
 
+    divergencia_bajista = _divergencia_bajista(cierre, rsi_s)
+
     obv_pendiente = None
     obv_valida = obv_s.dropna()
     if len(obv_valida) > obv_win:
@@ -64,7 +87,7 @@ def calcular_indicadores(hist: pd.DataFrame, cfg_tec: dict) -> dict:
 
     # --- Techo: cercania a maximos y ruptura confirmada por volumen ---
     precio_ult = float(cierre.iloc[-1])
-    max_precio = float(cierre.max())               # maximo del periodo (~2 anios)
+    max_precio = float(cierre.max())               # maximo del periodo (~5 anios), usado para el techo/ATH
     dist_ath = precio_ult / max_precio if max_precio else None
     # Confirmacion por volumen: volumen del dia >= factor x promedio de N ruedas
     fac = cfg_tec.get("ruptura_vol_factor", 1.5)
@@ -102,6 +125,7 @@ def calcular_indicadores(hist: pd.DataFrame, cfg_tec: dict) -> dict:
         "macd_senal": ult(senal),
         "macd_hist": ult(hist_macd),
         "obv_pendiente": obv_pendiente,
+        "divergencia_bajista": divergencia_bajista,
         "max_precio": max_precio,
         "dist_ath": dist_ath,
         "en_techo": en_techo,
