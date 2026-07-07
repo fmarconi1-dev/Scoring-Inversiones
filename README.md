@@ -4,7 +4,7 @@ Tablero web para monitorear acciones de EE.UU., el panel líder argentino (vía 
 
 - **Atractivas por Fundamentales** — value investing estilo Buffett (múltiplos: P/E, P/B, ROE, Deuda/Equity, márgenes).
 - **Atractivas por Técnico** — 5 indicadores combinados (MM200, cruce MM50/200, RSI, MACD, OBV).
-- **Triple Corona** — cumplen ambas condiciones a la vez.
+- **Consagrada** — cumplen ambas condiciones a la vez.
 
 ## Cómo se usa
 
@@ -43,7 +43,7 @@ Cada módulo tiene su `bitacora_de_trabajo.md`.
 | Deuda/Equity | < 0,5 | < 1 | | MACD > señal · 15 pts |
 | Margen neto | > 20% | > 10% | | OBV en alza · 15 pts |
 
-Clasificación: Fundamental ≥ 60 y/o Técnico ≥ 60. Triple Corona = ambos. Nunca se clasifica una empresa con menos de 3 métricas fundamentales disponibles.
+Clasificación: Fundamental ≥ 60 y/o Técnico ≥ 60. Consagrada = ambos. Nunca se clasifica una empresa con menos de 3 métricas fundamentales disponibles.
 
 ## Automatización (GitHub Actions + Pages)
 

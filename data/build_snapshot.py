@@ -37,6 +37,7 @@ def procesar_ticker(item: dict, cfg: dict) -> dict:
         "nombre": item["nombre"],
         "grupo": item["grupo"],
         "sector": fund.get("sector"),
+        "descripcion": fund.get("descripcion"),
         "anios_cotizando": ant,
         "recien_listada": recien,
         "precio": tec_ind.get("precio"),

@@ -185,6 +185,426 @@
       "yf": "NFLX",
       "nombre": "Netflix",
       "grupo": "USA"
+    },
+    {
+      "ticker": "CEG",
+      "yf": "CEG",
+      "nombre": "Constellation Energy",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "IONQ",
+      "yf": "IONQ",
+      "nombre": "IonQ",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AMD",
+      "yf": "AMD",
+      "nombre": "Advanced Micro Devices",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MU",
+      "yf": "MU",
+      "nombre": "Micron Technology",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ASML",
+      "yf": "ASML",
+      "nombre": "ASML (ADR)",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ARM",
+      "yf": "ARM",
+      "nombre": "Arm Holdings",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "PLTR",
+      "yf": "PLTR",
+      "nombre": "Palantir",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "CRWD",
+      "yf": "CRWD",
+      "nombre": "CrowdStrike",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "PANW",
+      "yf": "PANW",
+      "nombre": "Palo Alto Networks",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ORCL",
+      "yf": "ORCL",
+      "nombre": "Oracle",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NOW",
+      "yf": "NOW",
+      "nombre": "ServiceNow",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MA",
+      "yf": "MA",
+      "nombre": "Mastercard",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "COIN",
+      "yf": "COIN",
+      "nombre": "Coinbase",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SOFI",
+      "yf": "SOFI",
+      "nombre": "SoFi Technologies",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NVO",
+      "yf": "NVO",
+      "nombre": "Novo Nordisk (ADR)",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ISRG",
+      "yf": "ISRG",
+      "nombre": "Intuitive Surgical",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "LMT",
+      "yf": "LMT",
+      "nombre": "Lockheed Martin",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "GEV",
+      "yf": "GEV",
+      "nombre": "GE Vernova",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "VST",
+      "yf": "VST",
+      "nombre": "Vistra",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "BABA",
+      "yf": "BABA",
+      "nombre": "Alibaba (ADR)",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "QCOM",
+      "yf": "QCOM",
+      "nombre": "Qualcomm",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "TXN",
+      "yf": "TXN",
+      "nombre": "Texas Instruments",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "INTC",
+      "yf": "INTC",
+      "nombre": "Intel",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AMAT",
+      "yf": "AMAT",
+      "nombre": "Applied Materials",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "LRCX",
+      "yf": "LRCX",
+      "nombre": "Lam Research",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MRVL",
+      "yf": "MRVL",
+      "nombre": "Marvell",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "CRM",
+      "yf": "CRM",
+      "nombre": "Salesforce",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ADBE",
+      "yf": "ADBE",
+      "nombre": "Adobe",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "INTU",
+      "yf": "INTU",
+      "nombre": "Intuit",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SNOW",
+      "yf": "SNOW",
+      "nombre": "Snowflake",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SHOP",
+      "yf": "SHOP",
+      "nombre": "Shopify",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "DIS",
+      "yf": "DIS",
+      "nombre": "Disney",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ABNB",
+      "yf": "ABNB",
+      "nombre": "Airbnb",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "BKNG",
+      "yf": "BKNG",
+      "nombre": "Booking",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MCD",
+      "yf": "MCD",
+      "nombre": "McDonald's",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SBUX",
+      "yf": "SBUX",
+      "nombre": "Starbucks",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NKE",
+      "yf": "NKE",
+      "nombre": "Nike",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "HD",
+      "yf": "HD",
+      "nombre": "Home Depot",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "PG",
+      "yf": "PG",
+      "nombre": "Procter & Gamble",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "PEP",
+      "yf": "PEP",
+      "nombre": "PepsiCo",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "JNJ",
+      "yf": "JNJ",
+      "nombre": "Johnson & Johnson",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "ABBV",
+      "yf": "ABBV",
+      "nombre": "AbbVie",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MRK",
+      "yf": "MRK",
+      "nombre": "Merck",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "PFE",
+      "yf": "PFE",
+      "nombre": "Pfizer",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "TMO",
+      "yf": "TMO",
+      "nombre": "Thermo Fisher",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AMGN",
+      "yf": "AMGN",
+      "nombre": "Amgen",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "WFC",
+      "yf": "WFC",
+      "nombre": "Wells Fargo",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "GS",
+      "yf": "GS",
+      "nombre": "Goldman Sachs",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "MS",
+      "yf": "MS",
+      "nombre": "Morgan Stanley",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "AXP",
+      "yf": "AXP",
+      "nombre": "American Express",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "BLK",
+      "yf": "BLK",
+      "nombre": "BlackRock",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "CVX",
+      "yf": "CVX",
+      "nombre": "Chevron",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "COP",
+      "yf": "COP",
+      "nombre": "ConocoPhillips",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SLB",
+      "yf": "SLB",
+      "nombre": "Schlumberger",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NEE",
+      "yf": "NEE",
+      "nombre": "NextEra Energy",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "HON",
+      "yf": "HON",
+      "nombre": "Honeywell",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "RTX",
+      "yf": "RTX",
+      "nombre": "RTX (Raytheon)",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "NOC",
+      "yf": "NOC",
+      "nombre": "Northrop Grumman",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "DE",
+      "yf": "DE",
+      "nombre": "Deere",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "UNP",
+      "yf": "UNP",
+      "nombre": "Union Pacific",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "LIN",
+      "yf": "LIN",
+      "nombre": "Linde",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "GM",
+      "yf": "GM",
+      "nombre": "General Motors",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "PDD",
+      "yf": "PDD",
+      "nombre": "PDD Holdings",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "SE",
+      "yf": "SE",
+      "nombre": "Sea Ltd",
+      "grupo": "USA"
+    },
+    {
+      "ticker": "GLOB",
+      "yf": "GLOB",
+      "nombre": "Globant",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "BMA",
+      "yf": "BMA",
+      "nombre": "Banco Macro (ADR)",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "PAM",
+      "yf": "PAM",
+      "nombre": "Pampa Energia (ADR)",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "TGS",
+      "yf": "TGS",
+      "nombre": "Transportadora Gas Sur (ADR)",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "TX",
+      "yf": "TX",
+      "nombre": "Ternium (ADR)",
+      "grupo": "ARG"
+    },
+    {
+      "ticker": "MSTR",
+      "yf": "MSTR",
+      "nombre": "MicroStrategy",
+      "grupo": "USA"
     }
   ],
   "umbrales_fundamentales": {

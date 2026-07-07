@@ -129,6 +129,7 @@ def obtener_fundamentals(ticker: str) -> dict:
         "nombre_yf": info.get("shortName") or info.get("longName"),
         "sector": info.get("sector"),
         "market_cap": info.get("marketCap"),
+        "descripcion": info.get("longBusinessSummary"),
         # --- campos para el track Emergente ---
         "crecimiento": info.get("revenueGrowth"),
         "margen_bruto": _pos(info.get("grossMargins")),

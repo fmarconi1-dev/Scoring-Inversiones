@@ -9,3 +9,11 @@
 ## 2026-07-04 · Sectores sin D/E
 - **Qué:** agregado `umbrales_fundamentales.sectores_deuda_equity_na = ["Financial Services"]`.
 - **Por qué:** parametrizar qué sectores excluyen Deuda/Equity del score, sin hardcodear en la lógica.
+
+## 2026-07-06 · Universo a 50 + rename
+- Universo ampliado a 50 (agregadas 20: CEG, IONQ, AMD, MU, ASML, ARM, PLTR, CRWD, PANW, ORCL, NOW, MA, COIN, SOFI, NVO, ISRG, LMT, GEV, VST, BABA).
+- "Triple Corona" renombrada a "Consagradas" (solo etiqueta visible; la clave interna sigue siendo triple_corona_madura para no romper el tracking).
+
+## 2026-07-06 · Universo a 100
+- Agregadas 50 (semis, software, farma, financieras, energía, defensa, consumo, China y más LatAm: GLOB, BMA, PAM, TGS, TX). Total 100, 11 ARG.
+- Resultado: 4 Consagradas (JPM, QCOM, PAM, TGS), 10 Emergentes, 86 Otros.

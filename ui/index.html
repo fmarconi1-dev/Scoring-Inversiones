@@ -77,6 +77,8 @@
   .tk a:hover{color:var(--accent);border-color:var(--accent)}
   .tk .yh{color:var(--muted-2);display:inline-flex}
   .tk a:hover .yh{color:var(--accent)}
+  .tk a.yh{border-bottom:none;margin-left:4px}
+  .tk a.yh:hover{color:var(--accent)}
   .nm{color:var(--muted);font-size:11px;font-weight:400;margin-top:1px}
   .grp{font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;background:var(--surface-3);color:var(--muted)}
   .grp.ARG{color:#7DD3FC}
@@ -124,6 +126,7 @@
     border:1px solid var(--border);color:#93C5FD;padding:7px 13px;border-radius:9px;font-size:13px;font-weight:600;text-decoration:none;transition:all .16s}
   .yahoo:hover{border-color:var(--accent);color:var(--accent)}
   .mbody{padding:20px 24px 26px}
+  .desc{color:var(--muted);font-size:12.5px;line-height:1.55;margin-bottom:16px;max-height:160px;overflow-y:auto;padding-right:6px;border-left:2px solid var(--border-strong);padding-left:12px}
   .mscore{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:6px}
   .mscore .card{background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
   .mscore .card .t{color:var(--muted);font-size:11px;font-weight:500;margin-bottom:5px}
@@ -182,14 +185,15 @@ const IC = {
   ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>'
 };
 const SUB = {
-  triple_corona:{label:"Triple Corona", ico:IC.crown}, fundamental:{label:"Fundamental", ico:IC.gauge},
+  triple_corona:{label:"Consagrada", ico:IC.crown}, fundamental:{label:"Fundamental", ico:IC.gauge},
   tecnico:{label:"Técnico", ico:IC.wave}, ninguna:{label:"—", ico:IC.x}, error:{label:"Error", ico:IC.x}
 };
+const CATLAB={triple_corona_madura:"Consagradas",emergente_calidad:"Emergentes de Calidad",otros:"Otros"};
 const YF = e => `https://finance.yahoo.com/quote/${encodeURIComponent(e.yf || e.ticker)}`;
 
 const TABS = [
-  {k:"triple_corona_madura", label:"Triple Corona Maduras", cls:"t-madura", ico:IC.crown,
-   desc:"Calidad madura estilo Buffett + confirmación técnica: fundamental ≥ "+DATA.corte_fundamental+" y técnico ≥ "+DATA.corte_tecnico+"."},
+  {k:"triple_corona_madura", label:"Consagradas", cls:"t-madura", ico:IC.crown,
+   desc:"Calidad madura estilo Buffett + confirmación técnica: fundamental ≥ "+DATA.corte_fundamental+" y técnico ≥ "+DATA.corte_tecnico+". (Cumplen ambas doctrinas: las 'consagradas' del mercado.)"},
   {k:"emergente_calidad", label:"Emergentes de Calidad", cls:"t-emergente", ico:IC.sprout,
    desc:"Nacientes de calidad (score ≥ "+DATA.corte_emergente+"): crecimiento, margen bruto, Regla del 40, valuación, insiders y runway — con techo de tamaño y sin riesgo de liquidez."},
   {k:"otros", label:"Otros", cls:"t-otros", ico:IC.dots,
@@ -210,13 +214,13 @@ const tsig=(e,k)=>{const d=(e.detalle_tecnico||{})[k];return d?(d.ok?1:0):null;}
 const objVal=e=>{const t=e.target;return (t&&isNum(t.mean)&&isNum(t.actual))?(t.mean/t.actual-1):-Infinity;};
 
 function empCell(e){
-  const chg = e.cambio ? `<span class="chgtag" title="Pasó de ${e.cambio.desde} a ${e.cambio.hacia}">● cambió</span>` : "";
+  const chg = e.cambio ? `<span class="chgtag" title="Pasó de ${CATLAB[e.cambio.desde]||e.cambio.desde} a ${CATLAB[e.cambio.hacia]||e.cambio.hacia}">● cambió</span>` : "";
   const tr = e.tecnicos_raw||{};
   const techo = (tr.en_techo && !tr.ruptura_confirmada) ? `<span class="chgtag" style="color:var(--negative);background:rgba(239,68,68,.13)" title="En máximos sin confirmación de volumen: posible techo/doble techo">⚠ techo</span>` : "";
   const div = tr.divergencia_bajista ? `<span class="chgtag" style="color:var(--negative);background:rgba(239,68,68,.13)" title="Divergencia bajista de RSI: el precio sube pero el momentum se debilita">⚠ div.RSI</span>` : "";
   const reciente = e.recien_listada ? `<span class="chgtag" style="color:var(--teal);background:rgba(45,212,191,.13)" title="Cotiza hace poco (posible spinoff / IPO reciente) — radar de nacientes">🌱 ${e.anios_cotizando?e.anios_cotizando+'a':'reciente'}</span>` : "";
   return `<td class="l">
-    <span class="tk"><a href="${YF(e)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Abrir ${e.ticker} en Yahoo Finance">${e.ticker}<span class="yh">${IC.ext.replace('<svg','<svg width=11 height=11')}</span></a>
+    <span class="tk">${e.ticker}<a href="${YF(e)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="yh" title="Abrir ${e.ticker} en Yahoo Finance">${IC.ext.replace('<svg','<svg width=11 height=11')}</a>
     <span class="grp ${e.grupo}">${e.grupo||""}</span>${chg}${reciente}${techo}${div}</span>
     <div class="nm">${e.nombre||""}</div></td>`;
 }
@@ -439,7 +443,7 @@ function openModal(i){
   }
   const catColor = catInfo.k==='emergente_calidad'?'var(--teal)':(catInfo.k==='triple_corona_madura'?'var(--gold)':'var(--muted)');
   const catBg = catInfo.k==='emergente_calidad'?'rgba(45,212,191,.15)':(catInfo.k==='triple_corona_madura'?'rgba(251,191,36,.15)':'var(--surface-3)');
-  const chgHtml = e.cambio ? `<div style="margin-bottom:12px;color:var(--warning);font-size:12.5px">● Cambió de categoría: <b>${e.cambio.desde}</b> → <b>${e.cambio.hacia}</b></div>` : "";
+  const chgHtml = e.cambio ? `<div style="margin-bottom:12px;color:var(--warning);font-size:12.5px">● Cambió de categoría: <b>${CATLAB[e.cambio.desde]||e.cambio.desde}</b> → <b>${CATLAB[e.cambio.hacia]||e.cambio.hacia}</b></div>` : "";
 
   document.getElementById("modal").innerHTML=`
     <div class="mhead"><div class="row1">
@@ -450,6 +454,7 @@ function openModal(i){
       </div><button class="close" onclick="closeModal()">×</button>
     </div></div>
     <div class="mbody">
+      ${e.descripcion?`<div class="desc">${e.descripcion}</div>`:''}
       <div style="margin-bottom:14px"><span class="badge" style="background:${catBg};color:${catColor}">${catInfo.ico}${catInfo.label}</span></div>
       ${chgHtml}
       <div class="mscore">
@@ -461,7 +466,7 @@ function openModal(i){
       <div class="sectitle">Fundamentales (Buffett)</div>${fundRows}${roaRow}${antigRow}
       <div class="sectitle">Emergente (calidad naciente)</div>${emerRows}
       <div class="sectitle">Señales técnicas</div>${tecRows}
-      <div class="foot">Maduras: Fund ≥ ${DATA.corte_fundamental} y Téc ≥ ${DATA.corte_tecnico}. Emergente ≥ ${DATA.corte_emergente} con techo de tamaño y sin riesgo de liquidez. Target = consenso de analistas (yfinance). No es recomendación de inversión.</div>
+      <div class="foot">Consagradas: Fund ≥ ${DATA.corte_fundamental} y Téc ≥ ${DATA.corte_tecnico}. Emergente ≥ ${DATA.corte_emergente} con techo de tamaño y sin riesgo de liquidez. Target = consenso de analistas (yfinance). No es recomendación de inversión.</div>
     </div>`;
   document.getElementById("overlay").classList.add("open");
 }
@@ -473,7 +478,7 @@ document.getElementById("search").oninput=ev=>{state.q=ev.target.value; render()
 const cambios=DATA.cambios||[];
 if(cambios.length){
   const b=document.getElementById("banner"); b.style.display="block";
-  b.innerHTML = `Cambios desde la última actualización: `+cambios.map(c=>`<b>${c.ticker}</b> (${c.desde}→${c.hacia})`).join(" · ");
+  b.innerHTML = `Cambios desde la última actualización: `+cambios.map(c=>`<b>${c.ticker}</b> (${CATLAB[c.desde]||c.desde} → ${CATLAB[c.hacia]||c.hacia})`).join(" · ");
 }
 document.getElementById("meta").innerHTML=`Actualizado <b>${DATA.generado}</b> · ${DATA.empresas.length} activos · yfinance (EOD) · click en el ticker abre Yahoo Finance`;
 document.getElementById("foot").innerHTML=`Modelo v0.3 · dos doctrinas (madura Buffett / naciente de calidad) · umbrales ${DATA.corte_fundamental}/${DATA.corte_tecnico}/${DATA.corte_emergente} · "Obj." = potencial vs. objetivo de analistas · verde = cumple. No es recomendación de inversión.`;
