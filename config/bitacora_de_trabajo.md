@@ -17,3 +17,9 @@
 ## 2026-07-06 · Universo a 100
 - Agregadas 50 (semis, software, farma, financieras, energía, defensa, consumo, China y más LatAm: GLOB, BMA, PAM, TGS, TX). Total 100, 11 ARG.
 - Resultado: 4 Consagradas (JPM, QCOM, PAM, TGS), 10 Emergentes, 86 Otros.
+
+## 2026-07-17 · Corrección de grupo: NU y SATL
+- NU (Nu Holdings) pasa de ARG a USA: es brasilera y cotiza en bolsa de EE.UU., no es un ADR argentino.
+- SATL (Satellogic) pasa de ARG a USA: compañía estadounidense (fundada/liderada por un argentino, pero no ADR argentino).
+- `grupo` es solo etiqueta de presentación (no afecta scores). Quedan 9 ARG en el universo.
+- Pedido por Franco desde la superapp (Fase 2, tablero embebido).
