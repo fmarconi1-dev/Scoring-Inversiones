@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-04 23:46",
+  "generado": "2026-09-08 00:01",
   "corte_fundamental": 70,
   "corte_tecnico": 70,
   "corte_emergente": 70,
@@ -32,7 +32,7 @@
         "caja": 8042100224,
         "deuda_total": 10195300352,
         "insiders": 0.03411,
-        "peg": 0.4831,
+        "peg": 0.4996,
         "ps": 45.417534,
         "target_mean": 286.6875,
         "target_high": 415.0,
@@ -122,7 +122,7 @@
           "puntaje": 0.1822
         },
         "valuacion": {
-          "valor": 0.4831,
+          "valor": 0.4996,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -142,7 +142,7 @@
         "macd": -0.8515235454792105,
         "macd_senal": 0.5132018881041989,
         "macd_hist": -1.3647254335834094,
-        "obv_pendiente": -75077124.0,
+        "obv_pendiente": -74990700.0,
         "divergencia_bajista": false,
         "max_precio": 286.69000244140625,
         "dist_ath": 0.7896682739605406,
@@ -175,7 +175,7 @@
       "precio": 44.36000061035156,
       "fundamentales": {
         "pe": 126.74286,
-        "pb": 11.721166,
+        "pb": 11.684653,
         "roe": 0.010930001,
         "roa": 0.002,
         "deuda_equity": null,
@@ -213,7 +213,7 @@
           "puntaje": 0.0
         },
         "pb": {
-          "valor": 11.721166,
+          "valor": 11.684653,
           "puntaje": 0.0
         },
         "roe": {
@@ -300,20 +300,20 @@
       "tecnicos_raw": {
         "precio": 44.36000061035156,
         "mm50": 47.50117225646973,
-        "mm200": 47.41427436828613,
+        "mm200": 47.41427442550659,
         "dias_cruce": 68,
         "cruce_tipo": "golden",
-        "rsi": 47.299260983429875,
-        "macd": -0.8942179544791529,
-        "macd_senal": -1.336568426829148,
-        "macd_hist": 0.44235047234999514,
-        "obv_pendiente": -1605970.0,
+        "rsi": 47.29926098569497,
+        "macd": -0.894217954517444,
+        "macd_senal": -1.3365684268850686,
+        "macd_hist": 0.4423504723676246,
+        "obv_pendiente": -1619800.0,
         "divergencia_bajista": false,
-        "max_precio": 68.37448120117188,
-        "dist_ath": 0.6487800686901778,
+        "max_precio": 68.37446594238281,
+        "dist_ath": 0.6487802134751949,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.52,
+        "vol_ratio": 0.53,
         "barras": 1255
       },
       "target": {
@@ -354,9 +354,9 @@
         "insiders": 0.11638,
         "peg": null,
         "ps": 2.3136342,
-        "target_mean": 98.95505,
-        "target_high": 123.826744,
-        "target_low": 82.360855,
+        "target_mean": 98.67536,
+        "target_high": 123.47675,
+        "target_low": 82.12807,
         "precio_actual": 73.73,
         "n_analistas": 12
       },
@@ -462,19 +462,19 @@
         "macd": 1.8939350528416128,
         "macd_senal": 1.3653650444956094,
         "macd_hist": 0.5285700083460034,
-        "obv_pendiente": 2011633.0,
+        "obv_pendiente": 2005000.0,
         "divergencia_bajista": false,
         "max_precio": 79.25,
         "dist_ath": 0.9303470455133577,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.72,
+        "vol_ratio": 0.73,
         "barras": 1255
       },
       "target": {
-        "mean": 98.95505,
-        "high": 123.826744,
-        "low": 82.360855,
+        "mean": 98.67536,
+        "high": 123.47675,
+        "low": 82.12807,
         "actual": 73.73,
         "n": 12
       },
@@ -621,7 +621,7 @@
         "macd": 0.6646259729714927,
         "macd_senal": 0.4408335967326191,
         "macd_hist": 0.2237923762388736,
-        "obv_pendiente": 4326283.0,
+        "obv_pendiente": 4327600.0,
         "divergencia_bajista": true,
         "max_precio": 56.349998474121094,
         "dist_ath": 0.9338065724358565,
@@ -653,7 +653,7 @@
       "recien_listada": false,
       "precio": 1978.3599853515625,
       "fundamentales": {
-        "pe": 53.71599,
+        "pe": 53.759785,
         "pb": 12.802682,
         "roe": 0.27504,
         "roa": 0.0431,
@@ -670,7 +670,7 @@
         "caja": 5744999936,
         "deuda_total": 13207000064,
         "insiders": 0.06962,
-        "peg": 0.9732,
+        "peg": 0.9656,
         "ps": 2.850791,
         "target_mean": 2264.875,
         "target_high": 2800.0,
@@ -688,7 +688,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 53.71599,
+          "valor": 53.759785,
           "puntaje": 0.0
         },
         "pb": {
@@ -760,7 +760,7 @@
           "puntaje": 0.5981
         },
         "valuacion": {
-          "valor": 0.9732,
+          "valor": 0.9656,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -780,7 +780,7 @@
         "macd": 40.62456706669832,
         "macd_senal": 36.21743579050237,
         "macd_hist": 4.407131276195948,
-        "obv_pendiente": 1204122.0,
+        "obv_pendiente": 1203700.0,
         "divergencia_bajista": false,
         "max_precio": 2613.6298828125,
         "dist_ath": 0.756939610448083,
@@ -825,7 +825,7 @@
         "caja": 15170837504,
         "deuda_total": 5896687104,
         "insiders": 0.02029,
-        "peg": 0.7093,
+        "peg": 0.7222,
         "ps": 8.794964,
         "target_mean": 18.78182,
         "target_high": 23.0,
@@ -921,7 +921,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.7093,
+          "valor": 0.7222,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -941,7 +941,7 @@
         "macd": 0.31167471509679423,
         "macd_senal": 0.2475286453979538,
         "macd_hist": 0.06414606969884043,
-        "obv_pendiente": 237395274.0,
+        "obv_pendiente": 237391700.0,
         "divergencia_bajista": false,
         "max_precio": 18.760000228881836,
         "dist_ath": 0.8192963591704172,
@@ -974,7 +974,7 @@
       "precio": 4.639999866485596,
       "fundamentales": {
         "pe": null,
-        "pb": 10.403587,
+        "pb": 21.090908,
         "roe": null,
         "roa": -0.09864,
         "deuda_equity": 2.84771,
@@ -1012,7 +1012,7 @@
           "puntaje": null
         },
         "pb": {
-          "valor": 10.403587,
+          "valor": 21.090908,
           "puntaje": 0.0
         },
         "roe": {
@@ -1100,7 +1100,7 @@
         "macd": -0.06388449749252167,
         "macd_senal": 0.049513559359060204,
         "macd_hist": -0.11339805685158189,
-        "obv_pendiente": -15709981.0,
+        "obv_pendiente": -15706200.0,
         "divergencia_bajista": false,
         "max_precio": 12.329999923706055,
         "dist_ath": 0.37631791526329067,
@@ -1128,7 +1128,7 @@
       "recien_listada": false,
       "precio": 397.1400146484375,
       "fundamentales": {
-        "pe": 25.523136,
+        "pe": 25.506744,
         "pb": 3.6508217,
         "roe": 0.14152999,
         "roa": 0.04871,
@@ -1145,7 +1145,7 @@
         "caja": 31467999232,
         "deuda_total": 73328001024,
         "insiders": 0.00248,
-        "peg": 1.0857,
+        "peg": 1.0892,
         "ps": 0.7912325,
         "target_mean": 475.23077,
         "target_high": 529.0,
@@ -1155,7 +1155,7 @@
       },
       "score_fundamental": 40.9,
       "score_tecnico": 85.0,
-      "score_emergente": 26.8,
+      "score_emergente": 26.7,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -1163,8 +1163,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 25.523136,
-          "puntaje": 0.47384319999999996
+          "valor": 25.506744,
+          "puntaje": 0.47466279999999994
         },
         "pb": {
           "valor": 3.6508217,
@@ -1235,8 +1235,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.0857,
-          "puntaje": 0.9464374999999999,
+          "valor": 1.0892,
+          "puntaje": 0.94425,
           "base": "PEG"
         },
         "supervivencia": {
@@ -1248,20 +1248,20 @@
       "tecnicos_raw": {
         "precio": 397.1400146484375,
         "mm50": 411.73839904785154,
-        "mm200": 349.1392237854004,
+        "mm200": 349.13922286987304,
         "dias_cruce": 78,
         "cruce_tipo": "golden",
-        "rsi": 46.82084738348523,
-        "macd": -3.4746843139816974,
-        "macd_senal": -4.611747715423924,
-        "macd_hist": 1.1370634014422265,
-        "obv_pendiente": -10021351.0,
+        "rsi": 46.82084738355204,
+        "macd": -3.474684313796274,
+        "macd_senal": -4.611747715151215,
+        "macd_hist": 1.1370634013549408,
+        "obv_pendiente": -10760400.0,
         "divergencia_bajista": false,
         "max_precio": 599.775634765625,
         "dist_ath": 0.6621476292607791,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.98,
+        "vol_ratio": 1.12,
         "barras": 1255
       },
       "target": {
@@ -1300,7 +1300,7 @@
         "caja": 62469001216,
         "deuda_total": 38860001280,
         "insiders": 0.04007,
-        "peg": 0.5745,
+        "peg": 0.5849,
         "ps": 18.359913,
         "target_mean": 327.12808,
         "target_high": 515.0,
@@ -1361,7 +1361,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 1.01x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 1.03x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": true,
@@ -1390,7 +1390,7 @@
           "puntaje": 0.3014
         },
         "valuacion": {
-          "valor": 0.5745,
+          "valor": 0.5849,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -1403,20 +1403,20 @@
       "tecnicos_raw": {
         "precio": 230.36000061035156,
         "mm50": 210.56639953613282,
-        "mm200": 196.5254197692871,
+        "mm200": 196.52541999816896,
         "dias_cruce": 299,
         "cruce_tipo": "golden",
-        "rsi": 60.3929624108718,
-        "macd": 3.8329017110752943,
-        "macd_senal": 2.9965326741420863,
-        "macd_hist": 0.836369036933208,
-        "obv_pendiente": -220127683.0,
+        "rsi": 60.392962410042266,
+        "macd": 3.832901710984004,
+        "macd_senal": 2.996532674007859,
+        "macd_hist": 0.8363690369761447,
+        "obv_pendiente": -217385600.0,
         "divergencia_bajista": false,
         "max_precio": 235.465576171875,
         "dist_ath": 0.9783171041621953,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.01,
+        "vol_ratio": 1.03,
         "barras": 1255
       },
       "target": {
@@ -1438,7 +1438,7 @@
       "recien_listada": false,
       "precio": 338.4599914550781,
       "fundamentales": {
-        "pe": 16.982437,
+        "pe": 16.97392,
         "pb": 6.650031,
         "roe": 0.48676,
         "roa": 0.12958999,
@@ -1455,7 +1455,7 @@
         "caja": 242473992192,
         "deuda_total": 120790999040,
         "insiders": 0.01596,
-        "peg": 1.2465,
+        "peg": 1.2663,
         "ps": 9.28383,
         "target_mean": 428.06668,
         "target_high": 515.0,
@@ -1465,7 +1465,7 @@
       },
       "score_fundamental": 79.8,
       "score_tecnico": 70.0,
-      "score_emergente": 73.1,
+      "score_emergente": 72.9,
       "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
@@ -1473,8 +1473,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 16.982437,
-          "puntaje": 0.9008781499999999
+          "valor": 16.97392,
+          "puntaje": 0.901304
         },
         "pb": {
           "valor": 6.650031,
@@ -1545,8 +1545,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.2465,
-          "puntaje": 0.8459375,
+          "valor": 1.2663,
+          "puntaje": 0.8335625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -1557,21 +1557,21 @@
       },
       "tecnicos_raw": {
         "precio": 338.4599914550781,
-        "mm50": 348.56939880371095,
-        "mm200": 335.7108511352539,
+        "mm50": 348.34984008789064,
+        "mm200": 335.4962911987305,
         "dias_cruce": 282,
         "cruce_tipo": "golden",
-        "rsi": 44.82251063179678,
-        "macd": -2.9814836374570177,
-        "macd_senal": -2.5927940116701245,
-        "macd_hist": -0.38868962578689326,
-        "obv_pendiente": -59219290.0,
+        "rsi": 44.97250667327558,
+        "macd": -2.96222549492569,
+        "macd_senal": -2.587660000013801,
+        "macd_hist": -0.37456549491188884,
+        "obv_pendiente": -61535000.0,
         "divergencia_bajista": false,
-        "max_precio": 402.3796691894531,
-        "dist_ath": 0.8411458564416693,
+        "max_precio": 402.1211853027344,
+        "dist_ath": 0.8416865458114838,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.72,
+        "vol_ratio": 0.8,
         "barras": 1255
       },
       "target": {
@@ -1598,7 +1598,7 @@
       "precio": 428.9100036621094,
       "fundamentales": {
         "pe": 31.841871,
-        "pb": 88.28834,
+        "pb": 87.77295,
         "roe": 0.39969003,
         "roa": 0.19002001,
         "deuda_equity": 0.16504000000000002,
@@ -1614,7 +1614,7 @@
         "caja": 3518010228736,
         "deuda_total": 1068558516224,
         "insiders": 0.00013,
-        "peg": 0.7876,
+        "peg": 0.7906,
         "ps": 0.5009649,
         "target_mean": 552.3783,
         "target_high": 700.0,
@@ -1636,7 +1636,7 @@
           "puntaje": 0.15790644999999992
         },
         "pb": {
-          "valor": 88.28834,
+          "valor": 87.77295,
           "puntaje": 0.0
         },
         "roe": {
@@ -1704,7 +1704,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.7876,
+          "valor": 0.7906,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -1720,11 +1720,11 @@
         "mm200": 371.8296597290039,
         "dias_cruce": 301,
         "cruce_tipo": "golden",
-        "rsi": 56.777129680586654,
+        "rsi": 56.77712968058658,
         "macd": 0.6240619666234579,
-        "macd_senal": 0.04275995134597946,
-        "macd_hist": 0.5813020152774785,
-        "obv_pendiente": 35184858.0,
+        "macd_senal": 0.04275995134597958,
+        "macd_hist": 0.5813020152774784,
+        "obv_pendiente": 35193400.0,
         "divergencia_bajista": false,
         "max_precio": 477.57000732421875,
         "dist_ath": 0.8981091716065945,
@@ -1769,7 +1769,7 @@
         "caja": 5391000064,
         "deuda_total": 14730999808,
         "insiders": 0.002,
-        "peg": 6.3786,
+        "peg": 6.4397,
         "ps": 2.8019693,
         "target_mean": 101.80979,
         "target_high": 150.0,
@@ -1859,7 +1859,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 6.3786,
+          "valor": 6.4397,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -1879,13 +1879,13 @@
         "macd": 0.7648740889482184,
         "macd_senal": 1.180003442808733,
         "macd_hist": -0.4151293538605145,
-        "obv_pendiente": 28451878.0,
+        "obv_pendiente": 28175600.0,
         "divergencia_bajista": false,
         "max_precio": 100.0999984741211,
         "dist_ath": 0.7568431897210942,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.76,
+        "vol_ratio": 0.78,
         "barras": 1255
       },
       "target": {
@@ -2026,13 +2026,13 @@
         "macd": 3.3442152443678594,
         "macd_senal": 2.214390403232228,
         "macd_hist": 1.1298248411356315,
-        "obv_pendiente": 122754998.0,
+        "obv_pendiente": 122615500.0,
         "divergencia_bajista": false,
         "max_precio": 211.38999938964844,
         "dist_ath": 0.6998911839510945,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.53,
+        "vol_ratio": 0.54,
         "barras": 59
       },
       "target": {
@@ -2071,7 +2071,7 @@
         "caja": 19295000576,
         "deuda_total": 48362000384,
         "insiders": 0.00057,
-        "peg": 1.5015,
+        "peg": 1.5133,
         "ps": 1.7847337,
         "target_mean": 274.84616,
         "target_high": 305.0,
@@ -2081,7 +2081,7 @@
       },
       "score_fundamental": 28.0,
       "score_tecnico": 20.0,
-      "score_emergente": 24.6,
+      "score_emergente": 24.5,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -2161,8 +2161,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.5015,
-          "puntaje": 0.6865625,
+          "valor": 1.5133,
+          "puntaje": 0.6791874999999999,
           "base": "PEG"
         },
         "supervivencia": {
@@ -2181,7 +2181,7 @@
         "macd": -3.813399314329388,
         "macd_senal": -3.039151403175734,
         "macd_hist": -0.7742479111536538,
-        "obv_pendiente": -34196729.0,
+        "obv_pendiente": -34187500.0,
         "divergencia_bajista": false,
         "max_precio": 264.2699890136719,
         "dist_ath": 0.8031558967106907,
@@ -2209,7 +2209,7 @@
       "recien_listada": false,
       "precio": 319.9700012207031,
       "fundamentales": {
-        "pe": 36.65178,
+        "pe": 36.60984,
         "pb": 43.474186,
         "roe": 1.4875101,
         "roa": 0.27082002,
@@ -2226,7 +2226,7 @@
         "caja": 62399000576,
         "deuda_total": 84343996416,
         "insiders": 0.01648,
-        "peg": 2.5546,
+        "peg": 2.5802,
         "ps": 10.003149,
         "target_mean": 323.85947,
         "target_high": 400.0,
@@ -2236,7 +2236,7 @@
       },
       "score_fundamental": 55.4,
       "score_tecnico": 95.0,
-      "score_emergente": 54.3,
+      "score_emergente": 54.1,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -2244,7 +2244,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 36.65178,
+          "valor": 36.60984,
           "puntaje": 0.0
         },
         "pb": {
@@ -2316,8 +2316,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.5546,
-          "puntaje": 0.028374999999999928,
+          "valor": 2.5802,
+          "puntaje": 0.012375000000000025,
           "base": "PEG"
         },
         "supervivencia": {
@@ -2329,20 +2329,20 @@
       "tecnicos_raw": {
         "precio": 319.9700012207031,
         "mm50": 314.9877679443359,
-        "mm200": 283.4390249633789,
+        "mm200": 283.43902534484863,
         "dias_cruce": 245,
         "cruce_tipo": "golden",
-        "rsi": 53.9532055195093,
-        "macd": 2.6417465805325264,
-        "macd_senal": 1.0921502505940968,
-        "macd_hist": 1.5495963299384297,
-        "obv_pendiente": 13554679.0,
+        "rsi": 53.95320551925741,
+        "macd": 2.6417465804794915,
+        "macd_senal": 1.092150250516077,
+        "macd_hist": 1.5495963299634146,
+        "obv_pendiente": 12275700.0,
         "divergencia_bajista": false,
         "max_precio": 339.78692626953125,
         "dist_ath": 0.9416783768981487,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.72,
+        "vol_ratio": 0.74,
         "barras": 1255
       },
       "target": {
@@ -2364,7 +2364,7 @@
       "recien_listada": false,
       "precio": 499.70001220703125,
       "fundamentales": {
-        "pe": 27.822943,
+        "pe": 27.853958,
         "pb": 8.389155,
         "roe": 0.34039003,
         "roa": 0.14088,
@@ -2381,7 +2381,7 @@
         "caja": 76842999808,
         "deuda_total": 128812998656,
         "insiders": 0.00091,
-        "peg": 1.6402,
+        "peg": 1.6566,
         "ps": 11.181764,
         "target_mean": 572.91516,
         "target_high": 870.0,
@@ -2391,7 +2391,7 @@
       },
       "score_fundamental": 67.9,
       "score_tecnico": 77.0,
-      "score_emergente": 61.6,
+      "score_emergente": 61.4,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -2399,8 +2399,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 27.822943,
-          "puntaje": 0.35885285000000006
+          "valor": 27.853958,
+          "puntaje": 0.35730210000000007
         },
         "pb": {
           "valor": 8.389155,
@@ -2471,8 +2471,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.6402,
-          "puntaje": 0.5998749999999999,
+          "valor": 1.6566,
+          "puntaje": 0.589625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -2484,20 +2484,20 @@
       "tecnicos_raw": {
         "precio": 499.70001220703125,
         "mm50": 443.56208435058596,
-        "mm200": 429.37291397094725,
+        "mm200": 429.3729151916504,
         "dias_cruce": 5,
         "cruce_tipo": "golden",
-        "rsi": 59.597529159035886,
-        "macd": 15.483375357119655,
-        "macd_senal": 17.838936496370067,
-        "macd_hist": -2.355561139250412,
-        "obv_pendiente": 61381700.0,
+        "rsi": 59.59752915893191,
+        "macd": 15.483375356963847,
+        "macd_senal": 17.838936496141,
+        "macd_hist": -2.3555611391771514,
+        "obv_pendiente": 60744300.0,
         "divergencia_bajista": true,
-        "max_precio": 537.6463623046875,
-        "dist_ath": 0.9294213580558891,
+        "max_precio": 537.6464233398438,
+        "dist_ath": 0.9294212525453243,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.49,
+        "vol_ratio": 0.51,
         "barras": 1255
       },
       "target": {
@@ -2536,7 +2536,7 @@
         "caja": 122988003328,
         "deuda_total": 251635007488,
         "insiders": 0.08866,
-        "peg": 1.4922,
+        "peg": 1.5151,
         "ps": 3.5947423,
         "target_mean": 328.1707,
         "target_high": 405.0,
@@ -2546,7 +2546,7 @@
       },
       "score_fundamental": 73.6,
       "score_tecnico": 70.0,
-      "score_emergente": 69.3,
+      "score_emergente": 69.1,
       "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
@@ -2626,8 +2626,8 @@
           "puntaje": 0.6933
         },
         "valuacion": {
-          "valor": 1.4922,
-          "puntaje": 0.692375,
+          "valor": 1.5151,
+          "puntaje": 0.6780625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -2646,13 +2646,13 @@
         "macd": 0.33922038001259125,
         "macd_senal": 1.5186607989261933,
         "macd_hist": -1.179440418913602,
-        "obv_pendiente": -253171155.0,
+        "obv_pendiente": -253900500.0,
         "divergencia_bajista": false,
         "max_precio": 284.0199890136719,
         "dist_ath": 0.9101824511132598,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.64,
+        "vol_ratio": 0.66,
         "barras": 1255
       },
       "target": {
@@ -2678,7 +2678,7 @@
       "recien_listada": false,
       "precio": 616.77001953125,
       "fundamentales": {
-        "pe": 23.221764,
+        "pe": 23.256788,
         "pb": 6.0160947,
         "roe": 0.29848,
         "roa": 0.14591,
@@ -2703,7 +2703,7 @@
         "precio_actual": 616.77,
         "n_analistas": 57
       },
-      "score_fundamental": 73.0,
+      "score_fundamental": 72.9,
       "score_tecnico": 50.0,
       "score_emergente": 80.2,
       "metricas_fund_presentes": 5,
@@ -2713,8 +2713,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 23.221764,
-          "puntaje": 0.5889118
+          "valor": 23.256788,
+          "puntaje": 0.5871606
         },
         "pb": {
           "valor": 6.0160947,
@@ -2798,20 +2798,20 @@
       "tecnicos_raw": {
         "precio": 616.77001953125,
         "mm50": 595.4915954589844,
-        "mm200": 621.6066772460938,
+        "mm200": 621.6066757202149,
         "dias_cruce": 184,
         "cruce_tipo": "death",
-        "rsi": 62.39819072525564,
-        "macd": 1.9060648986417164,
-        "macd_senal": -4.960858591438445,
-        "macd_hist": 6.866923490080161,
-        "obv_pendiente": 96406373.0,
+        "rsi": 62.398190727317804,
+        "macd": 1.9060648994093299,
+        "macd_senal": -4.960858590309666,
+        "macd_hist": 6.866923489718996,
+        "obv_pendiente": 96603100.0,
         "divergencia_bajista": false,
         "max_precio": 787.419189453125,
         "dist_ath": 0.7832804023478351,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.87,
+        "vol_ratio": 0.88,
         "barras": 1255
       },
       "target": {
@@ -2833,7 +2833,7 @@
       "recien_listada": false,
       "precio": 506.0299987792969,
       "fundamentales": {
-        "pe": 12.717517,
+        "pe": 12.723912,
         "pb": null,
         "roe": 0.121199995,
         "roa": 0.060100004,
@@ -2868,7 +2868,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 12.717517,
+          "valor": 12.723912,
           "puntaje": 1.0
         },
         "pb": {
@@ -2966,7 +2966,7 @@
         "macd": 0.3101468802782392,
         "macd_senal": 0.3321301683033158,
         "macd_hist": -0.021983288025076597,
-        "obv_pendiente": -26159717.0,
+        "obv_pendiente": -26164100.0,
         "divergencia_bajista": false,
         "max_precio": 539.7999877929688,
         "dist_ath": 0.9374398114536012,
@@ -3015,7 +3015,7 @@
         "caja": 1526419030016,
         "deuda_total": 1343306989568,
         "insiders": 0.00391,
-        "peg": 1.6565,
+        "peg": 1.6837,
         "ps": 5.116418,
         "target_mean": 374.57144,
         "target_high": 420.0,
@@ -3025,7 +3025,7 @@
       },
       "score_fundamental": 84.8,
       "score_tecnico": 50.0,
-      "score_emergente": 63.3,
+      "score_emergente": 63.0,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "fundamental",
@@ -3111,8 +3111,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.6565,
-          "puntaje": 0.5896874999999999,
+          "valor": 1.6837,
+          "puntaje": 0.5726875,
           "base": "PEG"
         },
         "supervivencia": {
@@ -3124,14 +3124,14 @@
       "tecnicos_raw": {
         "precio": 358.6400146484375,
         "mm50": 349.62681701660154,
-        "mm200": 316.32317184448243,
+        "mm200": 316.32317276000975,
         "dias_cruce": 63,
         "cruce_tipo": "golden",
-        "rsi": 55.02785675041735,
-        "macd": 2.140792466224241,
-        "macd_senal": 2.7010026675916006,
-        "macd_hist": -0.5602102013673598,
-        "obv_pendiente": -6585065.0,
+        "rsi": 55.02785675037987,
+        "macd": 2.1407924662015034,
+        "macd_senal": 2.7010026675582353,
+        "macd_hist": -0.5602102013567318,
+        "obv_pendiente": -6591100.0,
         "divergencia_bajista": false,
         "max_precio": 365.17999267578125,
         "dist_ath": 0.9820910834149937,
@@ -3246,7 +3246,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 0.61x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 0.62x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": true,
@@ -3289,20 +3289,20 @@
       "tecnicos_raw": {
         "precio": 375.07000732421875,
         "mm50": 362.78165161132813,
-        "mm200": 332.9250140380859,
+        "mm200": 332.9250149536133,
         "dias_cruce": 42,
         "cruce_tipo": "golden",
-        "rsi": 55.131185828771976,
-        "macd": 5.083679824526314,
-        "macd_senal": 5.586765782950049,
-        "macd_hist": -0.5030859584237355,
-        "obv_pendiente": 2527520.0,
+        "rsi": 55.13118578990817,
+        "macd": 5.083679819581732,
+        "macd_senal": 5.586765775680642,
+        "macd_hist": -0.5030859560989098,
+        "obv_pendiente": 2495700.0,
         "divergencia_bajista": false,
         "max_precio": 384.1400146484375,
         "dist_ath": 0.9763887984111221,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.61,
+        "vol_ratio": 0.62,
         "barras": 1255
       },
       "target": {
@@ -3324,7 +3324,7 @@
       "recien_listada": false,
       "precio": 1149.3599853515625,
       "fundamentales": {
-        "pe": 38.569126,
+        "pe": 38.607994,
         "pb": 30.244724,
         "roe": 1.02286,
         "roa": 0.20357001,
@@ -3341,7 +3341,7 @@
         "caja": 8949999616,
         "deuda_total": 54907998208,
         "insiders": 0.00156,
-        "peg": 1.1227,
+        "peg": 1.1223,
         "ps": 12.86536,
         "target_mean": 1315.558,
         "target_high": 1600.0,
@@ -3359,7 +3359,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 38.569126,
+          "valor": 38.607994,
           "puntaje": 0.0
         },
         "pb": {
@@ -3431,8 +3431,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.1227,
-          "puntaje": 0.9233125,
+          "valor": 1.1223,
+          "puntaje": 0.9235625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -3444,20 +3444,20 @@
       "tecnicos_raw": {
         "precio": 1149.3599853515625,
         "mm50": 1190.3464331054688,
-        "mm200": 1060.3763647460937,
+        "mm200": 1060.3763623046875,
         "dias_cruce": 208,
         "cruce_tipo": "golden",
-        "rsi": 41.427059948316376,
-        "macd": -7.277258839044634,
-        "macd_senal": 2.3419423996302298,
-        "macd_hist": -9.619201238674865,
-        "obv_pendiente": -7416331.0,
+        "rsi": 41.42705994819567,
+        "macd": -7.277258838789521,
+        "macd_senal": 2.341942400005261,
+        "macd_hist": -9.619201238794782,
+        "obv_pendiente": -7475300.0,
         "divergencia_bajista": false,
         "max_precio": 1280.3399658203125,
         "dist_ath": 0.8976990612139243,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.78,
+        "vol_ratio": 0.8,
         "barras": 1255
       },
       "target": {
@@ -3496,7 +3496,7 @@
         "caja": 10588000256,
         "deuda_total": 42368000000,
         "insiders": 0.00082,
-        "peg": 1.4062,
+        "peg": 1.3895,
         "ps": 1.8161153,
         "target_mean": 170.90909,
         "target_high": 200.0,
@@ -3506,7 +3506,7 @@
       },
       "score_fundamental": 59.8,
       "score_tecnico": 70.0,
-      "score_emergente": 72.7,
+      "score_emergente": 72.8,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -3586,8 +3586,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.4062,
-          "puntaje": 0.7461250000000001,
+          "valor": 1.3895,
+          "puntaje": 0.7565625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -3599,20 +3599,20 @@
       "tecnicos_raw": {
         "precio": 159.47000122070312,
         "mm50": 152.28905181884767,
-        "mm200": 143.07446659088134,
+        "mm200": 143.07446743011474,
         "dias_cruce": 269,
         "cruce_tipo": "golden",
-        "rsi": 51.605639654914306,
-        "macd": 2.192395790539422,
-        "macd_senal": 2.7530730863137425,
-        "macd_hist": -0.5606772957743207,
-        "obv_pendiente": -19756198.0,
+        "rsi": 51.60563964205422,
+        "macd": 2.192395785572444,
+        "macd_senal": 2.7530730790148015,
+        "macd_hist": -0.5606772934423576,
+        "obv_pendiente": -20006200.0,
         "divergencia_bajista": false,
-        "max_precio": 169.21827697753906,
-        "dist_ath": 0.9423922998688264,
+        "max_precio": 169.21829223632812,
+        "dist_ath": 0.9423922148912207,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.09,
+        "vol_ratio": 1.1,
         "barras": 1255
       },
       "target": {
@@ -3651,7 +3651,7 @@
         "caja": 11528999936,
         "deuda_total": 75092000768,
         "insiders": 0.44988,
-        "peg": 4.0508,
+        "peg": 4.1397,
         "ps": 1.1587147,
         "target_mean": 127.725,
         "target_high": 155.0,
@@ -3741,7 +3741,7 @@
           "puntaje": 1.0
         },
         "valuacion": {
-          "valor": 4.0508,
+          "valor": 4.1397,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -3754,20 +3754,20 @@
       "tecnicos_raw": {
         "precio": 107.13999938964844,
         "mm50": 110.6732942199707,
-        "mm200": 118.14565795898437,
+        "mm200": 118.14565849304199,
         "dias_cruce": 29,
         "cruce_tipo": "death",
-        "rsi": 45.96250473390537,
-        "macd": -1.7295561865754934,
-        "macd_senal": -1.8780258697183152,
-        "macd_hist": 0.14846968314282183,
-        "obv_pendiente": 13516669.0,
+        "rsi": 45.9625047504115,
+        "macd": -1.729556184826393,
+        "macd_senal": -1.878025867150275,
+        "macd_hist": 0.14846968232388202,
+        "obv_pendiente": 12178400.0,
         "divergencia_bajista": false,
         "max_precio": 133.87948608398438,
         "dist_ath": 0.8002719649105771,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.77,
+        "vol_ratio": 0.82,
         "barras": 1255
       },
       "target": {
@@ -3806,7 +3806,7 @@
         "caja": 16371000320,
         "deuda_total": 44260999168,
         "insiders": 0.098950006,
-        "peg": 4.0082,
+        "peg": 4.0341,
         "ps": 7.5590076,
         "target_mean": 94.69565,
         "target_high": 104.0,
@@ -3896,7 +3896,7 @@
           "puntaje": 0.74475003
         },
         "valuacion": {
-          "valor": 4.0082,
+          "valor": 4.0341,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -3909,20 +3909,20 @@
       "tecnicos_raw": {
         "precio": 88.06999969482422,
         "mm50": 86.06579956054688,
-        "mm200": 77.88654777526855,
+        "mm200": 77.88654781341553,
         "dias_cruce": 187,
         "cruce_tipo": "golden",
-        "rsi": 50.246200490193665,
-        "macd": 0.7495220085124714,
-        "macd_senal": 1.1659571185481303,
-        "macd_hist": -0.4164351100356589,
-        "obv_pendiente": 10459493.0,
+        "rsi": 50.24620049019031,
+        "macd": 0.7495220085121304,
+        "macd_senal": 1.165957118547614,
+        "macd_hist": -0.4164351100354837,
+        "obv_pendiente": 7740400.0,
         "divergencia_bajista": false,
         "max_precio": 91.98999786376953,
         "dist_ath": 0.9573866913797461,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.87,
+        "vol_ratio": 1.03,
         "barras": 1255
       },
       "target": {
@@ -3944,7 +3944,7 @@
       "recien_listada": false,
       "precio": 915.739990234375,
       "fundamentales": {
-        "pe": 46.017086,
+        "pe": 46.08656,
         "pb": 24.565159,
         "roe": 0.29152,
         "roa": 0.086660005,
@@ -3961,7 +3961,7 @@
         "caja": 11125999616,
         "deuda_total": 10227999744,
         "insiders": 0.00161,
-        "peg": 4.5604,
+        "peg": 4.4898,
         "ps": 1.3832741,
         "target_mean": 1072.2,
         "target_high": 1315.0,
@@ -3979,7 +3979,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 46.017086,
+          "valor": 46.08656,
           "puntaje": 0.0
         },
         "pb": {
@@ -4051,7 +4051,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 4.5604,
+          "valor": 4.4898,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -4064,20 +4064,20 @@
       "tecnicos_raw": {
         "precio": 915.739990234375,
         "mm50": 943.0097338867188,
-        "mm200": 957.8960043334961,
+        "mm200": 957.8960061645507,
         "dias_cruce": 23,
         "cruce_tipo": "death",
-        "rsi": 38.15030812803608,
-        "macd": -5.793061052541702,
-        "macd_senal": -1.8225095497717314,
-        "macd_hist": -3.970551502769971,
-        "obv_pendiente": -11530709.0,
+        "rsi": 38.150308128105934,
+        "macd": -5.793061052621965,
+        "macd_senal": -1.8225095498898842,
+        "macd_hist": -3.9705515027320812,
+        "obv_pendiente": -11554400.0,
         "divergencia_bajista": false,
         "max_precio": 1092.5828857421875,
         "dist_ath": 0.8381423525706393,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.94,
+        "vol_ratio": 0.95,
         "barras": 1255
       },
       "target": {
@@ -4116,7 +4116,7 @@
         "caja": 5944999936,
         "deuda_total": 45146001408,
         "insiders": 0.0022,
-        "peg": 1.3864,
+        "peg": 1.4002,
         "ps": 5.006728,
         "target_mean": 975.60614,
         "target_high": 1225.0,
@@ -4126,7 +4126,7 @@
       },
       "score_fundamental": 39.6,
       "score_tecnico": 85.0,
-      "score_emergente": 58.0,
+      "score_emergente": 57.9,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -4206,8 +4206,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.3864,
-          "puntaje": 0.7585,
+          "valor": 1.4002,
+          "puntaje": 0.7498750000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -4219,20 +4219,20 @@
       "tecnicos_raw": {
         "precio": 813.9400024414062,
         "mm50": 872.1606896972656,
-        "mm200": 771.1207165527344,
+        "mm200": 771.1207168579101,
         "dias_cruce": 288,
         "cruce_tipo": "golden",
-        "rsi": 45.47937518768395,
-        "macd": -18.998415127510498,
-        "macd_senal": -19.674478914530987,
-        "macd_hist": 0.6760637870204889,
-        "obv_pendiente": -4191205.0,
+        "rsi": 45.47937519122318,
+        "macd": -18.99841512512205,
+        "macd_senal": -19.674478911019094,
+        "macd_hist": 0.6760637858970426,
+        "obv_pendiente": -4033200.0,
         "divergencia_bajista": false,
         "max_precio": 1062.92822265625,
         "dist_ath": 0.7657525551512556,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.65,
+        "vol_ratio": 0.7,
         "barras": 1255
       },
       "target": {
@@ -4252,9 +4252,9 @@
       "descripcion": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.",
       "anios_cotizando": null,
       "recien_listada": false,
-      "precio": 357.8949890136719,
+      "precio": 357.8999938964844,
       "fundamentales": {
-        "pe": 45.533714,
+        "pe": 45.64987,
         "pb": 17.110245,
         "roe": 0.44245,
         "roa": 0.15297,
@@ -4271,7 +4271,7 @@
         "caja": 23975000064,
         "deuda_total": 59419000832,
         "insiders": 0.01948,
-        "peg": 0.4176,
+        "peg": 0.4015,
         "ps": 19.10929,
         "target_mean": 533.4087,
         "target_high": 715.0,
@@ -4289,7 +4289,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 45.533714,
+          "valor": 45.64987,
           "puntaje": 0.0
         },
         "pb": {
@@ -4361,7 +4361,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.4176,
+          "valor": 0.4015,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -4372,22 +4372,22 @@
         }
       },
       "tecnicos_raw": {
-        "precio": 357.8949890136719,
-        "mm50": 383.66149963378905,
-        "mm200": 369.03009765625,
+        "precio": 357.8999938964844,
+        "mm50": 383.66159973144534,
+        "mm200": 369.0301223754883,
         "dias_cruce": 97,
         "cruce_tipo": "golden",
-        "rsi": 38.04835229687009,
-        "macd": -8.795002162371816,
-        "macd_senal": -7.4008931460591985,
-        "macd_hist": -1.3941090163126173,
-        "obv_pendiente": -213345693.0,
+        "rsi": 38.05195300956374,
+        "macd": -8.79460291270675,
+        "macd_senal": -7.4008132964385664,
+        "macd_hist": -1.393789616268184,
+        "obv_pendiente": -213053400.0,
         "divergencia_bajista": false,
         "max_precio": 480.8090515136719,
-        "dist_ath": 0.7443599239385266,
+        "dist_ath": 0.7443703332326044,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.46,
+        "vol_ratio": 1.47,
         "barras": 1255
       },
       "target": {
@@ -4409,7 +4409,7 @@
       "recien_listada": false,
       "precio": 354.0799865722656,
       "fundamentales": {
-        "pe": 324.84402,
+        "pe": 321.8909,
         "pb": 16.098204,
         "roe": 0.046669997,
         "roa": 0.019299999,
@@ -4426,7 +4426,7 @@
         "caja": 43524001792,
         "deuda_total": 16080000000,
         "insiders": 0.17819001,
-        "peg": 5.1987,
+        "peg": 4.4993,
         "ps": 13.496133,
         "target_mean": 390.09283,
         "target_high": 600.0,
@@ -4444,7 +4444,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 324.84402,
+          "valor": 321.8909,
           "puntaje": 0.0
         },
         "pb": {
@@ -4516,7 +4516,7 @@
           "puntaje": 1.0
         },
         "valuacion": {
-          "valor": 5.1987,
+          "valor": 4.4993,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -4536,13 +4536,13 @@
         "macd": 3.659291261924011,
         "macd_senal": 0.7333568806687729,
         "macd_hist": 2.925934381255238,
-        "obv_pendiente": 128706012.0,
+        "obv_pendiente": 128436400.0,
         "divergencia_bajista": false,
         "max_precio": 489.8800048828125,
         "dist_ath": 0.722789219896753,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.6,
+        "vol_ratio": 1.61,
         "barras": 1255
       },
       "target": {
@@ -4581,7 +4581,7 @@
         "caja": 9127910400,
         "deuda_total": 16654660608,
         "insiders": 0.0057200002,
-        "peg": 1.5295,
+        "peg": 1.5283,
         "ps": 6.7360578,
         "target_mean": 93.66,
         "target_high": 135.0,
@@ -4671,8 +4671,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.5295,
-          "puntaje": 0.6690624999999999,
+          "valor": 1.5283,
+          "puntaje": 0.6698125,
           "base": "PEG"
         },
         "supervivencia": {
@@ -4691,13 +4691,13 @@
         "macd": 1.6616426140013516,
         "macd_senal": 1.7363915242535435,
         "macd_hist": -0.07474891025219188,
-        "obv_pendiente": -85078006.0,
+        "obv_pendiente": -85293700.0,
         "divergencia_bajista": false,
         "max_precio": 133.91299438476562,
         "dist_ath": 0.5843346298057388,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.01,
+        "vol_ratio": 1.02,
         "barras": 1255
       },
       "target": {
@@ -4719,7 +4719,7 @@
       "recien_listada": false,
       "precio": 298.9599914550781,
       "fundamentales": {
-        "pe": 29.223852,
+        "pe": 29.252445,
         "pb": 3.3218145,
         "roe": 0.15055001,
         "roa": 0.03888,
@@ -4754,8 +4754,8 @@
       "runway": 0.11,
       "detalle_fundamental": {
         "pe": {
-          "valor": 29.223852,
-          "puntaje": 0.28880739999999994
+          "valor": 29.252445,
+          "puntaje": 0.28737774999999993
         },
         "pb": {
           "valor": 3.3218145,
@@ -4839,20 +4839,20 @@
       "tecnicos_raw": {
         "precio": 298.9599914550781,
         "mm50": 266.12990020751954,
-        "mm200": 295.4780754089355,
+        "mm200": 295.4780767059326,
         "dias_cruce": 140,
         "cruce_tipo": "death",
-        "rsi": 66.87016941982789,
-        "macd": 5.72392714773224,
-        "macd_senal": 4.2118725778785295,
-        "macd_hist": 1.512054569853711,
-        "obv_pendiente": 9113483.0,
+        "rsi": 66.87016929696242,
+        "macd": 5.723927146726794,
+        "macd_senal": 4.211872576399313,
+        "macd_hist": 1.5120545703274813,
+        "obv_pendiente": 9211700.0,
         "divergencia_bajista": false,
-        "max_precio": 401.70440673828125,
-        "dist_ath": 0.7442288071533573,
+        "max_precio": 401.7044677734375,
+        "dist_ath": 0.7442286940749,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.96,
+        "vol_ratio": 0.99,
         "barras": 1162
       },
       "target": {
@@ -5001,7 +5001,7 @@
         "macd": -0.8859065749275032,
         "macd_senal": -0.5052986911338393,
         "macd_hist": -0.38060788379366395,
-        "obv_pendiente": 17117054.0,
+        "obv_pendiente": 17177100.0,
         "divergencia_bajista": false,
         "max_precio": 82.08999633789062,
         "dist_ath": 0.4814228556558268,
@@ -5046,7 +5046,7 @@
         "caja": 13111000064,
         "deuda_total": 4276000000,
         "insiders": 0.00424,
-        "peg": 1.0208,
+        "peg": 0.475,
         "ps": 18.874739,
         "target_mean": 613.8449,
         "target_high": 1250.0,
@@ -5056,7 +5056,7 @@
       },
       "score_fundamental": 33.5,
       "score_tecnico": 100.0,
-      "score_emergente": 89.8,
+      "score_emergente": 90.0,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -5136,8 +5136,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.0208,
-          "puntaje": 0.9870000000000001,
+          "valor": 0.475,
+          "puntaje": 1.0,
           "base": "PEG"
         },
         "supervivencia": {
@@ -5156,13 +5156,13 @@
         "macd": -8.210045726174883,
         "macd_senal": -8.348809219663604,
         "macd_hist": 0.13876349348872097,
-        "obv_pendiente": 1634284.0,
+        "obv_pendiente": 1921500.0,
         "divergencia_bajista": false,
         "max_precio": 580.9099731445312,
         "dist_ath": 0.8221067452828851,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.77,
+        "vol_ratio": 0.78,
         "barras": 1255
       },
       "target": {
@@ -5184,7 +5184,7 @@
       "recien_listada": false,
       "precio": 1016.5900268554688,
       "fundamentales": {
-        "pe": 22.963408,
+        "pe": 22.98937,
         "pb": 11.394834,
         "roe": 0.66638,
         "roa": 0.3487,
@@ -5201,7 +5201,7 @@
         "caja": 26022000640,
         "deuda_total": 6376000000,
         "insiders": 0.00238,
-        "peg": 0.1404,
+        "peg": 0.1407,
         "ps": 12.718278,
         "target_mean": 1513.1111,
         "target_high": 2200.0,
@@ -5219,8 +5219,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 22.963408,
-          "puntaje": 0.6018296
+          "valor": 22.98937,
+          "puntaje": 0.6005315
         },
         "pb": {
           "valor": 11.394834,
@@ -5291,7 +5291,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.1404,
+          "valor": 0.1407,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -5304,14 +5304,14 @@
       "tecnicos_raw": {
         "precio": 1016.5900268554688,
         "mm50": 938.2628747558593,
-        "mm200": 606.3405875396728,
+        "mm200": 606.3405876922608,
         "dias_cruce": 299,
         "cruce_tipo": "golden",
-        "rsi": 60.147499118094316,
-        "macd": 14.066561744846013,
-        "macd_senal": 8.198098997029412,
-        "macd_hist": 5.868462747816601,
-        "obv_pendiente": 107115145.0,
+        "rsi": 60.147499117768085,
+        "macd": 14.066561744047362,
+        "macd_senal": 8.198098995855258,
+        "macd_hist": 5.868462748192105,
+        "obv_pendiente": 107305800.0,
         "divergencia_bajista": false,
         "max_precio": 1213.3734130859375,
         "dist_ath": 0.8378212476817049,
@@ -5343,7 +5343,7 @@
       "recien_listada": false,
       "precio": 1714.8800048828125,
       "fundamentales": {
-        "pe": 58.190704,
+        "pe": 58.131527,
         "pb": 1447.3046,
         "roe": 0.53942,
         "roa": 0.16454001,
@@ -5360,17 +5360,17 @@
         "caja": 7581499904,
         "deuda_total": 1984400000,
         "insiders": 0.00016000001,
-        "peg": 1.4884,
+        "peg": 1.4711,
         "ps": 18.645119,
-        "target_mean": 2166.7021,
-        "target_high": 2865.977,
-        "target_low": 899.0587,
+        "target_mean": 2168.4663,
+        "target_high": 2868.3103,
+        "target_low": 899.7907,
         "precio_actual": 1714.88,
         "n_analistas": 16
       },
       "score_fundamental": 60.0,
       "score_tecnico": 70.0,
-      "score_emergente": 71.1,
+      "score_emergente": 71.2,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -5378,7 +5378,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 58.190704,
+          "valor": 58.131527,
           "puntaje": 0.0
         },
         "pb": {
@@ -5450,8 +5450,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.4884,
-          "puntaje": 0.69475,
+          "valor": 1.4711,
+          "puntaje": 0.7055625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -5463,26 +5463,26 @@
       "tecnicos_raw": {
         "precio": 1714.8800048828125,
         "mm50": 1750.502734375,
-        "mm200": 1476.9827487182617,
+        "mm200": 1476.9827462768556,
         "dias_cruce": 301,
         "cruce_tipo": "golden",
-        "rsi": 48.33330078126145,
-        "macd": -17.424989564396583,
-        "macd_senal": -8.003171431165288,
-        "macd_hist": -9.421818133231294,
-        "obv_pendiente": -2794425.0,
+        "rsi": 48.3333007812584,
+        "macd": -17.424989564315865,
+        "macd_senal": -8.003171431046702,
+        "macd_hist": -9.421818133269163,
+        "obv_pendiente": -2767500.0,
         "divergencia_bajista": false,
         "max_precio": 1986.870361328125,
         "dist_ath": 0.8631061383071312,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.77,
+        "vol_ratio": 0.78,
         "barras": 1255
       },
       "target": {
-        "mean": 2166.7021,
-        "high": 2865.977,
-        "low": 899.0587,
+        "mean": 2168.4663,
+        "high": 2868.3103,
+        "low": 899.7907,
         "actual": 1714.88,
         "n": 16
       }
@@ -5498,7 +5498,7 @@
       "recien_listada": false,
       "precio": 252.08999633789062,
       "fundamentales": {
-        "pe": 259.8866,
+        "pe": 257.23468,
         "pb": 31.195395,
         "roe": 0.13352999,
         "roa": 0.05415,
@@ -5515,7 +5515,7 @@
         "caja": 3888000000,
         "deuda_total": 485000000,
         "insiders": 0.00068999996,
-        "peg": 1.9284,
+        "peg": 1.9922,
         "ps": 52.21718,
         "target_mean": 288.3641,
         "target_high": 500.0,
@@ -5525,7 +5525,7 @@
       },
       "score_fundamental": 42.9,
       "score_tecnico": 100.0,
-      "score_emergente": 69.8,
+      "score_emergente": 69.4,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -5533,7 +5533,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 259.8866,
+          "valor": 257.23468,
           "puntaje": 0.0
         },
         "pb": {
@@ -5605,8 +5605,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.9284,
-          "puntaje": 0.41975000000000007,
+          "valor": 1.9922,
+          "puntaje": 0.3798750000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -5625,7 +5625,7 @@
         "macd": -9.203605379469735,
         "macd_senal": -10.156067077159955,
         "macd_hist": 0.9524616976902198,
-        "obv_pendiente": 9982764.0,
+        "obv_pendiente": 9988400.0,
         "divergencia_bajista": false,
         "max_precio": 439.4599914550781,
         "dist_ath": 0.5736358286068447,
@@ -5670,9 +5670,9 @@
         "caja": 9409098752,
         "deuda_total": 211400000,
         "insiders": 0.03477,
-        "peg": 1.7318,
+        "peg": 1.7569,
         "ps": 68.05218,
-        "target_mean": 191.68,
+        "target_mean": 193.87778,
         "target_high": 255.0,
         "target_low": 80.0,
         "precio_actual": 174.33,
@@ -5680,7 +5680,7 @@
       },
       "score_fundamental": 60.0,
       "score_tecnico": 50.0,
-      "score_emergente": 86.5,
+      "score_emergente": 86.3,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -5735,7 +5735,7 @@
         },
         "recorrido": {
           "ok": true,
-          "detalle": "recorrido al objetivo +10%"
+          "detalle": "recorrido al objetivo +11%"
         },
         "divergencia": {
           "ok": true,
@@ -5760,8 +5760,8 @@
           "puntaje": 0.19540000000000002
         },
         "valuacion": {
-          "valor": 1.7318,
-          "puntaje": 0.542625,
+          "valor": 1.7569,
+          "puntaje": 0.5269375000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -5780,7 +5780,7 @@
         "macd": 8.060022180779328,
         "macd_senal": 9.862919248315476,
         "macd_hist": -1.8028970675361489,
-        "obv_pendiente": -4980362.0,
+        "obv_pendiente": -5254900.0,
         "divergencia_bajista": false,
         "max_precio": 207.17999267578125,
         "dist_ath": 0.841442262737532,
@@ -5790,7 +5790,7 @@
         "barras": 1255
       },
       "target": {
-        "mean": 191.68,
+        "mean": 193.87778,
         "high": 255.0,
         "low": 80.0,
         "actual": 174.33,
@@ -5825,7 +5825,7 @@
         "caja": 5013847040,
         "deuda_total": 820179008,
         "insiders": 0.014520001,
-        "peg": 6.5094,
+        "peg": 6.879,
         "ps": 40.43637,
         "target_mean": 231.54,
         "target_high": 300.0,
@@ -5915,7 +5915,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 6.5094,
+          "valor": 6.879,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -5935,13 +5935,13 @@
         "macd": 3.9478162207656453,
         "macd_senal": 3.7802199915867796,
         "macd_hist": 0.16759622917886574,
-        "obv_pendiente": -28595674.0,
+        "obv_pendiente": -28676900.0,
         "divergencia_bajista": false,
         "max_precio": 231.0,
         "dist_ath": 0.9225108489329681,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.86,
+        "vol_ratio": 0.87,
         "barras": 1255
       },
       "target": {
@@ -5963,7 +5963,7 @@
       "recien_listada": false,
       "precio": 333.260009765625,
       "fundamentales": {
-        "pe": 287.29312,
+        "pe": 284.83762,
         "pb": 9.792548,
         "roe": 0.01739,
         "roa": 0.01746,
@@ -5979,8 +5979,8 @@
         "ingresos": 11480000512,
         "caja": 3071000064,
         "deuda_total": 2500000000,
-        "insiders": 0.0076,
-        "peg": 4.2426,
+        "insiders": 0.00759,
+        "peg": 1.671,
         "ps": 23.659138,
         "target_mean": 390.5,
         "target_high": 475.0,
@@ -5990,7 +5990,7 @@
       },
       "score_fundamental": 16.0,
       "score_tecnico": 70.0,
-      "score_emergente": 73.8,
+      "score_emergente": 80.8,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -5998,7 +5998,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 287.29312,
+          "valor": 284.83762,
           "puntaje": 0.0
         },
         "pb": {
@@ -6066,12 +6066,12 @@
           "puntaje": 1.0
         },
         "insiders": {
-          "valor": 0.0076,
+          "valor": 0.00759,
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 4.2426,
-          "puntaje": 0.0,
+          "valor": 1.671,
+          "puntaje": 0.580625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -6090,7 +6090,7 @@
         "macd": -1.2303018886116206,
         "macd_senal": 4.09263977370142,
         "macd_hist": -5.322941662313041,
-        "obv_pendiente": -23908567.0,
+        "obv_pendiente": -23873800.0,
         "divergencia_bajista": false,
         "max_precio": 396.0,
         "dist_ath": 0.8415656812263258,
@@ -6118,7 +6118,7 @@
       "recien_listada": false,
       "precio": 158.77999877929688,
       "fundamentales": {
-        "pe": 27.281786,
+        "pe": 27.234991,
         "pb": 12.17638,
         "roe": 0.53376,
         "roa": 0.06505,
@@ -6135,7 +6135,7 @@
         "caja": 31893999616,
         "deuda_total": 167431995392,
         "insiders": 0.40498,
-        "peg": 0.8237,
+        "peg": 0.8705,
         "ps": 6.7901063,
         "target_mean": 242.04619,
         "target_high": 400.0,
@@ -6153,8 +6153,8 @@
       "runway": 1.3,
       "detalle_fundamental": {
         "pe": {
-          "valor": 27.281786,
-          "puntaje": 0.3859107
+          "valor": 27.234991,
+          "puntaje": 0.38825044999999997
         },
         "pb": {
           "valor": 12.17638,
@@ -6225,7 +6225,7 @@
           "puntaje": 1.0
         },
         "valuacion": {
-          "valor": 0.8237,
+          "valor": 0.8705,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -6241,17 +6241,17 @@
         "mm200": 167.91714527130128,
         "dias_cruce": 165,
         "cruce_tipo": "death",
-        "rsi": 60.96775334025319,
-        "macd": 2.5366915026384333,
-        "macd_senal": 1.6252658417567347,
-        "macd_hist": 0.9114256608816986,
-        "obv_pendiente": 95737195.0,
+        "rsi": 60.96775334025358,
+        "macd": 2.536691502638348,
+        "macd_senal": 1.625265841756614,
+        "macd_hist": 0.9114256608817342,
+        "obv_pendiente": 96004900.0,
         "divergencia_bajista": false,
-        "max_precio": 324.62994384765625,
-        "dist_ath": 0.48911076069375115,
+        "max_precio": 324.6299743652344,
+        "dist_ath": 0.4891107147137831,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.82,
+        "vol_ratio": 0.83,
         "barras": 1255
       },
       "target": {
@@ -6290,17 +6290,17 @@
         "caja": 4664000000,
         "deuda_total": 8453000192,
         "insiders": 0.00174,
-        "peg": 1.0295,
+        "peg": 1.0489,
         "ps": 9.913341,
-        "target_mean": 141.18826,
+        "target_mean": 141.84042,
         "target_high": 248.0,
         "target_low": 72.0,
         "precio_actual": 141.26,
         "n_analistas": 46
       },
       "score_fundamental": 34.9,
-      "score_tecnico": 70.0,
-      "score_emergente": 77.8,
+      "score_tecnico": 75.0,
+      "score_emergente": 77.6,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -6355,7 +6355,7 @@
         },
         "recorrido": {
           "ok": false,
-          "detalle": "precio en/sobre el objetivo (-0%)"
+          "detalle": "poco recorrido al objetivo (+0%)"
         },
         "divergencia": {
           "ok": true,
@@ -6380,8 +6380,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.0295,
-          "puntaje": 0.9815624999999999,
+          "valor": 1.0489,
+          "puntaje": 0.9694375000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -6400,17 +6400,17 @@
         "macd": 7.667397766500642,
         "macd_senal": 6.971289185810059,
         "macd_hist": 0.6961085806905825,
-        "obv_pendiente": 72751506.0,
+        "obv_pendiente": 72552800.0,
         "divergencia_bajista": false,
         "max_precio": 234.0780029296875,
         "dist_ath": 0.6034740246364273,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.58,
+        "vol_ratio": 0.59,
         "barras": 1255
       },
       "target": {
-        "mean": 141.18826,
+        "mean": 141.84042,
         "high": 248.0,
         "low": 72.0,
         "actual": 141.26,
@@ -6432,7 +6432,7 @@
       "recien_listada": false,
       "precio": 579.2100219726562,
       "fundamentales": {
-        "pe": 31.894825,
+        "pe": 31.842222,
         "pb": 90.55817,
         "roe": 2.41202,
         "roa": 0.24063,
@@ -6457,7 +6457,7 @@
         "precio_actual": 579.21,
         "n_analistas": 37
       },
-      "score_fundamental": 63.4,
+      "score_fundamental": 63.5,
       "score_tecnico": 70.0,
       "score_emergente": 51.5,
       "metricas_fund_presentes": 5,
@@ -6467,8 +6467,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 31.894825,
-          "puntaje": 0.15525874999999995
+          "valor": 31.842222,
+          "puntaje": 0.1578889
         },
         "pb": {
           "valor": 90.55817,
@@ -6558,20 +6558,20 @@
       "tecnicos_raw": {
         "precio": 579.2100219726562,
         "mm50": 557.5738659667969,
-        "mm200": 529.0761616516113,
+        "mm200": 529.0761630249024,
         "dias_cruce": 16,
         "cruce_tipo": "golden",
-        "rsi": 52.905323243739154,
-        "macd": 8.730725527225445,
-        "macd_senal": 10.87811673500484,
-        "macd_hist": -2.1473912077793944,
-        "obv_pendiente": -8643974.0,
+        "rsi": 52.90532324047006,
+        "macd": 8.730725525636444,
+        "macd_senal": 10.878116732668689,
+        "macd_hist": -2.1473912070322445,
+        "obv_pendiente": -8664000.0,
         "divergencia_bajista": false,
         "max_precio": 599.8599853515625,
         "dist_ath": 0.9655753611123038,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.55,
+        "vol_ratio": 0.56,
         "barras": 1255
       },
       "target": {
@@ -6610,7 +6610,7 @@
         "caja": 8788842496,
         "deuda_total": 6668290048,
         "insiders": 0.01324,
-        "peg": 0.7821,
+        "peg": 0.8523,
         "ps": 8.060365,
         "target_mean": 198.96896,
         "target_high": 330.0,
@@ -6706,7 +6706,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.7821,
+          "valor": 0.8523,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -6726,13 +6726,13 @@
         "macd": 7.390966231299473,
         "macd_senal": 5.986017391186745,
         "macd_hist": 1.404948840112728,
-        "obv_pendiente": 42880899.0,
+        "obv_pendiente": 42790900.0,
         "divergencia_bajista": false,
         "max_precio": 419.7799987792969,
         "dist_ath": 0.43984944477243804,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.94,
+        "vol_ratio": 0.95,
         "barras": 1255
       },
       "target": {
@@ -6771,7 +6771,7 @@
         "caja": 3366502912,
         "deuda_total": 3415378944,
         "insiders": 0.01424,
-        "peg": 0.6142,
+        "peg": 0.6668,
         "ps": 5.5131187,
         "target_mean": 20.2619,
         "target_high": 30.0,
@@ -6867,7 +6867,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.6142,
+          "valor": 0.6668,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -6887,13 +6887,13 @@
         "macd": 0.10543658711370796,
         "macd_senal": 0.17085399436553056,
         "macd_hist": -0.0654174072518226,
-        "obv_pendiente": -50075549.0,
+        "obv_pendiente": -50414400.0,
         "divergencia_bajista": false,
         "max_precio": 32.209999084472656,
         "dist_ath": 0.5656628323885217,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.43,
+        "vol_ratio": 0.44,
         "barras": 1255
       },
       "target": {
@@ -6932,11 +6932,11 @@
         "caja": 44982001664,
         "deuda_total": 140126994432,
         "insiders": 3.0000001e-05,
-        "peg": 3.3005,
+        "peg": 3.3603,
         "ps": 0.6253813,
-        "target_mean": 47.156055,
-        "target_high": 64.11275,
-        "target_low": 40.233547,
+        "target_mean": 47.211296,
+        "target_high": 64.18785,
+        "target_low": 40.280674,
         "precio_actual": 46.6,
         "n_analistas": 12
       },
@@ -7022,7 +7022,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 3.3005,
+          "valor": 3.3603,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -7038,23 +7038,23 @@
         "mm200": 45.05609546661377,
         "dias_cruce": 32,
         "cruce_tipo": "golden",
-        "rsi": 50.03298743476645,
+        "rsi": 50.03298743476643,
         "macd": -0.11594335627985686,
         "macd_senal": -0.20253108262116606,
         "macd_hist": 0.0865877263413092,
-        "obv_pendiente": 4426216.0,
+        "obv_pendiente": 4331800.0,
         "divergencia_bajista": false,
-        "max_precio": 135.66348266601562,
-        "dist_ath": 0.34349699387302124,
+        "max_precio": 135.66346740722656,
+        "dist_ath": 0.34349703250794833,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.53,
+        "vol_ratio": 0.54,
         "barras": 1255
       },
       "target": {
-        "mean": 47.156055,
-        "high": 64.11275,
-        "low": 40.233547,
+        "mean": 47.211296,
+        "high": 64.18785,
+        "low": 40.280674,
         "actual": 46.6,
         "n": 12
       },
@@ -7091,7 +7091,7 @@
         "caja": 5216200192,
         "deuda_total": 0,
         "insiders": 0.00513,
-        "peg": 1.8,
+        "peg": 1.6125,
         "ps": 11.906453,
         "target_mean": 478.00934,
         "target_high": 685.0,
@@ -7101,7 +7101,7 @@
       },
       "score_fundamental": 43.8,
       "score_tecnico": 35.0,
-      "score_emergente": 66.8,
+      "score_emergente": 68.2,
       "metricas_fund_presentes": 4,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -7181,8 +7181,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.8,
-          "puntaje": 0.5,
+          "valor": 1.6125,
+          "puntaje": 0.6171875,
           "base": "PEG"
         },
         "supervivencia": {
@@ -7201,7 +7201,7 @@
         "macd": -3.4969757699076354,
         "macd_senal": -2.33082569023272,
         "macd_hist": -1.1661500796749156,
-        "obv_pendiente": 2256918.0,
+        "obv_pendiente": 2256000.0,
         "divergencia_bajista": false,
         "max_precio": 610.4500122070312,
         "dist_ath": 0.600704406379251,
@@ -7229,7 +7229,7 @@
       "recien_listada": false,
       "precio": 525.280029296875,
       "fundamentales": {
-        "pe": 19.361593,
+        "pe": 19.383026,
         "pb": 13.77892,
         "roe": 0.89165,
         "roa": 0.08638,
@@ -7246,7 +7246,7 @@
         "caja": 3791000064,
         "deuda_total": 20537999360,
         "insiders": 0.0011100001,
-        "peg": 1.1711,
+        "peg": 1.0157,
         "ps": 1.5741264,
         "target_mean": 632.9474,
         "target_high": 756.0,
@@ -7254,9 +7254,9 @@
         "precio_actual": 525.28,
         "n_analistas": 19
       },
-      "score_fundamental": 50.3,
+      "score_fundamental": 50.2,
       "score_tecnico": 32.0,
-      "score_emergente": 30.1,
+      "score_emergente": 31.3,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -7264,8 +7264,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 19.361593,
-          "puntaje": 0.78192035
+          "valor": 19.383026,
+          "puntaje": 0.7808487
         },
         "pb": {
           "valor": 13.77892,
@@ -7336,8 +7336,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.1711,
-          "puntaje": 0.8930625,
+          "valor": 1.0157,
+          "puntaje": 0.9901875,
           "base": "PEG"
         },
         "supervivencia": {
@@ -7349,17 +7349,17 @@
       "tecnicos_raw": {
         "precio": 525.280029296875,
         "mm50": 551.7799334716797,
-        "mm200": 549.9937319946289,
+        "mm200": 549.9937310791015,
         "dias_cruce": 4,
         "cruce_tipo": "golden",
-        "rsi": 34.25818484543221,
-        "macd": -7.543146459432023,
-        "macd_senal": -0.5261509628863239,
-        "macd_hist": -7.016995496545699,
-        "obv_pendiente": -4712321.0,
+        "rsi": 34.258184732538496,
+        "macd": -7.5431464272454605,
+        "macd_senal": -0.5261509158083447,
+        "macd_hist": -7.016995511437115,
+        "obv_pendiente": -4713500.0,
         "divergencia_bajista": false,
-        "max_precio": 668.166015625,
-        "dist_ath": 0.7861519697399306,
+        "max_precio": 668.1660766601562,
+        "dist_ath": 0.7861518979270835,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.82,
@@ -7401,7 +7401,7 @@
         "caja": 12720000000,
         "deuda_total": 3720000000,
         "insiders": 0.00126,
-        "peg": 1.7971,
+        "peg": 1.8359,
         "ps": 6.0645666,
         "target_mean": 1236.4318,
         "target_high": 1450.0,
@@ -7411,7 +7411,7 @@
       },
       "score_fundamental": 68.8,
       "score_tecnico": 85.0,
-      "score_emergente": 50.4,
+      "score_emergente": 50.1,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -7491,8 +7491,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.7971,
-          "puntaje": 0.5018125,
+          "valor": 1.8359,
+          "puntaje": 0.4775625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -7511,7 +7511,7 @@
         "macd": -25.386937127765123,
         "macd_senal": -23.50351738168761,
         "macd_hist": -1.8834197460775108,
-        "obv_pendiente": 884483.0,
+        "obv_pendiente": 887200.0,
         "divergencia_bajista": false,
         "max_precio": 1174.8599853515625,
         "dist_ath": 0.8017551231223219,
@@ -7556,7 +7556,7 @@
         "caja": 435000000,
         "deuda_total": 20508000256,
         "insiders": 0.007929999,
-        "peg": 0.343,
+        "peg": 0.3583,
         "ps": 2.6082833,
         "target_mean": 217.42105,
         "target_high": 305.0,
@@ -7646,7 +7646,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.343,
+          "valor": 0.3583,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -7659,14 +7659,14 @@
       "tecnicos_raw": {
         "precio": 149.3000030517578,
         "mm50": 149.64220031738282,
-        "mm200": 157.4790909576416,
+        "mm200": 157.4790911102295,
         "dias_cruce": 166,
         "cruce_tipo": "death",
-        "rsi": 57.50213467619469,
-        "macd": -1.671192820164407,
-        "macd_senal": -3.0373834288479116,
-        "macd_hist": 1.3661906086835045,
-        "obv_pendiente": 16325730.0,
+        "rsi": 57.502134676306206,
+        "macd": -1.671192820465535,
+        "macd_senal": -3.0373834292907484,
+        "macd_hist": 1.3661906088252134,
+        "obv_pendiente": 16340100.0,
         "divergencia_bajista": false,
         "max_precio": 217.01622009277344,
         "dist_ath": 0.6879670237917366,
@@ -7715,11 +7715,11 @@
         "caja": 385696989184,
         "deuda_total": 266529996800,
         "insiders": 0.01771,
-        "peg": 0.5246,
+        "peg": 0.5197,
         "ps": 0.2693587,
-        "target_mean": 187.31941,
-        "target_high": 238.50102,
-        "target_low": 95.31478,
+        "target_mean": 187.35297,
+        "target_high": 238.54375,
+        "target_low": 95.331856,
         "precio_actual": 113.24,
         "n_analistas": 39
       },
@@ -7805,7 +7805,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.5246,
+          "valor": 0.5197,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -7825,7 +7825,7 @@
         "macd": -2.0272894604118363,
         "macd_senal": -0.46653074450347487,
         "macd_hist": -1.5607587159083613,
-        "obv_pendiente": 50256.0,
+        "obv_pendiente": 56700.0,
         "divergencia_bajista": false,
         "max_precio": 187.61692810058594,
         "dist_ath": 0.6035702588790861,
@@ -7835,9 +7835,9 @@
         "barras": 1255
       },
       "target": {
-        "mean": 187.31941,
-        "high": 238.50102,
-        "low": 95.31478,
+        "mean": 187.35297,
+        "high": 238.54375,
+        "low": 95.331856,
         "actual": 113.24,
         "n": 39
       }
@@ -7853,7 +7853,7 @@
       "recien_listada": false,
       "precio": 168.74000549316406,
       "fundamentales": {
-        "pe": 19.284573,
+        "pe": 19.262558,
         "pb": 6.4485807,
         "roe": 0.33754003,
         "roa": 0.11612,
@@ -7870,13 +7870,13 @@
         "caja": 8304000000,
         "deuda_total": 15269999616,
         "insiders": 0.00122,
-        "peg": 0.7531,
+        "peg": 0.747,
         "ps": 4.0895987,
-        "target_mean": 193.1,
+        "target_mean": 193.89655,
         "target_high": 400.0,
         "target_low": 100.0,
         "precio_actual": 168.74,
-        "n_analistas": 30
+        "n_analistas": 29
       },
       "score_fundamental": 76.5,
       "score_tecnico": 100.0,
@@ -7888,8 +7888,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 19.284573,
-          "puntaje": 0.7857713499999999
+          "valor": 19.262558,
+          "puntaje": 0.7868721000000001
         },
         "pb": {
           "valor": 6.4485807,
@@ -7935,7 +7935,7 @@
         },
         "recorrido": {
           "ok": true,
-          "detalle": "recorrido al objetivo +14%"
+          "detalle": "recorrido al objetivo +15%"
         },
         "divergencia": {
           "ok": true,
@@ -7960,7 +7960,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.7531,
+          "valor": 0.747,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -7973,28 +7973,28 @@
       "tecnicos_raw": {
         "precio": 168.74000549316406,
         "mm50": 168.43142547607422,
-        "mm200": 166.116236038208,
+        "mm200": 166.11623592376708,
         "dias_cruce": 70,
         "cruce_tipo": "golden",
-        "rsi": 54.2277909794263,
-        "macd": -0.03496891116748202,
-        "macd_senal": -1.709616961939996,
-        "macd_hist": 1.6746480507725139,
-        "obv_pendiente": 37954024.0,
+        "rsi": 54.22779095870032,
+        "macd": -0.034968916860464105,
+        "macd_senal": -1.7096169702356825,
+        "macd_hist": 1.6746480533752184,
+        "obv_pendiente": 37990000.0,
         "divergencia_bajista": false,
-        "max_precio": 248.74249267578125,
-        "dist_ath": 0.6783722542859014,
+        "max_precio": 248.7425079345703,
+        "dist_ath": 0.6783722126720285,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.68,
         "barras": 1255
       },
       "target": {
-        "mean": 193.1,
+        "mean": 193.89655,
         "high": 400.0,
         "low": 100.0,
         "actual": 168.74,
-        "n": 30
+        "n": 29
       }
     },
     {
@@ -8008,7 +8008,7 @@
       "recien_listada": false,
       "precio": 258.44000244140625,
       "fundamentales": {
-        "pe": 39.336376,
+        "pe": 39.216995,
         "pb": 13.103483,
         "roe": 0.35176,
         "roa": 0.13059,
@@ -8025,7 +8025,7 @@
         "caja": 7000999936,
         "deuda_total": 14051999744,
         "insiders": 0.00279,
-        "peg": 0.9074,
+        "peg": 0.9039,
         "ps": 12.132819,
         "target_mean": 324.7097,
         "target_high": 400.0,
@@ -8043,7 +8043,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 39.336376,
+          "valor": 39.216995,
           "puntaje": 0.0
         },
         "pb": {
@@ -8115,7 +8115,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.9074,
+          "valor": 0.9039,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -8131,11 +8131,11 @@
         "mm200": 237.47607749938965,
         "dias_cruce": 149,
         "cruce_tipo": "golden",
-        "rsi": 41.637459513517626,
-        "macd": -7.0086910126451585,
-        "macd_senal": -6.603138712279055,
-        "macd_hist": -0.4055523003661037,
-        "obv_pendiente": -22142878.0,
+        "rsi": 41.637459513517804,
+        "macd": -7.008691012645556,
+        "macd_senal": -6.603138712279522,
+        "macd_hist": -0.4055523003660344,
+        "obv_pendiente": -22132100.0,
         "divergencia_bajista": false,
         "max_precio": 330.5873718261719,
         "dist_ath": 0.7817600563922875,
@@ -8290,13 +8290,13 @@
         "macd": -2.447956849367685,
         "macd_senal": -3.072278126783288,
         "macd_hist": 0.6243212774156031,
-        "obv_pendiente": 230675100.0,
+        "obv_pendiente": 231084800.0,
         "divergencia_bajista": false,
         "max_precio": 140.94000244140625,
         "dist_ath": 0.679721877339865,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.91,
+        "vol_ratio": 0.92,
         "barras": 1255
       },
       "target": {
@@ -8335,7 +8335,7 @@
         "caja": 9233000448,
         "deuda_total": 7345999872,
         "insiders": 0.0033000002,
-        "peg": 0.8783,
+        "peg": 0.8665,
         "ps": 11.702068,
         "target_mean": 640.8857,
         "target_high": 900.0,
@@ -8425,7 +8425,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.8783,
+          "valor": 0.8665,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -8438,14 +8438,14 @@
       "tecnicos_raw": {
         "precio": 454.7099914550781,
         "mm50": 533.2680578613281,
-        "mm200": 406.2809379577637,
+        "mm200": 406.28093788146975,
         "dias_cruce": 289,
         "cruce_tipo": "golden",
-        "rsi": 39.75445558013379,
-        "macd": -23.280677647412347,
-        "macd_senal": -19.459835752992177,
-        "macd_hist": -3.8208418944201696,
-        "obv_pendiente": -62857789.0,
+        "rsi": 39.75445558013244,
+        "macd": -23.280677647411494,
+        "macd_senal": -19.459835752990976,
+        "macd_hist": -3.820841894420518,
+        "obv_pendiente": -62834300.0,
         "divergencia_bajista": false,
         "max_precio": 722.2277221679688,
         "dist_ath": 0.629593655156491,
@@ -8473,7 +8473,7 @@
       "recien_listada": false,
       "precio": 307.6499938964844,
       "fundamentales": {
-        "pe": 53.31889,
+        "pe": 53.504345,
         "pb": 30.86686,
         "roe": 0.65066004,
         "roa": 0.22840999,
@@ -8489,8 +8489,8 @@
         "ingresos": 23232690176,
         "caja": 5579170816,
         "deuda_total": 4121564928,
-        "insiders": 0.0028,
-        "peg": 1.3501,
+        "insiders": 0.00279,
+        "peg": 1.3615,
         "ps": 16.570139,
         "target_mean": 370.87097,
         "target_high": 500.0,
@@ -8500,7 +8500,7 @@
       },
       "score_fundamental": 60.0,
       "score_tecnico": 70.0,
-      "score_emergente": 77.4,
+      "score_emergente": 77.3,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -8508,7 +8508,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 53.31889,
+          "valor": 53.504345,
           "puntaje": 0.0
         },
         "pb": {
@@ -8576,12 +8576,12 @@
           "puntaje": 1.0
         },
         "insiders": {
-          "valor": 0.0028,
+          "valor": 0.00279,
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.3501,
-          "puntaje": 0.7811874999999999,
+          "valor": 1.3615,
+          "puntaje": 0.7740625000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -8593,14 +8593,14 @@
       "tecnicos_raw": {
         "precio": 307.6499938964844,
         "mm50": 321.88379943847656,
-        "mm200": 260.6797448730469,
+        "mm200": 260.679744720459,
         "dias_cruce": 307,
         "cruce_tipo": "golden",
-        "rsi": 48.9143103657179,
-        "macd": -5.715883345390523,
-        "macd_senal": -4.344578825899222,
-        "macd_hist": -1.371304519491301,
-        "obv_pendiente": -3308455.0,
+        "rsi": 48.91431036581831,
+        "macd": -5.715883345217378,
+        "macd_senal": -4.344578825644666,
+        "macd_hist": -1.3713045195727123,
+        "obv_pendiente": -3304900.0,
         "divergencia_bajista": false,
         "max_precio": 433.3299865722656,
         "dist_ath": 0.7099670076609808,
@@ -8628,7 +8628,7 @@
       "recien_listada": false,
       "precio": 223.5500030517578,
       "fundamentales": {
-        "pe": 73.77888,
+        "pe": 74.02318,
         "pb": 10.745529,
         "roe": 0.16523,
         "roa": 0.04125,
@@ -8645,7 +8645,7 @@
         "caja": 3932800000,
         "deuda_total": 5286099968,
         "insiders": 0.00494,
-        "peg": 1.1,
+        "peg": 1.1125,
         "ps": 21.259157,
         "target_mean": 284.99802,
         "target_high": 400.0,
@@ -8655,7 +8655,7 @@
       },
       "score_fundamental": 50.3,
       "score_tecnico": 70.0,
-      "score_emergente": 85.1,
+      "score_emergente": 85.0,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -8663,7 +8663,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 73.77888,
+          "valor": 74.02318,
           "puntaje": 0.0
         },
         "pb": {
@@ -8735,8 +8735,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.1,
-          "puntaje": 0.9375,
+          "valor": 1.1125,
+          "puntaje": 0.9296875,
           "base": "PEG"
         },
         "supervivencia": {
@@ -8751,17 +8751,17 @@
         "mm200": 151.71072845458986,
         "dias_cruce": 216,
         "cruce_tipo": "golden",
-        "rsi": 51.0775641133875,
-        "macd": -0.4641797343775238,
-        "macd_senal": 1.6209149815771773,
-        "macd_hist": -2.085094715954701,
-        "obv_pendiente": -24484806.0,
+        "rsi": 51.07756411313203,
+        "macd": -0.4641797348514842,
+        "macd_senal": 1.6209149808803227,
+        "macd_hist": -2.085094715731807,
+        "obv_pendiente": -24225200.0,
         "divergencia_bajista": false,
         "max_precio": 316.3519592285156,
         "dist_ath": 0.7066496556459678,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.82,
+        "vol_ratio": 0.83,
         "barras": 1255
       },
       "target": {
@@ -8783,7 +8783,7 @@
       "recien_listada": false,
       "precio": 259.2300109863281,
       "fundamentales": {
-        "pe": 23.739012,
+        "pe": 23.76077,
         "pb": 5.559058,
         "roe": 0.19381,
         "roa": 0.05704,
@@ -8800,9 +8800,9 @@
         "caja": 11402999808,
         "deuda_total": 42375999488,
         "insiders": 0.029779999,
-        "peg": 1.0691,
+        "peg": 1.0953,
         "ps": 4.8556213,
-        "target_mean": 270.83612,
+        "target_mean": 272.13242,
         "target_high": 475.0,
         "target_low": 160.0,
         "precio_actual": 259.23,
@@ -8810,7 +8810,7 @@
       },
       "score_fundamental": 61.0,
       "score_tecnico": 59.0,
-      "score_emergente": 61.6,
+      "score_emergente": 61.4,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -8818,8 +8818,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 23.739012,
-          "puntaje": 0.5630494
+          "valor": 23.76077,
+          "puntaje": 0.5619615
         },
         "pb": {
           "valor": 5.559058,
@@ -8865,7 +8865,7 @@
         },
         "recorrido": {
           "ok": false,
-          "detalle": "poco recorrido al objetivo (+4%)"
+          "detalle": "poco recorrido al objetivo (+5%)"
         },
         "divergencia": {
           "ok": true,
@@ -8890,8 +8890,8 @@
           "puntaje": 0.09559998
         },
         "valuacion": {
-          "valor": 1.0691,
-          "puntaje": 0.9568125000000001,
+          "valor": 1.0953,
+          "puntaje": 0.9404375,
           "base": "PEG"
         },
         "supervivencia": {
@@ -8906,21 +8906,21 @@
         "mm200": 200.0702921295166,
         "dias_cruce": 350,
         "cruce_tipo": "death",
-        "rsi": 76.6297418190967,
+        "rsi": 76.62974181909658,
         "macd": 20.611080170561536,
         "macd_senal": 16.309425169987872,
         "macd_hist": 4.301655000573664,
-        "obv_pendiente": 92958607.0,
+        "obv_pendiente": 92804100.0,
         "divergencia_bajista": false,
         "max_precio": 363.21923828125,
         "dist_ath": 0.7137012131103024,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.73,
+        "vol_ratio": 0.74,
         "barras": 1255
       },
       "target": {
-        "mean": 270.83612,
+        "mean": 272.13242,
         "high": 475.0,
         "low": 160.0,
         "actual": 259.23,
@@ -8938,7 +8938,7 @@
       "recien_listada": false,
       "precio": 266.510009765625,
       "fundamentales": {
-        "pe": 15.237851,
+        "pe": 15.246569,
         "pb": 9.232342,
         "roe": 0.62953997,
         "roa": 0.19926001,
@@ -8955,7 +8955,7 @@
         "caja": 5625999872,
         "deuda_total": 7077000192,
         "insiders": 0.00223,
-        "peg": 0.6816,
+        "peg": 0.6961,
         "ps": 4.2042117,
         "target_mean": 276.57648,
         "target_high": 380.0,
@@ -8973,8 +8973,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 15.237851,
-          "puntaje": 0.98810745
+          "valor": 15.246569,
+          "puntaje": 0.9876715500000001
         },
         "pb": {
           "valor": 9.232342,
@@ -9045,7 +9045,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.6816,
+          "valor": 0.6961,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -9065,13 +9065,13 @@
         "macd": 8.853129720243771,
         "macd_senal": 10.44630696924627,
         "macd_hist": -1.5931772490024994,
-        "obv_pendiente": 6526337.0,
+        "obv_pendiente": 6468700.0,
         "divergencia_bajista": false,
         "max_precio": 688.3699951171875,
         "dist_ath": 0.3871609914087766,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.27,
+        "vol_ratio": 1.28,
         "barras": 1255
       },
       "target": {
@@ -9093,7 +9093,7 @@
       "recien_listada": false,
       "precio": 332.70001220703125,
       "fundamentales": {
-        "pe": 20.212639,
+        "pe": 20.200365,
         "pb": 4.7648377,
         "roe": 0.23596,
         "roa": 0.1047,
@@ -9109,8 +9109,8 @@
         "ingresos": 21447999488,
         "caja": 7200000000,
         "deuda_total": 8336000000,
-        "insiders": 0.02355,
-        "peg": 1.0883,
+        "insiders": 0.02358,
+        "peg": 1.0926,
         "ps": 4.2430887,
         "target_mean": 405.6,
         "target_high": 732.0,
@@ -9128,8 +9128,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 20.212639,
-          "puntaje": 0.73936805
+          "valor": 20.200365,
+          "puntaje": 0.7399817499999999
         },
         "pb": {
           "valor": 4.7648377,
@@ -9196,12 +9196,12 @@
           "puntaje": 1.0
         },
         "insiders": {
-          "valor": 0.02355,
+          "valor": 0.02358,
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.0883,
-          "puntaje": 0.9448124999999999,
+          "valor": 1.0926,
+          "puntaje": 0.942125,
           "base": "PEG"
         },
         "supervivencia": {
@@ -9213,14 +9213,14 @@
       "tecnicos_raw": {
         "precio": 332.70001220703125,
         "mm50": 315.49322204589845,
-        "mm200": 424.68971366882323,
+        "mm200": 424.68971168518067,
         "dias_cruce": 206,
         "cruce_tipo": "death",
-        "rsi": 46.65181565078194,
-        "macd": 6.778564061045984,
-        "macd_senal": 10.99456970111427,
-        "macd_hist": -4.2160056400682855,
-        "obv_pendiente": -227555.0,
+        "rsi": 46.65181565198067,
+        "macd": 6.778564061280633,
+        "macd_senal": 10.994569701459444,
+        "macd_hist": -4.21600564017881,
+        "obv_pendiente": -235700.0,
         "divergencia_bajista": false,
         "max_precio": 798.4205322265625,
         "dist_ath": 0.41669771602594907,
@@ -9249,36 +9249,36 @@
       "precio": 337.17999267578125,
       "fundamentales": {
         "pe": null,
-        "pb": 54.781475,
-        "roe": -0.54869,
-        "roa": -0.0968,
-        "deuda_equity": 1.4291200000000002,
-        "margen_neto": -0.23786,
+        "pb": 55.284473,
+        "roe": -0.48063,
+        "roa": -0.090220004,
+        "deuda_equity": 1.2856999999999998,
+        "margen_neto": -0.20071,
         "nombre_yf": "Snowflake Inc.",
         "sector": "Technology",
         "market_cap": 116866588672,
         "descripcion": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California.",
-        "crecimiento": 0.335,
-        "margen_bruto": 0.67144996,
-        "fcf": 1739497728,
-        "ingresos": 5032822784,
-        "caja": 2954998016,
-        "deuda_total": 2772094976,
-        "insiders": 0.02962,
-        "peg": 8.3109,
-        "ps": 23.220882,
-        "target_mean": 331.6625,
-        "target_high": 500.0,
+        "crecimiento": 0.351,
+        "margen_bruto": 0.6703,
+        "fcf": 1739526656,
+        "ingresos": 5434647040,
+        "caja": 2344695040,
+        "deuda_total": 2763814912,
+        "insiders": 0.02905,
+        "peg": 9.0018,
+        "ps": 21.503988,
+        "target_mean": 413.2875,
+        "target_high": 525.0,
         "target_low": 110.0,
         "precio_actual": 337.18,
         "n_analistas": 48
       },
-      "score_fundamental": 1.5,
-      "score_tecnico": 60.0,
-      "score_emergente": 74.0,
+      "score_fundamental": 4.4,
+      "score_tecnico": 70.0,
+      "score_emergente": 75.1,
       "metricas_fund_presentes": 4,
       "categoria": "emergente_calidad",
-      "sub_veredicto": "ninguna",
+      "sub_veredicto": "tecnico",
       "riesgo_liquidez": false,
       "runway": null,
       "detalle_fundamental": {
@@ -9287,19 +9287,19 @@
           "puntaje": null
         },
         "pb": {
-          "valor": 54.781475,
+          "valor": 55.284473,
           "puntaje": 0.0
         },
         "roe": {
-          "valor": -0.54869,
+          "valor": -0.48063,
           "puntaje": 0.0
         },
         "deuda_equity": {
-          "valor": 1.4291200000000002,
-          "puntaje": 0.07087999999999983
+          "valor": 1.2856999999999998,
+          "puntaje": 0.21430000000000016
         },
         "margen_neto": {
-          "valor": -0.23786,
+          "valor": -0.20071,
           "puntaje": 0.0
         }
       },
@@ -9329,8 +9329,8 @@
           "detalle": "con recorrido por debajo de maximos"
         },
         "recorrido": {
-          "ok": false,
-          "detalle": "precio en/sobre el objetivo (-2%)"
+          "ok": true,
+          "detalle": "recorrido al objetivo +23%"
         },
         "divergencia": {
           "ok": true,
@@ -9339,23 +9339,23 @@
       },
       "detalle_emergente": {
         "crecimiento": {
-          "valor": 0.335,
-          "puntaje": 0.8375
+          "valor": 0.351,
+          "puntaje": 0.8775
         },
         "margen_bruto": {
-          "valor": 0.67144996,
+          "valor": 0.6703,
           "puntaje": 1.0
         },
         "regla_40": {
-          "valor": 68.06306336734308,
+          "valor": 67.1080889006547,
           "puntaje": 1.0
         },
         "insiders": {
-          "valor": 0.02962,
-          "puntaje": 0.09239999999999998
+          "valor": 0.02905,
+          "puntaje": 0.08099999999999996
         },
         "valuacion": {
-          "valor": 8.3109,
+          "valor": 9.0018,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -9375,7 +9375,7 @@
         "macd": 9.778967445948695,
         "macd_senal": 10.826266878200402,
         "macd_hist": -1.047299432251707,
-        "obv_pendiente": -15481042.0,
+        "obv_pendiente": -15489100.0,
         "divergencia_bajista": false,
         "max_precio": 401.8900146484375,
         "dist_ath": 0.8389857433276544,
@@ -9385,8 +9385,8 @@
         "barras": 1255
       },
       "target": {
-        "mean": 331.6625,
-        "high": 500.0,
+        "mean": 413.2875,
+        "high": 525.0,
         "low": 110.0,
         "actual": 337.18,
         "n": 48
@@ -9403,7 +9403,7 @@
       "recien_listada": false,
       "precio": 145.08999633789062,
       "fundamentales": {
-        "pe": 98.700676,
+        "pe": 98.03378,
         "pb": 14.746417,
         "roe": 0.15543,
         "roa": 0.10187,
@@ -9438,7 +9438,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 98.700676,
+          "valor": 98.03378,
           "puntaje": 0.0
         },
         "pb": {
@@ -9530,7 +9530,7 @@
         "macd": 3.0332773498540178,
         "macd_senal": 4.906588157863395,
         "macd_hist": -1.8733108080093777,
-        "obv_pendiente": -7275210.0,
+        "obv_pendiente": -7305400.0,
         "divergencia_bajista": false,
         "max_precio": 179.00999450683594,
         "dist_ath": 0.8105133835549613,
@@ -9575,7 +9575,7 @@
         "caja": 5184999936,
         "deuda_total": 46041001984,
         "insiders": 0.00063,
-        "peg": 2.6517,
+        "peg": 2.6566,
         "ps": 1.8393238,
         "target_mean": 128.18323,
         "target_high": 160.0,
@@ -9665,7 +9665,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.6517,
+          "valor": 2.6566,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -9685,13 +9685,13 @@
         "macd": 1.6548367196345026,
         "macd_senal": 2.133304718880519,
         "macd_hist": -0.47846799924601635,
-        "obv_pendiente": 15335347.0,
+        "obv_pendiente": 15177600.0,
         "divergencia_bajista": false,
-        "max_precio": 180.25148010253906,
-        "dist_ath": 0.5842392944495457,
+        "max_precio": 180.2515106201172,
+        "dist_ath": 0.5842391955346005,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.59,
+        "vol_ratio": 0.61,
         "barras": 1255
       },
       "target": {
@@ -9713,7 +9713,7 @@
       "recien_listada": false,
       "precio": 181.94000244140625,
       "fundamentales": {
-        "pe": 41.63387,
+        "pe": 41.53881,
         "pb": 13.763522,
         "roe": 0.34542,
         "roa": 0.061389998,
@@ -9730,7 +9730,7 @@
         "caja": 12069000192,
         "deuda_total": 2496000000,
         "insiders": 0.01941,
-        "peg": 1.9628,
+        "peg": 1.7576,
         "ps": 8.278977,
         "target_mean": 179.4625,
         "target_high": 220.0,
@@ -9740,7 +9740,7 @@
       },
       "score_fundamental": 60.0,
       "score_tecnico": 75.0,
-      "score_emergente": 62.5,
+      "score_emergente": 64.1,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -9748,7 +9748,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 41.63387,
+          "valor": 41.53881,
           "puntaje": 0.0
         },
         "pb": {
@@ -9820,8 +9820,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.9628,
-          "puntaje": 0.39825,
+          "valor": 1.7576,
+          "puntaje": 0.5265,
           "base": "PEG"
         },
         "supervivencia": {
@@ -9840,7 +9840,7 @@
         "macd": 6.27469708350219,
         "macd_senal": 8.0886568870268,
         "macd_hist": -1.813959803524611,
-        "obv_pendiente": 17166855.0,
+        "obv_pendiente": 17166600.0,
         "divergencia_bajista": false,
         "max_precio": 207.2100067138672,
         "dist_ath": 0.8780464096632367,
@@ -9868,7 +9868,7 @@
       "recien_listada": false,
       "precio": 193.2899932861328,
       "fundamentales": {
-        "pe": 21.476665,
+        "pe": 21.45283,
         "pb": null,
         "roe": null,
         "roa": 0.2038,
@@ -9885,7 +9885,7 @@
         "caja": 17213999104,
         "deuda_total": 20924000256,
         "insiders": 0.00176,
-        "peg": 0.7229,
+        "peg": 0.7209,
         "ps": 5.1426764,
         "target_mean": 238.67567,
         "target_high": 301.0,
@@ -9903,8 +9903,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 21.476665,
-          "puntaje": 0.6761667499999999
+          "valor": 21.45283,
+          "puntaje": 0.6773585000000001
         },
         "pb": {
           "valor": null,
@@ -9975,7 +9975,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.7229,
+          "valor": 0.7209,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -9988,20 +9988,20 @@
       "tecnicos_raw": {
         "precio": 193.2899932861328,
         "mm50": 194.2501998901367,
-        "mm200": 185.3389991760254,
+        "mm200": 185.3389990234375,
         "dias_cruce": 13,
         "cruce_tipo": "golden",
-        "rsi": 41.925121690373366,
-        "macd": 0.2346734075349559,
-        "macd_senal": 3.147133960273868,
-        "macd_hist": -2.9124605527389122,
-        "obv_pendiente": -30663171.0,
+        "rsi": 41.925121690378845,
+        "macd": 0.23467340753563803,
+        "macd_senal": 3.147133960274858,
+        "macd_hist": -2.91246055273922,
+        "obv_pendiente": -31851600.0,
         "divergencia_bajista": false,
-        "max_precio": 230.6859893798828,
-        "dist_ath": 0.8378922092569392,
+        "max_precio": 230.68597412109375,
+        "dist_ath": 0.8378922646795566,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.86,
+        "vol_ratio": 1.05,
         "barras": 1255
       },
       "target": {
@@ -10023,7 +10023,7 @@
       "recien_listada": false,
       "precio": 255.69000244140625,
       "fundamentales": {
-        "pe": 20.770918,
+        "pe": 20.787806,
         "pb": null,
         "roe": null,
         "roa": 0.1325,
@@ -10040,7 +10040,7 @@
         "caja": 822000000,
         "deuda_total": 54604001280,
         "insiders": 0.0025600002,
-        "peg": 2.2535,
+        "peg": 2.2407,
         "ps": 6.531545,
         "target_mean": 315.3871,
         "target_high": 407.0,
@@ -10048,9 +10048,9 @@
         "precio_actual": 255.69,
         "n_analistas": 31
       },
-      "score_fundamental": 83.3,
+      "score_fundamental": 83.2,
       "score_tecnico": 12.0,
-      "score_emergente": 46.5,
+      "score_emergente": 46.6,
       "metricas_fund_presentes": 2,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -10058,8 +10058,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 20.770918,
-          "puntaje": 0.7114540999999999
+          "valor": 20.787806,
+          "puntaje": 0.7106097
         },
         "pb": {
           "valor": null,
@@ -10130,8 +10130,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.2535,
-          "puntaje": 0.21656250000000016,
+          "valor": 2.2407,
+          "puntaje": 0.2245625000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -10143,14 +10143,14 @@
       "tecnicos_raw": {
         "precio": 255.69000244140625,
         "mm50": 267.71578002929687,
-        "mm200": 291.8437272644043,
+        "mm200": 291.84372802734373,
         "dias_cruce": 80,
         "cruce_tipo": "death",
-        "rsi": 35.68310078880535,
-        "macd": -2.8130296083985513,
-        "macd_senal": -1.8989139937683017,
-        "macd_hist": -0.9141156146302496,
-        "obv_pendiente": -15978677.0,
+        "rsi": 35.68310078832192,
+        "macd": -2.813029608289696,
+        "macd_senal": -1.8989139936082124,
+        "macd_hist": -0.9141156146814837,
+        "obv_pendiente": -16010200.0,
         "divergencia_bajista": false,
         "max_precio": 334.5029602050781,
         "dist_ath": 0.7643878615742206,
@@ -10178,7 +10178,7 @@
       "recien_listada": false,
       "precio": 104.47000122070312,
       "fundamentales": {
-        "pe": 60.738373,
+        "pe": 60.387283,
         "pb": null,
         "roe": null,
         "roa": 0.08022001,
@@ -10195,7 +10195,7 @@
         "caja": 3610299904,
         "deuda_total": 22453100544,
         "insiders": 0.00132,
-        "peg": 1.2903,
+        "peg": 1.2863,
         "ps": 3.1064444,
         "target_mean": 112.22581,
         "target_high": 143.0,
@@ -10213,7 +10213,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 60.738373,
+          "valor": 60.387283,
           "puntaje": 0.0
         },
         "pb": {
@@ -10285,8 +10285,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.2903,
-          "puntaje": 0.8185625,
+          "valor": 1.2863,
+          "puntaje": 0.8210625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -10298,14 +10298,14 @@
       "tecnicos_raw": {
         "precio": 104.47000122070312,
         "mm50": 105.03340133666993,
-        "mm200": 96.63560882568359,
+        "mm200": 96.63560878753663,
         "dias_cruce": 158,
         "cruce_tipo": "golden",
-        "rsi": 45.451649612428945,
-        "macd": 0.33382235361644064,
-        "macd_senal": 0.641506018730817,
-        "macd_hist": -0.3076836651143764,
-        "obv_pendiente": -12567522.0,
+        "rsi": 45.45164961242533,
+        "macd": 0.33382235362039125,
+        "macd_senal": 0.6415060187366103,
+        "macd_hist": -0.30768366511621903,
+        "obv_pendiente": -12578300.0,
         "divergencia_bajista": true,
         "max_precio": 111.4036865234375,
         "dist_ath": 0.9377607194239874,
@@ -10349,8 +10349,8 @@
         "ingresos": 46398001152,
         "caja": 9027000320,
         "deuda_total": 11043000320,
-        "insiders": 0.01686,
-        "peg": 1.4899,
+        "insiders": 0.01713,
+        "peg": 1.5027,
         "ps": 1.227776,
         "target_mean": 50.45882,
         "target_high": 94.0,
@@ -10360,7 +10360,7 @@
       },
       "score_fundamental": 65.2,
       "score_tecnico": 20.0,
-      "score_emergente": 37.9,
+      "score_emergente": 37.8,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -10436,12 +10436,12 @@
           "puntaje": 0.0
         },
         "insiders": {
-          "valor": 0.01686,
+          "valor": 0.01713,
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.4899,
-          "puntaje": 0.6938124999999999,
+          "valor": 1.5027,
+          "puntaje": 0.6858125,
           "base": "PEG"
         },
         "supervivencia": {
@@ -10453,20 +10453,20 @@
       "tecnicos_raw": {
         "precio": 38.400001525878906,
         "mm50": 41.10295166015625,
-        "mm200": 50.40436410903931,
+        "mm200": 50.4043639755249,
         "dias_cruce": 198,
         "cruce_tipo": "death",
-        "rsi": 41.51560493261088,
-        "macd": -0.8491972217410506,
-        "macd_senal": -0.8225704821780666,
-        "macd_hist": -0.026626739562984003,
-        "obv_pendiente": -155122273.0,
+        "rsi": 41.51560498189197,
+        "macd": -0.8491972202792581,
+        "macd_senal": -0.822570480034203,
+        "macd_hist": -0.02662674024505518,
+        "obv_pendiente": -155547800.0,
         "divergencia_bajista": false,
-        "max_precio": 161.9677734375,
-        "dist_ath": 0.23708420947514394,
+        "max_precio": 161.96778869628906,
+        "dist_ath": 0.23708418713972793,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.79,
+        "vol_ratio": 0.81,
         "barras": 1255
       },
       "target": {
@@ -10488,7 +10488,7 @@
       "recien_listada": false,
       "precio": 321.04998779296875,
       "fundamentales": {
-        "pe": 22.482492,
+        "pe": 22.466759,
         "pb": 19.282282,
         "roe": 1.0429599,
         "roa": 0.121379994,
@@ -10505,7 +10505,7 @@
         "caja": 2084999936,
         "deuda_total": 63188000768,
         "insiders": 0.00068999996,
-        "peg": 1.7769,
+        "peg": 1.7744,
         "ps": 1.8933432,
         "target_mean": 377.5,
         "target_high": 425.0,
@@ -10523,8 +10523,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 22.482492,
-          "puntaje": 0.6258754
+          "valor": 22.466759,
+          "puntaje": 0.62666205
         },
         "pb": {
           "valor": 19.282282,
@@ -10595,8 +10595,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.7769,
-          "puntaje": 0.5144375000000001,
+          "valor": 1.7744,
+          "puntaje": 0.516,
           "base": "PEG"
         },
         "supervivencia": {
@@ -10611,14 +10611,14 @@
         "mm200": 338.6395359802246,
         "dias_cruce": 185,
         "cruce_tipo": "death",
-        "rsi": 40.18461689085963,
-        "macd": -4.937985910124553,
-        "macd_senal": -3.0005814597492995,
-        "macd_hist": -1.9374044503752534,
-        "obv_pendiente": -21796356.0,
+        "rsi": 40.184616890257274,
+        "macd": -4.9379859233872025,
+        "macd_senal": -3.000581479137139,
+        "macd_hist": -1.9374044442500638,
+        "obv_pendiente": -21794800.0,
         "divergencia_bajista": false,
-        "max_precio": 411.9336853027344,
-        "dist_ath": 0.7793729895068565,
+        "max_precio": 411.9337158203125,
+        "dist_ath": 0.7793729317680137,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.59,
@@ -10643,7 +10643,7 @@
       "recien_listada": false,
       "precio": 146.44000244140625,
       "fundamentales": {
-        "pe": 22.08748,
+        "pe": 22.120846,
         "pb": 6.381662,
         "roe": 0.30290002,
         "roa": 0.107209995,
@@ -10660,7 +10660,7 @@
         "caja": 9941999616,
         "deuda_total": 35024998400,
         "insiders": 0.00091,
-        "peg": 3.7771,
+        "peg": 3.7587,
         "ps": 3.9081275,
         "target_mean": 160.6087,
         "target_high": 186.0,
@@ -10678,8 +10678,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 22.08748,
-          "puntaje": 0.645626
+          "valor": 22.120846,
+          "puntaje": 0.6439577
         },
         "pb": {
           "valor": 6.381662,
@@ -10750,7 +10750,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 3.7771,
+          "valor": 3.7587,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -10763,17 +10763,17 @@
       "tecnicos_raw": {
         "precio": 146.44000244140625,
         "mm50": 146.3016098022461,
-        "mm200": 145.83355545043946,
+        "mm200": 145.83355438232422,
         "dias_cruce": 29,
         "cruce_tipo": "golden",
-        "rsi": 52.805928478130895,
-        "macd": 0.0897293894337281,
-        "macd_senal": -0.2760112506634112,
-        "macd_hist": 0.3657406400971393,
-        "obv_pendiente": 21927173.0,
+        "rsi": 52.805928487046366,
+        "macd": 0.0897293925764302,
+        "macd_senal": -0.27601124604341165,
+        "macd_hist": 0.36574063861984185,
+        "obv_pendiente": 21891400.0,
         "divergencia_bajista": false,
-        "max_precio": 171.2625274658203,
-        "dist_ath": 0.8550615514572035,
+        "max_precio": 171.26251220703125,
+        "dist_ath": 0.8550616276396891,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.62,
@@ -10802,7 +10802,7 @@
       "recien_listada": false,
       "precio": 137.6300048828125,
       "fundamentales": {
-        "pe": 18.038008,
+        "pe": 18.06168,
         "pb": 8.507758,
         "roe": 0.51508,
         "roa": 0.08931,
@@ -10819,7 +10819,7 @@
         "caja": 10716000256,
         "deuda_total": 53213999104,
         "insiders": 0.00183,
-        "peg": 1.5131,
+        "peg": 1.4342,
         "ps": 1.940091,
         "target_mean": 155.0,
         "target_high": 183.0,
@@ -10829,7 +10829,7 @@
       },
       "score_fundamental": 55.3,
       "score_tecnico": 20.0,
-      "score_emergente": 46.4,
+      "score_emergente": 47.0,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -10837,8 +10837,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 18.038008,
-          "puntaje": 0.8480996
+          "valor": 18.06168,
+          "puntaje": 0.846916
         },
         "pb": {
           "valor": 8.507758,
@@ -10868,7 +10868,7 @@
         },
         "rsi": {
           "ok": true,
-          "detalle": "RSI 42 (sano)"
+          "detalle": "RSI 46 (sano)"
         },
         "macd": {
           "ok": false,
@@ -10909,8 +10909,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.5131,
-          "puntaje": 0.6793125000000001,
+          "valor": 1.4342,
+          "puntaje": 0.7286250000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -10921,21 +10921,21 @@
       },
       "tecnicos_raw": {
         "precio": 137.6300048828125,
-        "mm50": 139.6463995361328,
-        "mm200": 147.12973083496092,
+        "mm50": 138.19944122314453,
+        "mm200": 145.58185401916504,
         "dias_cruce": 48,
         "cruce_tipo": "death",
-        "rsi": 42.070030840803895,
-        "macd": -0.06361880718074531,
-        "macd_senal": 0.2972762263698392,
-        "macd_hist": -0.3608950335505845,
-        "obv_pendiente": -11849699.0,
+        "rsi": 45.7708308186234,
+        "macd": 0.05310135946379546,
+        "macd_senal": 0.3173434664725359,
+        "macd_hist": -0.26424210700874046,
+        "obv_pendiente": -11913000.0,
         "divergencia_bajista": false,
-        "max_precio": 175.40428161621094,
-        "dist_ath": 0.7846445002063888,
+        "max_precio": 173.5502471923828,
+        "dist_ath": 0.793026844440318,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.76,
+        "vol_ratio": 0.77,
         "barras": 1255
       },
       "target": {
@@ -10957,7 +10957,7 @@
       "recien_listada": false,
       "precio": 275.2300109863281,
       "fundamentales": {
-        "pe": 31.892237,
+        "pe": 31.96632,
         "pb": 7.80042,
         "roe": 0.25742,
         "roa": 0.08595,
@@ -10974,7 +10974,7 @@
         "caja": 20757999616,
         "deuda_total": 49036001280,
         "insiders": 0.00053,
-        "peg": 4.3845,
+        "peg": 4.4358,
         "ps": 6.7730336,
         "target_mean": 275.63635,
         "target_high": 320.0,
@@ -10982,7 +10982,7 @@
         "precio_actual": 275.23,
         "n_analistas": 22
       },
-      "score_fundamental": 62.2,
+      "score_fundamental": 62.1,
       "score_tecnico": 80.0,
       "score_emergente": 43.2,
       "metricas_fund_presentes": 5,
@@ -10992,8 +10992,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 31.892237,
-          "puntaje": 0.15538814999999995
+          "valor": 31.96632,
+          "puntaje": 0.15168400000000004
         },
         "pb": {
           "valor": 7.80042,
@@ -11035,7 +11035,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 0.52x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 0.58x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": false,
@@ -11064,7 +11064,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 4.3845,
+          "valor": 4.4358,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -11077,20 +11077,20 @@
       "tecnicos_raw": {
         "precio": 275.2300109863281,
         "mm50": 260.7234878540039,
-        "mm200": 233.50155784606935,
+        "mm200": 233.50155769348146,
         "dias_cruce": 292,
         "cruce_tipo": "golden",
-        "rsi": 61.220432281805174,
-        "macd": 4.660988483966207,
-        "macd_senal": 4.207764340098551,
-        "macd_hist": 0.4532241438676561,
-        "obv_pendiente": 37790023.0,
+        "rsi": 61.220432281520566,
+        "macd": 4.660988483962512,
+        "macd_senal": 4.207764340093089,
+        "macd_hist": 0.45322414386942356,
+        "obv_pendiente": 37348900.0,
         "divergencia_bajista": false,
         "max_precio": 278.42999267578125,
         "dist_ath": 0.9885070510590453,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.52,
+        "vol_ratio": 0.58,
         "barras": 1255
       },
       "target": {
@@ -11129,7 +11129,7 @@
         "caja": 6568999936,
         "deuda_total": 70884999168,
         "insiders": 0.0011,
-        "peg": 0.4222,
+        "peg": 0.3702,
         "ps": 7.0387177,
         "target_mean": 276.5862,
         "target_high": 328.0,
@@ -11219,7 +11219,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.4222,
+          "valor": 0.3702,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -11239,7 +11239,7 @@
         "macd": 2.3877021045542506,
         "macd_senal": 2.996684506868121,
         "macd_hist": -0.6089824023138704,
-        "obv_pendiente": 13535474.0,
+        "obv_pendiente": 13507800.0,
         "divergencia_bajista": true,
         "max_precio": 265.9700012207031,
         "dist_ath": 0.9642440511261511,
@@ -11284,9 +11284,9 @@
         "caja": 7141000192,
         "deuda_total": 53910999040,
         "insiders": 0.00056,
-        "peg": 10.26,
+        "peg": 2.9663,
         "ps": 5.5715113,
-        "target_mean": 148.73077,
+        "target_mean": 149.5,
         "target_high": 186.0,
         "target_low": 105.0,
         "precio_actual": 150.33,
@@ -11374,7 +11374,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 10.26,
+          "valor": 2.9663,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -11390,21 +11390,21 @@
         "mm200": 117.44136749267578,
         "dias_cruce": 219,
         "cruce_tipo": "golden",
-        "rsi": 62.296662136505496,
+        "rsi": 62.29666213650546,
         "macd": 5.497838683819225,
         "macd_senal": 5.706499049484987,
         "macd_hist": -0.20866036566576174,
-        "obv_pendiente": 40283757.0,
+        "obv_pendiente": 40186500.0,
         "divergencia_bajista": false,
         "max_precio": 156.4499969482422,
         "dist_ath": 0.9608821013961915,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.43,
+        "vol_ratio": 0.44,
         "barras": 1255
       },
       "target": {
-        "mean": 148.73077,
+        "mean": 149.5,
         "high": 186.0,
         "low": 105.0,
         "actual": 150.33,
@@ -11439,7 +11439,7 @@
         "caja": 11704000512,
         "deuda_total": 63480000512,
         "insiders": 0.00104,
-        "peg": 2.8444,
+        "peg": 2.8238,
         "ps": 2.5457757,
         "target_mean": 28.60577,
         "target_high": 35.75,
@@ -11529,7 +11529,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.8444,
+          "valor": 2.8238,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -11542,17 +11542,17 @@
       "tecnicos_raw": {
         "precio": 28.450000762939453,
         "mm50": 25.82228946685791,
-        "mm200": 25.451202707290648,
+        "mm200": 25.451202669143676,
         "dias_cruce": 6,
         "cruce_tipo": "golden",
-        "rsi": 63.19661070723569,
-        "macd": 0.8056702292849849,
-        "macd_senal": 0.8163409588164595,
-        "macd_hist": -0.010670729531474632,
-        "obv_pendiente": 115069163.0,
+        "rsi": 63.196610697008694,
+        "macd": 0.8056702294614055,
+        "macd_senal": 0.8163409590752692,
+        "macd_hist": -0.010670729613863617,
+        "obv_pendiente": 114815800.0,
         "divergencia_bajista": true,
-        "max_precio": 47.42330551147461,
-        "dist_ath": 0.5999160213759382,
+        "max_precio": 47.423309326171875,
+        "dist_ath": 0.5999159731191203,
         "en_techo": false,
         "ruptura_confirmada": false,
         "vol_ratio": 0.59,
@@ -11577,7 +11577,7 @@
       "recien_listada": false,
       "precio": 613.780029296875,
       "fundamentales": {
-        "pe": 33.087875,
+        "pe": 32.998924,
         "pb": 4.3080444,
         "roe": 0.13515,
         "roa": 0.05129,
@@ -11594,7 +11594,7 @@
         "caja": 4064000000,
         "deuda_total": 42548998144,
         "insiders": 0.0013,
-        "peg": 1.8125,
+        "peg": 1.842,
         "ps": 4.8977795,
         "target_mean": 638.1111,
         "target_high": 750.0,
@@ -11602,9 +11602,9 @@
         "precio_actual": 613.78,
         "n_analistas": 27
       },
-      "score_fundamental": 37.6,
+      "score_fundamental": 37.7,
       "score_tecnico": 80.0,
-      "score_emergente": 42.1,
+      "score_emergente": 41.9,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -11612,8 +11612,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 33.087875,
-          "puntaje": 0.09560625000000017
+          "valor": 32.998924,
+          "puntaje": 0.10005379999999986
         },
         "pb": {
           "valor": 4.3080444,
@@ -11684,8 +11684,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.8125,
-          "puntaje": 0.4921875,
+          "valor": 1.842,
+          "puntaje": 0.47375,
           "base": "PEG"
         },
         "supervivencia": {
@@ -11697,20 +11697,20 @@
       "tecnicos_raw": {
         "precio": 613.780029296875,
         "mm50": 570.7336029052734,
-        "mm200": 535.4390718078613,
+        "mm200": 535.4390705871582,
         "dias_cruce": 13,
         "cruce_tipo": "golden",
-        "rsi": 57.432281726434475,
-        "macd": 13.197218131737941,
-        "macd_senal": 16.997791271666028,
-        "macd_hist": -3.800573139928087,
-        "obv_pendiente": 2617475.0,
+        "rsi": 57.43228172644183,
+        "macd": 13.197218131744876,
+        "macd_senal": 16.997791271676153,
+        "macd_hist": -3.800573139931277,
+        "obv_pendiente": 2604800.0,
         "divergencia_bajista": false,
-        "max_precio": 658.5448608398438,
-        "dist_ath": 0.9320246285334608,
+        "max_precio": 658.5447998046875,
+        "dist_ath": 0.932024714915236,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.61,
+        "vol_ratio": 0.62,
         "barras": 1255
       },
       "target": {
@@ -11732,7 +11732,7 @@
       "recien_listada": false,
       "precio": 437.2300109863281,
       "fundamentales": {
-        "pe": 27.12345,
+        "pe": 27.17402,
         "pb": 20.223404,
         "roe": 0.91473,
         "roa": 0.08667,
@@ -11749,7 +11749,7 @@
         "caja": 13989000192,
         "deuda_total": 57303998464,
         "insiders": 0.00225,
-        "peg": 2.1326,
+        "peg": 2.1387,
         "ps": 6.205028,
         "target_mean": 389.68967,
         "target_high": 457.0,
@@ -11757,9 +11757,9 @@
         "precio_actual": 437.23,
         "n_analistas": 29
       },
-      "score_fundamental": 52.7,
+      "score_fundamental": 52.6,
       "score_tecnico": 60.0,
-      "score_emergente": 49.2,
+      "score_emergente": 49.1,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -11767,8 +11767,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 27.12345,
-          "puntaje": 0.3938275000000001
+          "valor": 27.17402,
+          "puntaje": 0.39129900000000006
         },
         "pb": {
           "valor": 20.223404,
@@ -11810,7 +11810,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 0.66x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 0.68x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": false,
@@ -11839,8 +11839,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.1326,
-          "puntaje": 0.29212499999999997,
+          "valor": 2.1387,
+          "puntaje": 0.28831249999999997,
           "base": "PEG"
         },
         "supervivencia": {
@@ -11855,17 +11855,17 @@
         "mm200": 354.21608459472657,
         "dias_cruce": 207,
         "cruce_tipo": "golden",
-        "rsi": 62.514621388355906,
+        "rsi": 62.51462138835596,
         "macd": 13.355781347752043,
-        "macd_senal": 14.903080453875829,
-        "macd_hist": -1.547299106123786,
-        "obv_pendiente": 7056028.0,
+        "macd_senal": 14.90308045387583,
+        "macd_hist": -1.5472991061237877,
+        "obv_pendiente": 7022400.0,
         "divergencia_bajista": false,
         "max_precio": 444.1199951171875,
         "dist_ath": 0.984486210468769,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.66,
+        "vol_ratio": 0.68,
         "barras": 1255
       },
       "target": {
@@ -11904,7 +11904,7 @@
         "caja": 496412000256,
         "deuda_total": 478470012928,
         "insiders": 0.00090000004,
-        "peg": 1.6059,
+        "peg": 1.5085,
         "ps": 3.2769158,
         "target_mean": 100.23913,
         "target_high": 115.0,
@@ -11914,7 +11914,7 @@
       },
       "score_fundamental": 76.1,
       "score_tecnico": 92.0,
-      "score_emergente": 29.3,
+      "score_emergente": 30.4,
       "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
@@ -12000,8 +12000,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.6059,
-          "puntaje": 0.6213124999999999,
+          "valor": 1.5085,
+          "puntaje": 0.6821875000000001,
           "base": "PEG"
         },
         "supervivencia": {
@@ -12013,20 +12013,20 @@
       "tecnicos_raw": {
         "precio": 89.97000122070312,
         "mm50": 86.36270248413086,
-        "mm200": 84.15809635162354,
+        "mm200": 84.1580963897705,
         "dias_cruce": 21,
         "cruce_tipo": "golden",
-        "rsi": 64.3024188513674,
-        "macd": 0.6371751395720509,
-        "macd_senal": 0.23200189208049019,
-        "macd_hist": 0.4051732474915607,
-        "obv_pendiente": 24275749.0,
+        "rsi": 64.3024188512825,
+        "macd": 0.6371751395768825,
+        "macd_senal": 0.23200189208758046,
+        "macd_hist": 0.40517324748930206,
+        "obv_pendiente": 24322000.0,
         "divergencia_bajista": true,
         "max_precio": 94.8288803100586,
         "dist_ath": 0.9487616106668288,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.55,
+        "vol_ratio": 0.56,
         "barras": 1255
       },
       "target": {
@@ -12052,7 +12052,7 @@
       "recien_listada": false,
       "precio": 1038.6099853515625,
       "fundamentales": {
-        "pe": 16.035357,
+        "pe": 16.02546,
         "pb": 2.8687,
         "roe": 0.16902,
         "roa": 0.010720001,
@@ -12069,7 +12069,7 @@
         "caja": 1156854054912,
         "deuda_total": 897484980224,
         "insiders": 0.00551,
-        "peg": 1.2421,
+        "peg": 1.2835,
         "ps": 4.4755588,
         "target_mean": 1141.65,
         "target_high": 1325.0,
@@ -12079,7 +12079,7 @@
       },
       "score_fundamental": 77.7,
       "score_tecnico": 85.0,
-      "score_emergente": 78.9,
+      "score_emergente": 78.4,
       "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
@@ -12087,8 +12087,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 16.035357,
-          "puntaje": 0.9482321499999999
+          "valor": 16.02546,
+          "puntaje": 0.9487270000000001
         },
         "pb": {
           "valor": 2.8687,
@@ -12165,8 +12165,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.2421,
-          "puntaje": 0.8486875,
+          "valor": 1.2835,
+          "puntaje": 0.8228125,
           "base": "PEG"
         },
         "supervivencia": {
@@ -12178,14 +12178,14 @@
       "tecnicos_raw": {
         "precio": 1038.6099853515625,
         "mm50": 1039.0146936035155,
-        "mm200": 939.1981552124023,
+        "mm200": 939.1981533813477,
         "dias_cruce": 311,
         "cruce_tipo": "golden",
-        "rsi": 52.01914900092855,
-        "macd": -3.484451937741369,
-        "macd_senal": -4.166332704786949,
-        "macd_hist": 0.6818807670455804,
-        "obv_pendiente": -2524074.0,
+        "rsi": 52.01914901388191,
+        "macd": -3.4844519193584347,
+        "macd_senal": -4.166332677813268,
+        "macd_hist": 0.6818807584548336,
+        "obv_pendiente": -2523400.0,
         "divergencia_bajista": false,
         "max_precio": 1146.455078125,
         "dist_ath": 0.9059316890550866,
@@ -12217,7 +12217,7 @@
       "recien_listada": false,
       "precio": 217.72000122070312,
       "fundamentales": {
-        "pe": 17.58643,
+        "pe": 17.572235,
         "pb": 3.211162,
         "roe": 0.17969999,
         "roa": 0.01345,
@@ -12234,7 +12234,7 @@
         "caja": 739076014080,
         "deuda_total": 607495979008,
         "insiders": 0.24410999,
-        "peg": 1.8618,
+        "peg": 1.9086,
         "ps": 4.393582,
         "target_mean": 236.61905,
         "target_high": 262.0,
@@ -12244,7 +12244,7 @@
       },
       "score_fundamental": 79.7,
       "score_tecnico": 77.0,
-      "score_emergente": 73.4,
+      "score_emergente": 72.9,
       "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
@@ -12252,8 +12252,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 17.58643,
-          "puntaje": 0.8706785
+          "valor": 17.572235,
+          "puntaje": 0.8713882500000001
         },
         "pb": {
           "valor": 3.211162,
@@ -12330,8 +12330,8 @@
           "puntaje": 1.0
         },
         "valuacion": {
-          "valor": 1.8618,
-          "puntaje": 0.4613750000000001,
+          "valor": 1.9086,
+          "puntaje": 0.432125,
           "base": "PEG"
         },
         "supervivencia": {
@@ -12343,20 +12343,20 @@
       "tecnicos_raw": {
         "precio": 217.72000122070312,
         "mm50": 215.01720153808594,
-        "mm200": 189.2799910736084,
+        "mm200": 189.27999153137208,
         "dias_cruce": 309,
         "cruce_tipo": "golden",
-        "rsi": 54.999608039488606,
-        "macd": 0.10621371015918157,
-        "macd_senal": -0.07233047933548735,
-        "macd_hist": 0.17854418949466894,
-        "obv_pendiente": -9696209.0,
+        "rsi": 54.9996080304104,
+        "macd": 0.10621371066397955,
+        "macd_senal": -0.07233047859304904,
+        "macd_hist": 0.17854418925702858,
+        "obv_pendiente": -9492400.0,
         "divergencia_bajista": true,
         "max_precio": 227.2987823486328,
         "dist_ath": 0.9578581942720763,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.58,
+        "vol_ratio": 0.62,
         "barras": 1255
       },
       "target": {
@@ -12382,7 +12382,7 @@
       "recien_listada": false,
       "precio": 326.1600036621094,
       "fundamentales": {
-        "pe": 19.77926,
+        "pe": 19.80328,
         "pb": 6.422369,
         "roe": 0.34377,
         "roa": 0.037920002,
@@ -12399,7 +12399,7 @@
         "caja": 45752000512,
         "deuda_total": 59092000768,
         "insiders": 0.22558,
-        "peg": 1.3374,
+        "peg": 1.3367,
         "ps": 3.1060462,
         "target_mean": 375.9556,
         "target_high": 450.0,
@@ -12407,7 +12407,7 @@
         "precio_actual": 326.16,
         "n_analistas": 25
       },
-      "score_fundamental": 73.7,
+      "score_fundamental": 73.6,
       "score_tecnico": 32.0,
       "score_emergente": 45.5,
       "metricas_fund_presentes": 5,
@@ -12417,8 +12417,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 19.77926,
-          "puntaje": 0.761037
+          "valor": 19.80328,
+          "puntaje": 0.759836
         },
         "pb": {
           "valor": 6.422369,
@@ -12495,8 +12495,8 @@
           "puntaje": 1.0
         },
         "valuacion": {
-          "valor": 1.3374,
-          "puntaje": 0.7891250000000001,
+          "valor": 1.3367,
+          "puntaje": 0.7895625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -12508,20 +12508,20 @@
       "tecnicos_raw": {
         "precio": 326.1600036621094,
         "mm50": 341.36653686523437,
-        "mm200": 335.78472091674803,
+        "mm200": 335.7847221374512,
         "dias_cruce": 17,
         "cruce_tipo": "golden",
-        "rsi": 39.34434806541531,
-        "macd": -3.436764267347314,
-        "macd_senal": -2.4699995240335686,
-        "macd_hist": -0.9667647433137456,
-        "obv_pendiente": -8488312.0,
+        "rsi": 39.344348062055026,
+        "macd": -3.4367642679625305,
+        "macd_senal": -2.469999524938226,
+        "macd_hist": -0.9667647430243047,
+        "obv_pendiente": -8538300.0,
         "divergencia_bajista": false,
         "max_precio": 381.78155517578125,
         "dist_ath": 0.8543105323983963,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.71,
+        "vol_ratio": 0.73,
         "barras": 1255
       },
       "target": {
@@ -12543,7 +12543,7 @@
       "recien_listada": false,
       "precio": 1122.2900390625,
       "fundamentales": {
-        "pe": 26.861897,
+        "pe": 26.881199,
         "pb": 3.0193112,
         "roe": 0.122779995,
         "roa": 0.03737,
@@ -12560,7 +12560,7 @@
         "caja": 13843000320,
         "deuda_total": 14968000512,
         "insiders": 0.01916,
-        "peg": 0.928,
+        "peg": 0.944,
         "ps": 6.679564,
         "target_mean": 1320.8125,
         "target_high": 1488.0,
@@ -12568,7 +12568,7 @@
         "precio_actual": 1122.29,
         "n_analistas": 16
       },
-      "score_fundamental": 58.8,
+      "score_fundamental": 58.7,
       "score_tecnico": 70.0,
       "score_emergente": 78.1,
       "metricas_fund_presentes": 5,
@@ -12578,8 +12578,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 26.861897,
-          "puntaje": 0.40690515000000005
+          "valor": 26.881199,
+          "puntaje": 0.40594005000000005
         },
         "pb": {
           "valor": 3.0193112,
@@ -12656,7 +12656,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.928,
+          "valor": 0.944,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -12669,14 +12669,14 @@
       "tecnicos_raw": {
         "precio": 1122.2900390625,
         "mm50": 1092.0731994628907,
-        "mm200": 1052.7910992431641,
+        "mm200": 1052.7910995483398,
         "dias_cruce": 17,
         "cruce_tipo": "golden",
-        "rsi": 47.2509013157527,
-        "macd": 7.684174061399972,
-        "macd_senal": 17.120419207448574,
-        "macd_hist": -9.436245146048602,
-        "obv_pendiente": -2851255.0,
+        "rsi": 47.25090131628118,
+        "macd": 7.684174060788564,
+        "macd_senal": 17.120419206549453,
+        "macd_hist": -9.43624514576089,
+        "obv_pendiente": -2851300.0,
         "divergencia_bajista": false,
         "max_precio": 1183.4700927734375,
         "dist_ath": 0.9483045206765105,
@@ -12704,7 +12704,7 @@
       "recien_listada": false,
       "precio": 208.60000610351562,
       "fundamentales": {
-        "pe": 20.057693,
+        "pe": 20.076998,
         "pb": 2.1549587,
         "roe": 0.12231,
         "roa": 0.05861,
@@ -12721,7 +12721,7 @@
         "caja": 8529999872,
         "deuda_total": 37075001344,
         "insiders": 0.04768,
-        "peg": 0.7716,
+        "peg": 0.9331,
         "ps": 1.9542586,
         "target_mean": 221.20833,
         "target_high": 243.0,
@@ -12739,8 +12739,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 20.057693,
-          "puntaje": 0.74711535
+          "valor": 20.076998,
+          "puntaje": 0.7461501
         },
         "pb": {
           "valor": 2.1549587,
@@ -12782,7 +12782,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 0.66x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 0.67x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": true,
@@ -12811,7 +12811,7 @@
           "puntaje": 0.45359999999999995
         },
         "valuacion": {
-          "valor": 0.7716,
+          "valor": 0.9331,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -12827,17 +12827,17 @@
         "mm200": 178.2264849090576,
         "dias_cruce": 269,
         "cruce_tipo": "golden",
-        "rsi": 64.8660095080554,
+        "rsi": 64.86600950805544,
         "macd": 5.275213431971622,
-        "macd_senal": 4.944492675677644,
-        "macd_hist": 0.330720756293978,
-        "obv_pendiente": 57939916.0,
+        "macd_senal": 4.944492675677645,
+        "macd_hist": 0.3307207562939771,
+        "obv_pendiente": 57869800.0,
         "divergencia_bajista": false,
         "max_precio": 211.77999877929688,
         "dist_ath": 0.9849844522895893,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.66,
+        "vol_ratio": 0.67,
         "barras": 1255
       },
       "target": {
@@ -12876,7 +12876,7 @@
         "caja": 7692000256,
         "deuda_total": 23289999360,
         "insiders": 0.00096000003,
-        "peg": 1.1607,
+        "peg": 1.1482,
         "ps": 2.502235,
         "target_mean": 145.33333,
         "target_high": 189.0,
@@ -12886,7 +12886,7 @@
       },
       "score_fundamental": 71.1,
       "score_tecnico": 70.0,
-      "score_emergente": 81.3,
+      "score_emergente": 81.4,
       "metricas_fund_presentes": 5,
       "categoria": "triple_corona_madura",
       "sub_veredicto": "triple_corona",
@@ -12937,7 +12937,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 0.78x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 0.82x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": true,
@@ -12966,8 +12966,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.1607,
-          "puntaje": 0.8995624999999999,
+          "valor": 1.1482,
+          "puntaje": 0.9073749999999999,
           "base": "PEG"
         },
         "supervivencia": {
@@ -12979,20 +12979,20 @@
       "tecnicos_raw": {
         "precio": 134.25999450683594,
         "mm50": 119.63718536376953,
-        "mm200": 111.36168556213379,
+        "mm200": 111.36168579101563,
         "dias_cruce": 165,
         "cruce_tipo": "golden",
-        "rsi": 63.20133406815167,
-        "macd": 4.321505500794672,
-        "macd_senal": 4.3572823160516725,
-        "macd_hist": -0.03577681525700083,
-        "obv_pendiente": 29521227.0,
+        "rsi": 63.20133407863176,
+        "macd": 4.321505500969835,
+        "macd_senal": 4.3572823163079155,
+        "macd_hist": -0.03577681533808086,
+        "obv_pendiente": 29210800.0,
         "divergencia_bajista": false,
         "max_precio": 137.1999969482422,
         "dist_ath": 0.9785714103002834,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.78,
+        "vol_ratio": 0.82,
         "barras": 1255
       },
       "target": {
@@ -13035,7 +13035,7 @@
         "caja": 4124000000,
         "deuda_total": 12810000384,
         "insiders": 0.0021600001,
-        "peg": 1.8781,
+        "peg": 1.5135,
         "ps": 2.347057,
         "target_mean": 62.03448,
         "target_high": 71.0,
@@ -13045,7 +13045,7 @@
       },
       "score_fundamental": 46.7,
       "score_tecnico": 100.0,
-      "score_emergente": 21.3,
+      "score_emergente": 24.0,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -13125,8 +13125,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.8781,
-          "puntaje": 0.45118749999999996,
+          "valor": 1.5135,
+          "puntaje": 0.6790624999999999,
           "base": "PEG"
         },
         "supervivencia": {
@@ -13138,14 +13138,14 @@
       "tecnicos_raw": {
         "precio": 57.5099983215332,
         "mm50": 50.54430053710937,
-        "mm200": 48.55827856063843,
+        "mm200": 48.55827835083008,
         "dias_cruce": 186,
         "cruce_tipo": "golden",
-        "rsi": 62.82217709589376,
-        "macd": 1.9523364728820027,
-        "macd_senal": 1.6706457286289627,
-        "macd_hist": 0.2816907442530401,
-        "obv_pendiente": 101107931.0,
+        "rsi": 62.82217709324518,
+        "macd": 1.9523364711064914,
+        "macd_senal": 1.6706457260442287,
+        "macd_hist": 0.28169074506226277,
+        "obv_pendiente": 101130100.0,
         "divergencia_bajista": false,
         "max_precio": 59.78976821899414,
         "dist_ath": 0.9618702335638643,
@@ -13190,7 +13190,7 @@
         "caja": 2865999872,
         "deuda_total": 110196998144,
         "insiders": 0.00118,
-        "peg": 1.6777,
+        "peg": 1.6971,
         "ps": 6.063873,
         "target_mean": 98.38889,
         "target_high": 114.0,
@@ -13200,7 +13200,7 @@
       },
       "score_fundamental": 50.4,
       "score_tecnico": 50.0,
-      "score_emergente": 34.6,
+      "score_emergente": 34.5,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -13280,8 +13280,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.6777,
-          "puntaje": 0.5764375,
+          "valor": 1.6971,
+          "puntaje": 0.5643125,
           "base": "PEG"
         },
         "supervivencia": {
@@ -13293,20 +13293,20 @@
       "tecnicos_raw": {
         "precio": 83.43000030517578,
         "mm50": 85.98187911987304,
-        "mm200": 86.53848720550538,
+        "mm200": 86.53848670959472,
         "dias_cruce": 9,
         "cruce_tipo": "death",
-        "rsi": 43.381787638437544,
-        "macd": -0.8298126186934098,
-        "macd_senal": -0.9035139928176148,
-        "macd_hist": 0.07370137412420497,
-        "obv_pendiente": 40582775.0,
+        "rsi": 43.38178756419809,
+        "macd": -0.829812620447612,
+        "macd_senal": -0.9035139953798189,
+        "macd_hist": 0.07370137493220696,
+        "obv_pendiente": 39257000.0,
         "divergencia_bajista": false,
         "max_precio": 96.44304656982422,
         "dist_ath": 0.8650701452568997,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.87,
+        "vol_ratio": 0.99,
         "barras": 1255
       },
       "target": {
@@ -13328,7 +13328,7 @@
       "recien_listada": false,
       "precio": 209.61000061035156,
       "fundamentales": {
-        "pe": 8.055726,
+        "pe": 8.058824,
         "pb": 3.5838733,
         "roe": 0.46577,
         "roa": 0.0572,
@@ -13345,9 +13345,9 @@
         "caja": 9196000256,
         "deuda_total": 34955001856,
         "insiders": 0.00081,
-        "peg": 3.3246,
+        "peg": 3.3497,
         "ps": 1.7456392,
-        "target_mean": 264.31818,
+        "target_mean": 263.4091,
         "target_high": 303.0,
         "target_low": 186.0,
         "precio_actual": 209.61,
@@ -13363,7 +13363,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 8.055726,
+          "valor": 8.058824,
           "puntaje": 1.0
         },
         "pb": {
@@ -13435,7 +13435,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 3.3246,
+          "valor": 3.3497,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -13448,24 +13448,24 @@
       "tecnicos_raw": {
         "precio": 209.61000061035156,
         "mm50": 228.43486694335937,
-        "mm200": 227.97798446655273,
+        "mm200": 227.97798538208008,
         "dias_cruce": 148,
         "cruce_tipo": "golden",
-        "rsi": 34.84776126678898,
-        "macd": -6.759628604534811,
-        "macd_senal": -5.424740428609545,
-        "macd_hist": -1.3348881759252658,
-        "obv_pendiente": -24596690.0,
+        "rsi": 34.84776126706478,
+        "macd": -6.759628604691301,
+        "macd_senal": -5.424740428839632,
+        "macd_hist": -1.3348881758516686,
+        "obv_pendiente": -24359600.0,
         "divergencia_bajista": false,
         "max_precio": 257.9405517578125,
         "dist_ath": 0.8126291084589141,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.65,
+        "vol_ratio": 0.71,
         "barras": 1255
       },
       "target": {
-        "mean": 264.31818,
+        "mean": 263.4091,
         "high": 303.0,
         "low": 186.0,
         "actual": 209.61,
@@ -13500,7 +13500,7 @@
         "caja": 8304999936,
         "deuda_total": 38855999488,
         "insiders": 0.00091,
-        "peg": 2.328,
+        "peg": 2.3436,
         "ps": 2.8942924,
         "target_mean": 234.81818,
         "target_high": 265.0,
@@ -13510,7 +13510,7 @@
       },
       "score_fundamental": 31.6,
       "score_tecnico": 54.0,
-      "score_emergente": 32.1,
+      "score_emergente": 32.0,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -13590,8 +13590,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.328,
-          "puntaje": 0.17000000000000015,
+          "valor": 2.3436,
+          "puntaje": 0.16025000000000011,
           "base": "PEG"
         },
         "supervivencia": {
@@ -13603,14 +13603,14 @@
       "tecnicos_raw": {
         "precio": 200.7899932861328,
         "mm50": 207.208125,
-        "mm200": 191.8056127166748,
+        "mm200": 191.80561264038087,
         "dias_cruce": 31,
         "cruce_tipo": "golden",
-        "rsi": 35.256630299141804,
-        "macd": -2.0142912776730952,
-        "macd_senal": 0.38389829761746086,
-        "macd_hist": -2.398189575290556,
-        "obv_pendiente": -23556850.0,
+        "rsi": 35.25663029853813,
+        "macd": -2.014291277626171,
+        "macd_senal": 0.38389829768646444,
+        "macd_hist": -2.398189575312635,
+        "obv_pendiente": -23569500.0,
         "divergencia_bajista": true,
         "max_precio": 225.49000549316406,
         "dist_ath": 0.8904607228466273,
@@ -13638,7 +13638,7 @@
       "recien_listada": false,
       "precio": 514.97998046875,
       "fundamentales": {
-        "pe": 16.358957,
+        "pe": 16.364157,
         "pb": 4.090779,
         "roe": 0.26958,
         "roa": 0.07148,
@@ -13655,7 +13655,7 @@
         "caja": 2307000064,
         "deuda_total": 17052000256,
         "insiders": 0.00266,
-        "peg": 3.469,
+        "peg": 3.4983,
         "ps": 1.7056704,
         "target_mean": 647.1429,
         "target_high": 815.0,
@@ -13673,8 +13673,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 16.358957,
-          "puntaje": 0.93205215
+          "valor": 16.364157,
+          "puntaje": 0.93179215
         },
         "pb": {
           "valor": 4.090779,
@@ -13745,7 +13745,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 3.469,
+          "valor": 3.4983,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -13758,20 +13758,20 @@
       "tecnicos_raw": {
         "precio": 514.97998046875,
         "mm50": 541.5358074951172,
-        "mm200": 597.6890507507325,
+        "mm200": 597.6890525817871,
         "dias_cruce": 68,
         "cruce_tipo": "death",
-        "rsi": 34.6213904584136,
-        "macd": -6.6540560537151805,
-        "macd_senal": -1.2218357068957886,
-        "macd_hist": -5.432220346819392,
-        "obv_pendiente": -4447604.0,
+        "rsi": 34.62139045889808,
+        "macd": -6.65405605371393,
+        "macd_senal": -1.2218357068939798,
+        "macd_hist": -5.43222034681995,
+        "obv_pendiente": -4618000.0,
         "divergencia_bajista": false,
         "max_precio": 761.1927490234375,
         "dist_ath": 0.6765434656720483,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.88,
+        "vol_ratio": 1.08,
         "barras": 1255
       },
       "target": {
@@ -13793,7 +13793,7 @@
       "recien_listada": false,
       "precio": 693.530029296875,
       "fundamentales": {
-        "pe": 38.550865,
+        "pe": 38.61526,
         "pb": 6.680699,
         "roe": 0.18242,
         "roa": 0.03759,
@@ -13810,7 +13810,7 @@
         "caja": 8830000128,
         "deuda_total": 48473001984,
         "insiders": 0.00169,
-        "peg": 1.6205,
+        "peg": 1.6113,
         "ps": 3.9016275,
         "target_mean": 685.19,
         "target_high": 813.18,
@@ -13828,7 +13828,7 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 38.550865,
+          "valor": 38.61526,
           "puntaje": 0.0
         },
         "pb": {
@@ -13900,8 +13900,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.6205,
-          "puntaje": 0.6121875,
+          "valor": 1.6113,
+          "puntaje": 0.6179375,
           "base": "PEG"
         },
         "supervivencia": {
@@ -13916,11 +13916,11 @@
         "mm200": 566.163243713379,
         "dias_cruce": 151,
         "cruce_tipo": "golden",
-        "rsi": 68.30077148129732,
+        "rsi": 68.3007714812973,
         "macd": 20.72782846138182,
         "macd_senal": 12.926935424217694,
         "macd_hist": 7.8008930371641245,
-        "obv_pendiente": 4776586.0,
+        "obv_pendiente": 4776500.0,
         "divergencia_bajista": false,
         "max_precio": 698.3699951171875,
         "dist_ath": 0.9930696251927313,
@@ -13948,7 +13948,7 @@
       "recien_listada": false,
       "precio": 289.6199951171875,
       "fundamentales": {
-        "pe": 23.451012,
+        "pe": 23.470015,
         "pb": 8.854714,
         "roe": 0.39696,
         "roa": 0.09274,
@@ -13965,7 +13965,7 @@
         "caja": 2114000000,
         "deuda_total": 31168999424,
         "insiders": 0.00071000005,
-        "peg": 2.8846,
+        "peg": 2.87,
         "ps": 6.7711983,
         "target_mean": 329.25,
         "target_high": 375.0,
@@ -13983,8 +13983,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 23.451012,
-          "puntaje": 0.5774494000000001
+          "valor": 23.470015,
+          "puntaje": 0.57649925
         },
         "pb": {
           "valor": 8.854714,
@@ -14055,7 +14055,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 2.8846,
+          "valor": 2.87,
           "puntaje": 0.0,
           "base": "PEG"
         },
@@ -14068,14 +14068,14 @@
       "tecnicos_raw": {
         "precio": 289.6199951171875,
         "mm50": 292.3607366943359,
-        "mm200": 257.7818093109131,
+        "mm200": 257.7818092346191,
         "dias_cruce": 193,
         "cruce_tipo": "golden",
-        "rsi": 41.008914067857226,
-        "macd": 0.4130657997077378,
-        "macd_senal": 2.7615484227259004,
-        "macd_hist": -2.3484826230181626,
-        "obv_pendiente": 1688534.0,
+        "rsi": 41.008914109794766,
+        "macd": 0.41306581631494055,
+        "macd_senal": 2.761548447027148,
+        "macd_hist": -2.3484826307122075,
+        "obv_pendiente": 1693800.0,
         "divergencia_bajista": false,
         "max_precio": 309.1851806640625,
         "dist_ath": 0.9367201704012681,
@@ -14103,7 +14103,7 @@
       "recien_listada": false,
       "precio": 477.57000732421875,
       "fundamentales": {
-        "pe": 30.850777,
+        "pe": 30.771263,
         "pb": 5.633183,
         "roe": 0.18400998,
         "roa": 0.07164,
@@ -14120,7 +14120,7 @@
         "caja": 4897999872,
         "deuda_total": 28013000704,
         "insiders": 0.0024899999,
-        "peg": 1.8893,
+        "peg": 1.8689,
         "ps": 6.2103386,
         "target_mean": 544.5417,
         "target_high": 580.0,
@@ -14130,7 +14130,7 @@
       },
       "score_fundamental": 57.1,
       "score_tecnico": 92.0,
-      "score_emergente": 44.0,
+      "score_emergente": 44.1,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "tecnico",
@@ -14138,8 +14138,8 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 30.850777,
-          "puntaje": 0.20746114999999998
+          "valor": 30.771263,
+          "puntaje": 0.21143684999999995
         },
         "pb": {
           "valor": 5.633183,
@@ -14210,8 +14210,8 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 1.8893,
-          "puntaje": 0.44418750000000007,
+          "valor": 1.8689,
+          "puntaje": 0.4569375,
           "base": "PEG"
         },
         "supervivencia": {
@@ -14223,20 +14223,20 @@
       "tecnicos_raw": {
         "precio": 477.57000732421875,
         "mm50": 499.92945739746096,
-        "mm200": 477.2836988830566,
+        "mm200": 477.28369918823245,
         "dias_cruce": 130,
         "cruce_tipo": "golden",
-        "rsi": 39.56269695224759,
-        "macd": -3.66117651919609,
-        "macd_senal": -4.37886094213825,
-        "macd_hist": 0.7176844229421597,
-        "obv_pendiente": 4243843.0,
+        "rsi": 39.562696951925744,
+        "macd": -3.6611765195309545,
+        "macd_senal": -4.37886094263077,
+        "macd_hist": 0.7176844230998158,
+        "obv_pendiente": 3840500.0,
         "divergencia_bajista": false,
         "max_precio": 544.8457641601562,
         "dist_ath": 0.8765233002414203,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.89,
+        "vol_ratio": 1.08,
         "barras": 1255
       },
       "target": {
@@ -14275,13 +14275,13 @@
         "caja": 24718999552,
         "deuda_total": 128771997696,
         "insiders": 0.0017200001,
-        "peg": 0.3423,
+        "peg": 0.3062,
         "ps": 0.4278312,
-        "target_mean": 101.57692,
+        "target_mean": 101.64,
         "target_high": 132.0,
         "target_low": 61.0,
         "precio_actual": 87.76,
-        "n_analistas": 26
+        "n_analistas": 25
       },
       "score_fundamental": 18.0,
       "score_tecnico": 70.0,
@@ -14336,7 +14336,7 @@
         },
         "techo": {
           "ok": false,
-          "detalle": "en maximos, volumen 0.83x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
+          "detalle": "en maximos, volumen 0.85x (<1.5x): sin confirmacion (riesgo de techo/doble techo)"
         },
         "recorrido": {
           "ok": true,
@@ -14365,7 +14365,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.3423,
+          "valor": 0.3062,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -14377,29 +14377,29 @@
       },
       "tecnicos_raw": {
         "precio": 87.76000213623047,
-        "mm50": 83.3166000366211,
-        "mm200": 79.67210620880127,
+        "mm50": 83.1482778930664,
+        "mm200": 79.5085884475708,
         "dias_cruce": 285,
         "cruce_tipo": "golden",
-        "rsi": 57.53725238319927,
-        "macd": 0.6001112841021552,
-        "macd_senal": 0.7293193851674429,
-        "macd_hist": -0.12920810106528768,
-        "obv_pendiente": 12936742.0,
+        "rsi": 58.068110906032196,
+        "macd": 0.613320620753683,
+        "macd_senal": 0.730703578720931,
+        "macd_hist": -0.11738295796724796,
+        "obv_pendiente": 13036600.0,
         "divergencia_bajista": false,
-        "max_precio": 90.30000305175781,
-        "dist_ath": 0.9718715301252927,
+        "max_precio": 90.1136474609375,
+        "dist_ath": 0.9738813665740554,
         "en_techo": true,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.83,
+        "vol_ratio": 0.85,
         "barras": 1255
       },
       "target": {
-        "mean": 101.57692,
+        "mean": 101.64,
         "high": 132.0,
         "low": 61.0,
         "actual": 87.76,
-        "n": 26
+        "n": 25
       }
     },
     {
@@ -14413,8 +14413,8 @@
       "recien_listada": false,
       "precio": 82.20999908447266,
       "fundamentales": {
-        "pe": 8.87797,
-        "pb": 1.7356591,
+        "pe": 8.868392,
+        "pb": 1.7334456,
         "roe": 0.22745001,
         "roa": 0.100109994,
         "deuda_equity": 0.010820000000000001,
@@ -14430,11 +14430,11 @@
         "caja": 456414003200,
         "deuda_total": 4844000256,
         "insiders": 0.00708,
-        "peg": 0.7218,
+        "peg": 0.7162,
         "ps": 0.25959122,
-        "target_mean": 116.405624,
-        "target_high": 171.96663,
-        "target_low": 85.275246,
+        "target_mean": 116.425964,
+        "target_high": 171.99744,
+        "target_low": 85.29052,
         "precio_actual": 82.21,
         "n_analistas": 34
       },
@@ -14448,12 +14448,12 @@
       "runway": null,
       "detalle_fundamental": {
         "pe": {
-          "valor": 8.87797,
+          "valor": 8.868392,
           "puntaje": 1.0
         },
         "pb": {
-          "valor": 1.7356591,
-          "puntaje": 0.9214469666666667
+          "valor": 1.7334456,
+          "puntaje": 0.9221848
         },
         "roe": {
           "valor": 0.22745001,
@@ -14520,7 +14520,7 @@
           "puntaje": 0.0
         },
         "valuacion": {
-          "valor": 0.7218,
+          "valor": 0.7162,
           "puntaje": 1.0,
           "base": "PEG"
         },
@@ -14540,19 +14540,19 @@
         "macd": -1.2075575220028583,
         "macd_senal": -0.440609247840897,
         "macd_hist": -0.7669482741619613,
-        "obv_pendiente": -44382845.0,
+        "obv_pendiente": -44331700.0,
         "divergencia_bajista": false,
         "max_precio": 157.57000732421875,
         "dist_ath": 0.5217363410748338,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 0.69,
+        "vol_ratio": 0.7,
         "barras": 1255
       },
       "target": {
-        "mean": 116.405624,
-        "high": 171.96663,
-        "low": 85.275246,
+        "mean": 116.425964,
+        "high": 171.99744,
+        "low": 85.29052,
         "actual": 82.21,
         "n": 34
       }
@@ -14585,7 +14585,7 @@
         "caja": 9098856448,
         "deuda_total": 4126482944,
         "insiders": 0.26045,
-        "peg": 1.1471,
+        "peg": 1.15,
         "ps": 2.4763913,
         "target_mean": 155.28857,
         "target_high": 195.0,
@@ -14675,8 +14675,8 @@
           "puntaje": 1.0
         },
         "valuacion": {
-          "valor": 1.1471,
-          "puntaje": 0.9080625,
+          "valor": 1.15,
+          "puntaje": 0.90625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -14695,7 +14695,7 @@
         "macd": 0.6862781754767298,
         "macd_senal": 2.1522649682984576,
         "macd_hist": -1.4659867928217278,
-        "obv_pendiente": -2595400.0,
+        "obv_pendiente": -2595500.0,
         "divergencia_bajista": false,
         "max_precio": 366.989990234375,
         "dist_ath": 0.3054306638344695,
@@ -14739,8 +14739,8 @@
         "ingresos": 2451113984,
         "caja": 168815008,
         "deuda_total": 517854016,
-        "insiders": 0.02809,
-        "peg": 0.9688,
+        "insiders": 0.02803,
+        "peg": 1.0055,
         "ps": 0.6893258,
         "target_mean": 51.59091,
         "target_high": 100.0,
@@ -14750,7 +14750,7 @@
       },
       "score_fundamental": 55.7,
       "score_tecnico": 35.0,
-      "score_emergente": 31.5,
+      "score_emergente": 31.4,
       "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
@@ -14826,12 +14826,12 @@
           "puntaje": null
         },
         "insiders": {
-          "valor": 0.02809,
-          "puntaje": 0.06179999999999998
+          "valor": 0.02803,
+          "puntaje": 0.06059999999999996
         },
         "valuacion": {
-          "valor": 0.9688,
-          "puntaje": 1.0,
+          "valor": 1.0055,
+          "puntaje": 0.9965625,
           "base": "PEG"
         },
         "supervivencia": {
@@ -14850,7 +14850,7 @@
         "macd": 1.0267598916089185,
         "macd_senal": 1.221788746536959,
         "macd_hist": -0.19502885492804056,
-        "obv_pendiente": 1138776.0,
+        "obv_pendiente": 1138800.0,
         "divergencia_bajista": false,
         "max_precio": 354.44000244140625,
         "dist_ath": 0.11039950569513934,
@@ -14879,7 +14879,7 @@
       "precio": 78.56999969482422,
       "fundamentales": {
         "pe": 19.840908,
-        "pb": 1.2080606,
+        "pb": 1.2044165,
         "roe": 0.05356,
         "roa": 0.013099999,
         "deuda_equity": null,
@@ -14897,9 +14897,9 @@
         "insiders": 0.0,
         "peg": 0.47,
         "ps": 0.0014580621,
-        "target_mean": 112.64421,
-        "target_high": 150.50713,
-        "target_low": 84.10971,
+        "target_mean": 112.45784,
+        "target_high": 150.2581,
+        "target_low": 83.97055,
         "precio_actual": 78.57,
         "n_analistas": 9
       },
@@ -14917,7 +14917,7 @@
           "puntaje": 0.7579546
         },
         "pb": {
-          "valor": 1.2080606,
+          "valor": 1.2044165,
           "puntaje": 1.0
         },
         "roe": {
@@ -15004,14 +15004,14 @@
       "tecnicos_raw": {
         "precio": 78.56999969482422,
         "mm50": 85.96558273315429,
-        "mm200": 82.65967506408691,
+        "mm200": 82.65967494964599,
         "dias_cruce": 182,
         "cruce_tipo": "golden",
-        "rsi": 44.54198118274948,
-        "macd": -2.1437261817747526,
-        "macd_senal": -2.8691341661028487,
-        "macd_hist": 0.7254079843280961,
-        "obv_pendiente": -1285836.0,
+        "rsi": 44.54198121868782,
+        "macd": -2.1437261785044086,
+        "macd_senal": -2.8691341613302344,
+        "macd_hist": 0.7254079828258257,
+        "obv_pendiente": -1286000.0,
         "divergencia_bajista": false,
         "max_precio": 110.81182861328125,
         "dist_ath": 0.709039826145485,
@@ -15021,9 +15021,9 @@
         "barras": 1255
       },
       "target": {
-        "mean": 112.64421,
-        "high": 150.50713,
-        "low": 84.10971,
+        "mean": 112.45784,
+        "high": 150.2581,
+        "low": 83.97055,
         "actual": 78.57,
         "n": 9
       }
@@ -15166,7 +15166,7 @@
         "macd": 0.39052428714083476,
         "macd_senal": -0.3444629132321927,
         "macd_hist": 0.7349872003730274,
-        "obv_pendiente": 580181.0,
+        "obv_pendiente": 580200.0,
         "divergencia_bajista": false,
         "max_precio": 94.87999725341797,
         "dist_ath": 0.8937605976659424,
@@ -15321,7 +15321,7 @@
         "macd": -0.13480648329769807,
         "macd_senal": -0.31436295446009505,
         "macd_hist": 0.17955647116239698,
-        "obv_pendiente": -56379.0,
+        "obv_pendiente": -56400.0,
         "divergencia_bajista": false,
         "max_precio": 35.31999969482422,
         "dist_ath": 0.8224801667061601,
@@ -15354,7 +15354,7 @@
       "precio": 58.0,
       "fundamentales": {
         "pe": 16.11111,
-        "pb": null,
+        "pb": 0.925719,
         "roe": 0.044320002,
         "roa": 0.03075,
         "deuda_equity": 0.18225000000000002,
@@ -15378,10 +15378,10 @@
         "precio_actual": 58.0,
         "n_analistas": 13
       },
-      "score_fundamental": 44.9,
+      "score_fundamental": 54.8,
       "score_tecnico": 64.0,
       "score_emergente": 26.1,
-      "metricas_fund_presentes": 4,
+      "metricas_fund_presentes": 5,
       "categoria": "otros",
       "sub_veredicto": "ninguna",
       "riesgo_liquidez": false,
@@ -15392,8 +15392,8 @@
           "puntaje": 0.9444445
         },
         "pb": {
-          "valor": null,
-          "puntaje": null
+          "valor": 0.925719,
+          "puntaje": 1.0
         },
         "roe": {
           "valor": 0.044320002,
@@ -15480,7 +15480,7 @@
         "macd": 1.8893358886953067,
         "macd_senal": 1.8557575251220697,
         "macd_hist": 0.03357836357323696,
-        "obv_pendiente": 5184378.0,
+        "obv_pendiente": 5184400.0,
         "divergencia_bajista": false,
         "max_precio": 58.0,
         "dist_ath": 1.0,
@@ -15635,13 +15635,13 @@
         "macd": 9.914315006266861,
         "macd_senal": 7.202819079592651,
         "macd_hist": 2.7114959266742096,
-        "obv_pendiente": 181751014.0,
+        "obv_pendiente": 181071000.0,
         "divergencia_bajista": false,
         "max_precio": 473.8299865722656,
         "dist_ath": 0.3013739254553887,
         "en_techo": false,
         "ruptura_confirmada": false,
-        "vol_ratio": 1.14,
+        "vol_ratio": 1.17,
         "barras": 1255
       },
       "target": {
